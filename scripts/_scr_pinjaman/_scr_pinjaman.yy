@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_scr_pinjaman",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_scr_pinjaman",
+  "parent":{
+    "name":"CashFlowpoly",
+    "path":"folders/Scripts/CashFlowpoly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

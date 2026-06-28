@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"emas",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"emas",
+  "parent":{
+    "name":"rekap",
+    "path":"folders/Scripts/CashFlowpoly/rekap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

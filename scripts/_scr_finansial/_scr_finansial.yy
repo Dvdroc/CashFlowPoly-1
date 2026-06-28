@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"_scr_finansial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"_scr_finansial",
+  "parent":{
+    "name":"CashFlowpoly",
+    "path":"folders/Scripts/CashFlowpoly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

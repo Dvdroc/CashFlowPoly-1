@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"juara_peduli",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"juara_peduli",
+  "parent":{
+    "name":"rekap",
+    "path":"folders/Scripts/CashFlowpoly/rekap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

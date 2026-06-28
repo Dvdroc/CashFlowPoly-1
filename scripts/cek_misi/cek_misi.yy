@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"cek_misi",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"cek_misi",
+  "parent":{
+    "name":"rekap",
+    "path":"folders/Scripts/CashFlowpoly/rekap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

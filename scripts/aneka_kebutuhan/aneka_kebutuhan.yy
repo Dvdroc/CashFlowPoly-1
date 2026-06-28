@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"aneka_kebutuhan",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"aneka_kebutuhan",
+  "parent":{
+    "name":"rekap",
+    "path":"folders/Scripts/CashFlowpoly/rekap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"tujuan_finansial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"tujuan_finansial",
+  "parent":{
+    "name":"rekap",
+    "path":"folders/Scripts/CashFlowpoly/rekap.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
