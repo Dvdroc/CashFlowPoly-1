@@ -60,7 +60,7 @@ if (visible){
 	    var ingredients_collected = 0;
 	    var donation_total_coins = 0;
 	    var life_risk_costs_total = 0;
-
+		var meal_orders_claimed = 0;
 	    var last_state = undefined;
 
 	    // =====================
@@ -91,6 +91,8 @@ if (visible){
 	                rec[$ "kartu kuning"] +
 	                rec[$ "kartu pink"] +
 	                rec[$ "kartu hijau"];
+				
+				meal_orders_claimed += array_length(log.player_state.baked_goods);
 
 	            // state terakhir
 	            last_state = log.player_state;
@@ -117,7 +119,10 @@ if (visible){
 
 	        "ingredients_collected":
 	            ingredients_collected,
-
+				
+			"meal_orders_claimed":
+				meal_orders_claimed,
+				
 	        "primary_needs_owned":
 	            rec[$ "Sepatu"] +
 	            rec[$ "Tepak makan siang"] +
@@ -157,7 +162,8 @@ if (visible){
 	            rec[$ "Rumah"] +
 	            rec[$ "Tv dan sofa"] +
 	            rec[$ "Kebun"] +
-	            rec[$ "Mobil"]
+	            rec[$ "Mobil"],
+			"total_score": skor[8][j]
 	    };
 
 	    array_push(players, final_summary);
