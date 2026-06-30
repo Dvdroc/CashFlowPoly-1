@@ -15,7 +15,10 @@ function scr_save_player(){
     data.baked_goods = array_create(array_length(global.baked_goods));
 
 	for (var i = 0; i < array_length(global.baked_goods); i++) {
-	    data.baked_goods[i] = global.baked_goods[i];
+	    data.baked_goods[i] =  {
+	        name  : global.baked_goods[i].name,
+	        count : global.baked_goods[i].count
+	    };
 	}
 	if(global.mode == "mahir"){
 		data.asuransi = array_create(array_length(global.asuransi));

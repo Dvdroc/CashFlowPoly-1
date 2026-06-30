@@ -75,194 +75,1081 @@
     //pemain
     "player": 1
   },
-  "B": {
-    "uang_min": 20,
-    "uang_max": 20,
-    "player": 0
-  },
-  "C": {
-    "uang_min": 200
-  },
-  "NARASI_NASI_MIN": {
-    "nasi_min":1 
-  },
-  "NARASI_NASI_MAX": {
-    "nasi_min": 4
-  },
-  "NARASI_SAYUR_MIN": {
-    "sayur_min": 1
-  },
-  "NARASI_SAYUR_MAX": {
-    "sayur_min": 4
-  },
-  "NARASI_TAHU_MIN": {
-    "tahu_min": 1
-  },
-  "NARASI_TAHU_MAX": {
-    "tahu_min": 4
-  },
-  "NARASI_TELUR_MIN": {
-    "telur_min": 1
-  },
-  "NARASI_TELUR_MAX": {
-    "telur_min": 4
-  },
-  "NARASI_DAGING_MIN": {
-    "daging_min": 1
-  },
-  "NARASI_DAGING_MAX": {
-    "daging_min": 4
-  },
-  "NARASI_SEPATU_MIN": {
-    "sepatu_min": 1
-  },
-  "NARASI_SEPATU_MAX": {
-    "sepatu_min": 4
-  },
-  "NARASI_TEPAK_MAKAN_SIANG_MIN": {
-    "tepak_makan_siang_min": 1
-  },
-  "NARASI_TEPAK_MAKAN_SIANG_MAX": {
-    "tepak_makan_siang_min": 4
-  },
-  "NARASI_BUKU_MIN": {
-    "buku_min": 1
-  },
-  "NARASI_BUKU_MAX": {
-    "buku_min": 4
-  },
-  "NARASI_BAJU_MIN": {
-    "baju_min": 1
-  },
-  "NARASI_BAJU_MAX": {
-    "baju_min": 4
-  },
-  "NARASI_JAM_TANGAN_MIN": {
-    "jam_tangan_min": 1
-  },
-  "NARASI_JAM_TANGAN_MAX": {
-    "jam_tangan_min": 4
-  },
-  "NARASI_KOMEDI_PUTAR_MIN": {
-    "komedi_putar_min": 1
-  },
-  "NARASI_KOMEDI_PUTAR_MAX": {
-    "komedi_putar_min": 4
-  },
-  "NARASI_GAME_PSP_MIN": {
-    "game_psp_min": 1
-  },
-  "NARASI_GAME_PSP_MAX": {
-    "game_psp_min": 4
-  },
-  "NARASI_BONEKA_MIN": {
-    "boneka_min": 1
-  },
-  "NARASI_BONEKA_MAX": {
-    "boneka_min": 4
-  },
-  "NARASI_SEPEDA_MIN": {
-    "sepeda_min": 1
-  },
-  "NARASI_SEPEDA_MAX": {
-    "sepeda_min": 4
-  },
-  "NARASI_TEPAK_PENSIL_MIN": {
-    "tepak_pensil_min": 1
-  },
-  "NARASI_TEPAK_PENSIL_MAX": {
-    "tepak_pensil_min": 4
-  },
-  "NARASI_TABLET_MIN": {
-    "tablet_min": 1
-  },
-  "NARASI_TABLET_MAX": {
-    "tablet_min": 4
-  },
-  "NARASI_RANSEL_MIN": {
-    "ransel_min": 1
-  },
-  "NARASI_RANSEL_MAX": {
-    "ransel_min": 4
-  },
-  "NARASI_TRAVELLING_MIN": {
-    "travelling_min": 1
-  },
-  "NARASI_TRAVELLING_MAX": {
-    "travelling_min": 4
-  },
-  "NARASI_RUMAH_MIN": {
-    "rumah_min": 1
-  },
-  "NARASI_RUMAH_MAX": {
-    "rumah_min": 4
-  },
-  "NARASI_TV_DAN_SOFA_MIN": {
-    "tv_dan_sofa_min": 1
-  },
-  "NARASI_TV_DAN_SOFA_MAX": {
-    "tv_dan_sofa_min": 4
-  },
-  "NARASI_KEBUN_MIN": {
-    "kebun_min": 1
-  },
-  "NARASI_KEBUN_MAX": {
-    "kebun_min": 4
-  },
-  "NARASI_MOBIL_MIN": {
-    "mobil_min": 1
-  },
-  "NARASI_MOBIL_MAX": {
-    "mobil_min": 4
-  },
-  "NARASI_DONASI_JUARA_1_MIN": {
-    "donasi_juara_1_min": 1
-  },
-  "NARASI_DONASI_JUARA_1_MAX": {
-    "donasi_juara_1_min": 4
-  },
 
-  "NARASI_DONASI_JUARA_2_MIN": {
-    "donasi_juara_2_min": 1
-  },
+"NARASI_NASI_MIN_P1": {
+  "player": 1,
+  "nasi_min": 1
+},
 
-  "NARASI_DONASI_JUARA_2_MAX": {
-    "donasi_juara_2_min": 4
-  },
-  "NARASI_DONASI_JUARA_3_MIN": {
-    "donasi_juara_3_min": 1
-  },
-  "NARASI_DONASI_JUARA_3_MAX": {
-    "donasi_juara_3_min": 4
-  },
-  "NARASI_PENSIUN_JUARA_1_MIN": {
-    "pensiun_juara_1_min": 1
-  },
-  "NARASI_PENSIUN_JUARA_1_MAX": {
-    "pensiun_juara_1_min": 4
-  },
-  "NARASI_PENSIUN_JUARA_2_MIN": {
-    "pensiun_juara_2_min": 1
-  },
-  "NARASI_PENSIUN_JUARA_2_MAX": {
-    "pensiun_juara_2_min": 4
-  },
-  "NARASI_PENSIUN_JUARA_3_MIN": {
-    "pensiun_juara_3_min": 1
-  },
-  "NARASI_PENSIUN_JUARA_3_MAX": {
-    "pensiun_juara_3_min": 4
-  },
-  "NARASI_PINJAMAN_MIN": {
-    "pinjaman_min": 1
-  },
-  "NARASI_PINJAMAN_MAX": {
-    "pinjaman_min": 1
-  },
-  "NARASI_EMAS_MIN": {
-    "emas_min": 10
-  },
-  "NARASI_EMAS_MAX": {
-    "emas_min": 10
-  }
+"NARASI_NASI_MIN_P2": {
+  "player": 2,
+  "nasi_min": 1
+},
+
+"NARASI_NASI_MIN_P3": {
+  "player": 3,
+  "nasi_min": 1
+},
+
+"NARASI_NASI_MAX_P0": {
+  "player": 0,
+  "nasi_min": 4
+},
+
+"NARASI_NASI_MAX_P1": {
+  "player": 1,
+  "nasi_min": 4
+},
+
+"NARASI_NASI_MAX_P2": {
+  "player": 2,
+  "nasi_min": 4
+},
+
+"NARASI_NASI_MAX_P3": {
+  "player": 3,
+  "nasi_min": 4
+},
+"NARASI_SAYUR_MIN_P0": {
+  "player": 0,
+  "sayur_min": 1
+},
+
+"NARASI_SAYUR_MIN_P1": {
+  "player": 1,
+  "sayur_min": 1
+},
+
+"NARASI_SAYUR_MIN_P2": {
+  "player": 2,
+  "sayur_min": 1
+},
+
+"NARASI_SAYUR_MIN_P3": {
+  "player": 3,
+  "sayur_min": 1
+},
+
+"NARASI_SAYUR_MAX_P0": {
+  "player": 0,
+  "sayur_min": 4
+},
+
+"NARASI_SAYUR_MAX_P1": {
+  "player": 1,
+  "sayur_min": 4
+},
+
+"NARASI_SAYUR_MAX_P2": {
+  "player": 2,
+  "sayur_min": 4
+},
+
+"NARASI_SAYUR_MAX_P3": {
+  "player": 3,
+  "sayur_min": 4
+},
+"NARASI_TAHU_MIN_P0": {
+  "player": 0,
+  "tahu_min": 1
+},
+
+"NARASI_TAHU_MIN_P1": {
+  "player": 1,
+  "tahu_min": 1
+},
+
+"NARASI_TAHU_MIN_P2": {
+  "player": 2,
+  "tahu_min": 1
+},
+
+"NARASI_TAHU_MIN_P3": {
+  "player": 3,
+  "tahu_min": 1
+},
+
+"NARASI_TAHU_MAX_P0": {
+  "player": 0,
+  "tahu_min": 4
+},
+
+"NARASI_TAHU_MAX_P1": {
+  "player": 1,
+  "tahu_min": 4
+},
+
+"NARASI_TAHU_MAX_P2": {
+  "player": 2,
+  "tahu_min": 4
+},
+
+"NARASI_TAHU_MAX_P3": {
+  "player": 3,
+  "tahu_min": 4
+},
+
+"NARASI_TELUR_MIN_P0": {
+  "player": 0,
+  "telur_min": 1
+},
+
+"NARASI_TELUR_MIN_P1": {
+  "player": 1,
+  "telur_min": 1
+},
+
+"NARASI_TELUR_MIN_P2": {
+  "player": 2,
+  "telur_min": 1
+},
+
+"NARASI_TELUR_MIN_P3": {
+  "player": 3,
+  "telur_min": 1
+},
+
+"NARASI_TELUR_MAX_P0": {
+  "player": 0,
+  "telur_min": 4
+},
+
+"NARASI_TELUR_MAX_P1": {
+  "player": 1,
+  "telur_min": 4
+},
+
+"NARASI_TELUR_MAX_P2": {
+  "player": 2,
+  "telur_min": 4
+},
+
+"NARASI_TELUR_MAX_P3": {
+  "player": 3,
+  "telur_min": 4
+},
+
+"NARASI_DAGING_MIN_P0": {
+  "player": 0,
+  "daging_min": 1
+},
+
+"NARASI_DAGING_MIN_P1": {
+  "player": 1,
+  "daging_min": 1
+},
+
+"NARASI_DAGING_MIN_P2": {
+  "player": 2,
+  "daging_min": 1
+},
+
+"NARASI_DAGING_MIN_P3": {
+  "player": 3,
+  "daging_min": 1
+},
+
+"NARASI_DAGING_MAX_P0": {
+  "player": 0,
+  "daging_min": 4
+},
+
+"NARASI_DAGING_MAX_P1": {
+  "player": 1,
+  "daging_min": 4
+},
+
+"NARASI_DAGING_MAX_P2": {
+  "player": 2,
+  "daging_min": 4
+},
+
+"NARASI_DAGING_MAX_P3": {
+  "player": 3,
+  "daging_min": 4
+},
+
+"NARASI_SEPATU_MIN_P0": {
+  "player": 0,
+  "sepatu_min": 1
+},
+
+"NARASI_SEPATU_MIN_P1": {
+  "player": 1,
+  "sepatu_min": 1
+},
+
+"NARASI_SEPATU_MIN_P2": {
+  "player": 2,
+  "sepatu_min": 1
+},
+
+"NARASI_SEPATU_MIN_P3": {
+  "player": 3,
+  "sepatu_min": 1
+},
+
+"NARASI_SEPATU_MAX_P0": {
+  "player": 0,
+  "sepatu_min": 4
+},
+
+"NARASI_SEPATU_MAX_P1": {
+  "player": 1,
+  "sepatu_min": 4
+},
+
+"NARASI_SEPATU_MAX_P2": {
+  "player": 2,
+  "sepatu_min": 4
+},
+
+"NARASI_SEPATU_MAX_P3": {
+  "player": 3,
+  "sepatu_min": 4
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P0": {
+  "player": 0,
+  "tepak_makan_siang_min": 1
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P1": {
+  "player": 1,
+  "tepak_makan_siang_min": 1
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P2": {
+  "player": 2,
+  "tepak_makan_siang_min": 1
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P3": {
+  "player": 3,
+  "tepak_makan_siang_min": 1
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P0": {
+  "player": 0,
+  "tepak_makan_siang_min": 4
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P1": {
+  "player": 1,
+  "tepak_makan_siang_min": 4
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P2": {
+  "player": 2,
+  "tepak_makan_siang_min": 4
+},
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P3": {
+  "player": 3,
+  "tepak_makan_siang_min": 4
+},
+
+"NARASI_BUKU_MIN_P0": {
+  "player": 0,
+  "buku_min": 1
+},
+
+"NARASI_BUKU_MIN_P1": {
+  "player": 1,
+  "buku_min": 1
+},
+
+"NARASI_BUKU_MIN_P2": {
+  "player": 2,
+  "buku_min": 1
+},
+
+"NARASI_BUKU_MIN_P3": {
+  "player": 3,
+  "buku_min": 1
+},
+
+"NARASI_BUKU_MAX_P0": {
+  "player": 0,
+  "buku_min": 4
+},
+
+"NARASI_BUKU_MAX_P1": {
+  "player": 1,
+  "buku_min": 4
+},
+
+"NARASI_BUKU_MAX_P2": {
+  "player": 2,
+  "buku_min": 4
+},
+
+"NARASI_BUKU_MAX_P3": {
+  "player": 3,
+  "buku_min": 4
+},
+
+"NARASI_BAJU_MIN_P0": {
+  "player": 0,
+  "baju_min": 1
+},
+
+"NARASI_BAJU_MIN_P1": {
+  "player": 1,
+  "baju_min": 1
+},
+
+"NARASI_BAJU_MIN_P2": {
+  "player": 2,
+  "baju_min": 1
+},
+
+"NARASI_BAJU_MIN_P3": {
+  "player": 3,
+  "baju_min": 1
+},
+
+"NARASI_BAJU_MAX_P0": {
+  "player": 0,
+  "baju_min": 4
+},
+
+"NARASI_BAJU_MAX_P1": {
+  "player": 1,
+  "baju_min": 4
+},
+
+"NARASI_BAJU_MAX_P2": {
+  "player": 2,
+  "baju_min": 4
+},
+
+"NARASI_BAJU_MAX_P3": {
+  "player": 3,
+  "baju_min": 4
+},
+
+"NARASI_JAM_TANGAN_MIN_P0": {
+  "player": 0,
+  "jam_tangan_min": 1
+},
+
+"NARASI_JAM_TANGAN_MIN_P1": {
+  "player": 1,
+  "jam_tangan_min": 1
+},
+
+"NARASI_JAM_TANGAN_MIN_P2": {
+  "player": 2,
+  "jam_tangan_min": 1
+},
+
+"NARASI_JAM_TANGAN_MIN_P3": {
+  "player": 3,
+  "jam_tangan_min": 1
+},
+
+"NARASI_JAM_TANGAN_MAX_P0": {
+  "player": 0,
+  "jam_tangan_min": 4
+},
+
+"NARASI_JAM_TANGAN_MAX_P1": {
+  "player": 1,
+  "jam_tangan_min": 4
+},
+
+"NARASI_JAM_TANGAN_MAX_P2": {
+  "player": 2,
+  "jam_tangan_min": 4
+},
+
+"NARASI_JAM_TANGAN_MAX_P3": {
+  "player": 3,
+  "jam_tangan_min": 4
+},
+
+"NARASI_KOMEDI_PUTAR_MIN_P0": {
+  "player": 0,
+  "komedi_putar_min": 1
+},
+
+"NARASI_KOMEDI_PUTAR_MIN_P1": {
+  "player": 1,
+  "komedi_putar_min": 1
+},
+
+"NARASI_KOMEDI_PUTAR_MIN_P2": {
+  "player": 2,
+  "komedi_putar_min": 1
+},
+
+"NARASI_KOMEDI_PUTAR_MIN_P3": {
+  "player": 3,
+  "komedi_putar_min": 1
+},
+
+"NARASI_KOMEDI_PUTAR_MAX_P0": {
+  "player": 0,
+  "komedi_putar_min": 4
+},
+
+"NARASI_KOMEDI_PUTAR_MAX_P1": {
+  "player": 1,
+  "komedi_putar_min": 4
+},
+
+"NARASI_KOMEDI_PUTAR_MAX_P2": {
+  "player": 2,
+  "komedi_putar_min": 4
+},
+
+"NARASI_KOMEDI_PUTAR_MAX_P3": {
+  "player": 3,
+  "komedi_putar_min": 4
+},
+
+"NARASI_GAME_PSP_MIN_P0": {
+  "player": 0,
+  "game_psp_min": 1
+},
+
+"NARASI_GAME_PSP_MIN_P1": {
+  "player": 1,
+  "game_psp_min": 1
+},
+
+"NARASI_GAME_PSP_MIN_P2": {
+  "player": 2,
+  "game_psp_min": 1
+},
+
+"NARASI_GAME_PSP_MIN_P3": {
+  "player": 3,
+  "game_psp_min": 1
+},
+
+"NARASI_GAME_PSP_MAX_P0": {
+  "player": 0,
+  "game_psp_min": 4
+},
+
+"NARASI_GAME_PSP_MAX_P1": {
+  "player": 1,
+  "game_psp_min": 4
+},
+
+"NARASI_GAME_PSP_MAX_P2": {
+  "player": 2,
+  "game_psp_min": 4
+},
+
+"NARASI_GAME_PSP_MAX_P3": {
+  "player": 3,
+  "game_psp_min": 4
+},
+
+"NARASI_BONEKA_MIN_P0": {
+  "player": 0,
+  "boneka_min": 1
+},
+
+"NARASI_BONEKA_MIN_P1": {
+  "player": 1,
+  "boneka_min": 1
+},
+
+"NARASI_BONEKA_MIN_P2": {
+  "player": 2,
+  "boneka_min": 1
+},
+
+"NARASI_BONEKA_MIN_P3": {
+  "player": 3,
+  "boneka_min": 1
+},
+
+"NARASI_BONEKA_MAX_P0": {
+  "player": 0,
+  "boneka_min": 4
+},
+
+"NARASI_BONEKA_MAX_P1": {
+  "player": 1,
+  "boneka_min": 4
+},
+
+"NARASI_BONEKA_MAX_P2": {
+  "player": 2,
+  "boneka_min": 4
+},
+
+"NARASI_BONEKA_MAX_P3": {
+  "player": 3,
+  "boneka_min": 4
+},
+
+"NARASI_SEPEDA_MIN_P0": {
+  "player": 0,
+  "sepeda_min": 1
+},
+
+"NARASI_SEPEDA_MIN_P1": {
+  "player": 1,
+  "sepeda_min": 1
+},
+
+"NARASI_SEPEDA_MIN_P2": {
+  "player": 2,
+  "sepeda_min": 1
+},
+
+"NARASI_SEPEDA_MIN_P3": {
+  "player": 3,
+  "sepeda_min": 1
+},
+
+"NARASI_SEPEDA_MAX_P0": {
+  "player": 0,
+  "sepeda_min": 4
+},
+
+"NARASI_SEPEDA_MAX_P1": {
+  "player": 1,
+  "sepeda_min": 4
+},
+
+"NARASI_SEPEDA_MAX_P2": {
+  "player": 2,
+  "sepeda_min": 4
+},
+
+"NARASI_SEPEDA_MAX_P3": {
+  "player": 3,
+  "sepeda_min": 4
+},
+
+"NARASI_TEPAK_PENSIL_MIN_P0": {
+  "player": 0,
+  "tepak_pensil_min": 1
+},
+
+"NARASI_TEPAK_PENSIL_MIN_P1": {
+  "player": 1,
+  "tepak_pensil_min": 1
+},
+
+"NARASI_TEPAK_PENSIL_MIN_P2": {
+  "player": 2,
+  "tepak_pensil_min": 1
+},
+
+"NARASI_TEPAK_PENSIL_MIN_P3": {
+  "player": 3,
+  "tepak_pensil_min": 1
+},
+
+"NARASI_TEPAK_PENSIL_MAX_P0": {
+  "player": 0,
+  "tepak_pensil_min": 4
+},
+
+"NARASI_TEPAK_PENSIL_MAX_P1": {
+  "player": 1,
+  "tepak_pensil_min": 4
+},
+
+"NARASI_TEPAK_PENSIL_MAX_P2": {
+  "player": 2,
+  "tepak_pensil_min": 4
+},
+
+"NARASI_TEPAK_PENSIL_MAX_P3": {
+  "player": 3,
+  "tepak_pensil_min": 4
+},
+
+"NARASI_TABLET_MIN_P0": {
+  "player": 0,
+  "tablet_min": 1
+},
+
+"NARASI_TABLET_MIN_P1": {
+  "player": 1,
+  "tablet_min": 1
+},
+
+"NARASI_TABLET_MIN_P2": {
+  "player": 2,
+  "tablet_min": 1
+},
+
+"NARASI_TABLET_MIN_P3": {
+  "player": 3,
+  "tablet_min": 1
+},
+
+"NARASI_TABLET_MAX_P0": {
+  "player": 0,
+  "tablet_min": 4
+},
+
+"NARASI_TABLET_MAX_P1": {
+  "player": 1,
+  "tablet_min": 4
+},
+
+"NARASI_TABLET_MAX_P2": {
+  "player": 2,
+  "tablet_min": 4
+},
+
+"NARASI_TABLET_MAX_P3": {
+  "player": 3,
+  "tablet_min": 4
+},
+
+"NARASI_RANSEL_MIN_P0": {
+  "player": 0,
+  "ransel_min": 1
+},
+
+"NARASI_RANSEL_MIN_P1": {
+  "player": 1,
+  "ransel_min": 1
+},
+
+"NARASI_RANSEL_MIN_P2": {
+  "player": 2,
+  "ransel_min": 1
+},
+
+"NARASI_RANSEL_MIN_P3": {
+  "player": 3,
+  "ransel_min": 1
+},
+
+"NARASI_RANSEL_MAX_P0": {
+  "player": 0,
+  "ransel_min": 4
+},
+
+"NARASI_RANSEL_MAX_P1": {
+  "player": 1,
+  "ransel_min": 4
+},
+
+"NARASI_RANSEL_MAX_P2": {
+  "player": 2,
+  "ransel_min": 4
+},
+
+"NARASI_RANSEL_MAX_P3": {
+  "player": 3,
+  "ransel_min": 4
+},
+
+"NARASI_TRAVELLING_MIN_P0": {
+  "player": 0,
+  "travelling_min": 1
+},
+
+"NARASI_TRAVELLING_MIN_P1": {
+  "player": 1,
+  "travelling_min": 1
+},
+
+"NARASI_TRAVELLING_MIN_P2": {
+  "player": 2,
+  "travelling_min": 1
+},
+
+"NARASI_TRAVELLING_MIN_P3": {
+  "player": 3,
+  "travelling_min": 1
+},
+
+"NARASI_TRAVELLING_MAX_P0": {
+  "player": 0,
+  "travelling_min": 4
+},
+
+"NARASI_TRAVELLING_MAX_P1": {
+  "player": 1,
+  "travelling_min": 4
+},
+
+"NARASI_TRAVELLING_MAX_P2": {
+  "player": 2,
+  "travelling_min": 4
+},
+
+"NARASI_TRAVELLING_MAX_P3": {
+  "player": 3,
+  "travelling_min": 4
+},
+
+"NARASI_RUMAH_MIN_P0": {
+  "player": 0,
+  "rumah_min": 1
+},
+
+"NARASI_RUMAH_MIN_P1": {
+  "player": 1,
+  "rumah_min": 1
+},
+
+"NARASI_RUMAH_MIN_P2": {
+  "player": 2,
+  "rumah_min": 1
+},
+
+"NARASI_RUMAH_MIN_P3": {
+  "player": 3,
+  "rumah_min": 1
+},
+
+"NARASI_RUMAH_MAX_P0": {
+  "player": 0,
+  "rumah_min": 4
+},
+
+"NARASI_RUMAH_MAX_P1": {
+  "player": 1,
+  "rumah_min": 4
+},
+
+"NARASI_RUMAH_MAX_P2": {
+  "player": 2,
+  "rumah_min": 4
+},
+
+"NARASI_RUMAH_MAX_P3": {
+  "player": 3,
+  "rumah_min": 4
+},
+
+"NARASI_TV_DAN_SOFA_MIN_P0": {
+  "player": 0,
+  "tv_dan_sofa_min": 1
+},
+
+"NARASI_TV_DAN_SOFA_MIN_P1": {
+  "player": 1,
+  "tv_dan_sofa_min": 1
+},
+
+"NARASI_TV_DAN_SOFA_MIN_P2": {
+  "player": 2,
+  "tv_dan_sofa_min": 1
+},
+
+"NARASI_TV_DAN_SOFA_MIN_P3": {
+  "player": 3,
+  "tv_dan_sofa_min": 1
+},
+
+"NARASI_TV_DAN_SOFA_MAX_P0": {
+  "player": 0,
+  "tv_dan_sofa_min": 4
+},
+
+"NARASI_TV_DAN_SOFA_MAX_P1": {
+  "player": 1,
+  "tv_dan_sofa_min": 4
+},
+
+"NARASI_TV_DAN_SOFA_MAX_P2": {
+  "player": 2,
+  "tv_dan_sofa_min": 4
+},
+
+"NARASI_TV_DAN_SOFA_MAX_P3": {
+  "player": 3,
+  "tv_dan_sofa_min": 4
+},
+
+"NARASI_KEBUN_MIN_P0": {
+  "player": 0,
+  "kebun_min": 1
+},
+
+"NARASI_KEBUN_MIN_P1": {
+  "player": 1,
+  "kebun_min": 1
+},
+
+"NARASI_KEBUN_MIN_P2": {
+  "player": 2,
+  "kebun_min": 1
+},
+
+"NARASI_KEBUN_MIN_P3": {
+  "player": 3,
+  "kebun_min": 1
+},
+
+"NARASI_KEBUN_MAX_P0": {
+  "player": 0,
+  "kebun_min": 4
+},
+
+"NARASI_KEBUN_MAX_P1": {
+  "player": 1,
+  "kebun_min": 4
+},
+
+"NARASI_KEBUN_MAX_P2": {
+  "player": 2,
+  "kebun_min": 4
+},
+
+"NARASI_KEBUN_MAX_P3": {
+  "player": 3,
+  "kebun_min": 4
+},
+
+"NARASI_MOBIL_MIN_P0": {
+  "player": 0,
+  "mobil_min": 1
+},
+
+"NARASI_MOBIL_MIN_P1": {
+  "player": 1,
+  "mobil_min": 1
+},
+
+"NARASI_MOBIL_MIN_P2": {
+  "player": 2,
+  "mobil_min": 1
+},
+
+"NARASI_MOBIL_MIN_P3": {
+  "player": 3,
+  "mobil_min": 1
+},
+
+"NARASI_MOBIL_MAX_P0": {
+  "player": 0,
+  "mobil_min": 4
+},
+
+"NARASI_MOBIL_MAX_P1": {
+  "player": 1,
+  "mobil_min": 4
+},
+
+"NARASI_MOBIL_MAX_P2": {
+  "player": 2,
+  "mobil_min": 4
+},
+
+"NARASI_MOBIL_MAX_P3": {
+  "player": 3,
+  "mobil_min": 4
+},
+
+"NARASI_DONASI_JUARA_1_MIN_P0": {
+  "player": 0,
+  "donasi_juara_1_min": 1
+},
+
+"NARASI_DONASI_JUARA_1_MIN_P1": {
+  "player": 1,
+  "donasi_juara_1_min": 1
+},
+
+"NARASI_DONASI_JUARA_1_MIN_P2": {
+  "player": 2,
+  "donasi_juara_1_min": 1
+},
+
+"NARASI_DONASI_JUARA_1_MIN_P3": {
+  "player": 3,
+  "donasi_juara_1_min": 1
+},
+
+"NARASI_DONASI_JUARA_1_MAX_P0": {
+  "player": 0,
+  "donasi_juara_1_min": 4
+},
+
+"NARASI_DONASI_JUARA_1_MAX_P1": {
+  "player": 1,
+  "donasi_juara_1_min": 4
+},
+
+"NARASI_DONASI_JUARA_1_MAX_P2": {
+  "player": 2,
+  "donasi_juara_1_min": 4
+},
+
+"NARASI_DONASI_JUARA_1_MAX_P3": {
+  "player": 3,
+  "donasi_juara_1_min": 4
+},
+
+"NARASI_PENSIUN_JUARA_1_MIN_P0": {
+  "player": 0,
+  "pensiun_juara_1_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_1_MIN_P1": {
+  "player": 1,
+  "pensiun_juara_1_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_1_MIN_P2": {
+  "player": 2,
+  "pensiun_juara_1_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_1_MIN_P3": {
+  "player": 3,
+  "pensiun_juara_1_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_1_MAX_P0": {
+  "player": 0,
+  "pensiun_juara_1_min": 4
+},
+
+"NARASI_PENSIUN_JUARA_1_MAX_P1": {
+  "player": 1,
+  "pensiun_juara_1_min": 4
+},
+
+"NARASI_PENSIUN_JUARA_1_MAX_P2": {
+  "player": 2,
+  "pensiun_juara_1_min": 4
+},
+
+"NARASI_PENSIUN_JUARA_1_MAX_P3": {
+  "player": 3,
+  "pensiun_juara_1_min": 4
+},
+
+"NARASI_PINJAMAN_MIN_P0": {
+  "player": 0,
+  "pinjaman_min": 1
+},
+
+"NARASI_PINJAMAN_MIN_P1": {
+  "player": 1,
+  "pinjaman_min": 1
+},
+
+"NARASI_PINJAMAN_MIN_P2": {
+  "player": 2,
+  "pinjaman_min": 1
+},
+
+"NARASI_PINJAMAN_MIN_P3": {
+  "player": 3,
+  "pinjaman_min": 1
+},
+
+"NARASI_PINJAMAN_MAX_P0": {
+  "player": 0,
+  "pinjaman_min": 10
+},
+
+"NARASI_PINJAMAN_MAX_P1": {
+  "player": 1,
+  "pinjaman_min": 10
+},
+
+"NARASI_PINJAMAN_MAX_P2": {
+  "player": 2,
+  "pinjaman_min": 10
+},
+
+"NARASI_PINJAMAN_MAX_P3": {
+  "player": 3,
+  "pinjaman_min": 10
+},
+
+"NARASI_EMAS_MIN_P0": {
+  "player": 0,
+  "emas_min": 1
+},
+
+"NARASI_EMAS_MIN_P1": {
+  "player": 1,
+  "emas_min": 1
+},
+
+"NARASI_EMAS_MIN_P2": {
+  "player": 2,
+  "emas_min": 1
+},
+
+"NARASI_EMAS_MIN_P3": {
+  "player": 3,
+  "emas_min": 1
+},
+
+"NARASI_EMAS_MAX_P0": {
+  "player": 0,
+  "emas_min": 10
+},
+
+"NARASI_EMAS_MAX_P1": {
+  "player": 1,
+  "emas_min": 10
+},
+
+"NARASI_EMAS_MAX_P2": {
+  "player": 2,
+  "emas_min": 10
+},
+
+"NARASI_EMAS_MAX_P3": {
+  "player": 3,
+  "emas_min": 10
+},
+
+"NARASI_MAKANAN_TERJUAL_MIN_P0": {
+  "player": 0,
+  "makanan_terjual_min": 1
+},
+
+"NARASI_MAKANAN_TERJUAL_MIN_P1": {
+  "player": 1,
+  "makanan_terjual_min": 1
+},
+
+"NARASI_MAKANAN_TERJUAL_MIN_P2": {
+  "player": 2,
+  "makanan_terjual_min": 1
+},
+
+"NARASI_MAKANAN_TERJUAL_MIN_P3": {
+  "player": 3,
+  "makanan_terjual_min": 1
+},
+
+"NARASI_MAKANAN_TERJUAL_MAX_P0": {
+  "player": 0,
+  "makanan_terjual_min": 4
+},
+
+"NARASI_MAKANAN_TERJUAL_MAX_P1": {
+  "player": 1,
+  "makanan_terjual_min": 4
+},
+
+"NARASI_MAKANAN_TERJUAL_MAX_P2": {
+  "player": 2,
+  "makanan_terjual_min": 4
+},
+
+"NARASI_MAKANAN_TERJUAL_MAX_P3": {
+  "player": 3,
+  "makanan_terjual_min": 4
 }
+
+}
+
+
+

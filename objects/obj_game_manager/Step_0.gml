@@ -33,7 +33,6 @@ if (global.tampilan == 3){
 	Obj_prolog.visible = false;
 	Obj_rekap.visible = false;
 	Obj_story.visible = false;
-	obj_dialogue.visible = false;
 }
 if (global.tampilan == 4){
 	Obj_UI.visible = false;

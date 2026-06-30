@@ -438,7 +438,9 @@ if(!variable_global_exists("peduli_donasi")){
 my_font = font_add("Arial", 15, false, false, 0, 0);
 
 // cek jika poin sudah 0
-if (global.activity_points <= 0 && global.current_player == 0) {
+if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan != 1) {
+	if (global.tampilan == 2 && global.day != "sabtu")
+        exit;
 	if(global.day == "senin"){
 		global.day = "selasa";
 	}else if(global.day == "selasa"){

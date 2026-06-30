@@ -1,400 +1,865 @@
 {
-  "A": [
-    ["Alisa", "Alisa", "left", "Halo kamu siapa?"],
-    ["Rechard", "Rechard", "right", "Aku penjaga desa ini."],
-    ["Alisa", "Alisa", "left", "Oh begitu ya."],
-    ["Rechard", "Rechard", "right", "Iya."]
-  ],
+"NARASI_NASI_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Yeay! Akhirnya kita punya persediaan nasi. Memang terlihat sederhana, tapi memenuhi kebutuhan pokok adalah langkah pertama untuk hidup mandiri."]
+],
 
-  "B": [
-    ["Reno", "Reno", "left", "Aku lapar."],
-    ["Siti", "Siti", "right", "Ya makan sana."],
-    ["Alisa", "Alisa", "left", "Oh begitu ya."],
-    ["Rechard", "Rechard", "right", "Iya."]
-  ],
+"NARASI_NASI_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Keputusan yang bagus. Saat mengatur keuangan, kebutuhan pokok sebaiknya selalu didahulukan sebelum memenuhi keinginan lainnya."]
+],
 
-  "C": [
-    ["Alisa", "Alisa", "left", "Ini desa aneh..."],
-    ["Alisa", "Alisa", "left", "Oh begitu ya."],
-    ["Rechard", "Rechard", "right", "Iya."]
-  ],
+"NARASI_NASI_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang perut sudah punya harapan! Tinggal cari lauknya ya, jangan sampai nasinya dimakan pakai garam terus.."]
+],
 
-  "NARASI_NASI_MIN": [
-        ["Alisa", "Alisa", "left", "Selamat! Kamu telah membeli nasi untuk pertama kalinya. Walaupun sederhana, persediaan makanan pokokmu akhirnya mulai terisi."],
-        ["Rechard","Rechard","left","Kamu mendapatkan nasi untuk pertama kalinya. Sedikit demi sedikit, kita kumpulkan bahan makanan kita."],
-        ["Reno","Reno","left","Persediaan nasi pertamamu akhirnya tersedia. Cari bahan lain agar bisa memasak hidangan yang lebih lengkap."],
-        ["Siti","Siti","left","Akhirnya ada nasi, mungkin hidup mandiri memang dimulai dari hal-hal sederhana seperti ini."]
+"NARASI_NASI_MIN_P3": [
+    ["Siti", "Siti", "left", "Rasanya selalu menenangkan ketika ada persediaan makanan di rumah. Tidak perlu mewah, yang penting kebutuhan sehari-hari tetap terpenuhi."]
+],
 
-  ],
+"NARASI_NASI_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Wah, stok nasimu sudah banyak! Kamu sudah mulai pandai mempersiapkan kebutuhan untuk beberapa waktu ke depan."]
+],
 
-"NARASI_NASI_MAX": [
-        ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak nasi! Persediaan makanan pokokmu sudah cukup untuk beberapa waktu ke depan."],
-        ["Rechard","Rechard","left","Selamat! Stok nasimu sudah cukup aman. Kini kamu bisa makan dengan tenang tanpa drama beras habis"],
-        ["Reno","Reno","left","Persediaan nasi kamu sudah sangat banyak! kerja kerasmu dalam mengangkut beras sudah terbayarkan."],
-        ["Siti","Siti","left","Rak dapur mulai penuh oleh persediaan nasi. Aku jadi merasa seperti juragan nasi."]
+"NARASI_NASI_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Persediaan yang cukup menunjukkan perencanaan yang baik. Namun ingat, belilah sesuai kebutuhan agar tidak ada yang terbuang percuma."]
+],
 
-  ],
+"NARASI_NASI_MAX_P2": [
+    ["Reno", "Reno", "left", "Buset, stok nasinya banyak banget! Kalau begini sih tamu dadakan datang juga masih aman."]
+],
 
-  "NARASI_SAYUR_MIN": [
-        ["Alisa", "Alisa", "left", "Selamat! Kamu telah membeli sayur untuk pertama kalinya. Bahan makananmu kini mulai terlihat lebih sehat."],
-        ["Rechard","Rechard","left","Sekarang menu makanmu naik level dari asal kenyang menjadi lumayan bergizi."],
-        ["Reno","Reno","left","Sayur pertama berhasil dibeli! Tubuhmu mungkin mulai berterima kasih sekarang."],
-        ["Siti","Siti","left","Akhirnya ada sayur... hidup sehat ternyata dimulai dari belanja sederhana seperti ini."]
+"NARASI_NASI_MAX_P3": [
+    ["Siti", "Siti", "left", "Persediaan yang cukup membuat hati lebih tenang. Sekarang tinggal menjaga keseimbangan antara membeli, menggunakan, dan menyimpan."]
+],
 
-  ],
+"NARASI_SAYUR_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Asyik! Sekarang ada sayur juga. Pelan-pelan menu makananmu mulai lengkap dan tentunya lebih sehat."]
+],
 
-  "NARASI_SAYUR_MAX": [
-        ["Alisa", "Alisa", "left", "Persediaan sayurmu kini cukup aman. Tinggal harga cabai saja yang masih bikin jantung berdebar."],
-        ["Rechard","Rechard","left","Wah, stok sayur di rumah sudah banyak! Bahkan ibu-ibu komplek mulai melirik dapurmu dengan iri."],
-        ["Reno","Reno","left","Selamat! Dapurmu mulai dipenuhi sayuran segar. Akhirnya bukan cuma mie instan yang jadi penghuni tetap rak makanan."],
-        ["Siti","Siti","left","Rak dapur mulai penuh oleh persediaan sayur. Aku jadi merasa seperti juragan sayur."]
+"NARASI_SAYUR_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Memenuhi kebutuhan bukan hanya soal kenyang, tetapi juga menjaga kesehatan. Pengeluaran untuk makanan bergizi adalah investasi bagi diri sendiri."]
+],
 
-  ],
+"NARASI_SAYUR_MIN_P2": [
+    ["Reno", "Reno", "left", "Mantap! Akhirnya ada sayur. Sekarang mie instanmu sudah punya teman."]
+],
 
-  "NARASI_TAHU_MIN": [
-        ["Alisa", "Alisa", "left", "Selamat! Kamu telah membeli tahu untuk pertama kalinya. Murah, sederhana, dan penyelamat tanggal tua."],
-        ["Rechard","Rechard","left","Sekarang kalau lapar mendadak, setidaknya masih ada sesuatu yang bisa digoreng."],
-        ["Reno","Reno","left","Melihat tahu di kantong belanja membuatku merasa benar-benar sedang belajar hidup mandiri."],
-        ["Siti","Siti","left","Akhirnya ada tahu... hidup sehat ternyata dimulai dari belanja sederhana seperti ini."]
+"NARASI_SAYUR_MIN_P3": [
+    ["Siti", "Siti", "left", "Tubuh yang sehat berawal dari makanan yang baik. Senang melihat kamu mulai memperhatikan asupan sehari-hari."]
+],
 
-  ],
+"NARASI_SAYUR_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Persediaan sayurmu sudah cukup banyak. Menjaga pola makan sehat ternyata bisa dimulai dari kebiasaan sederhana."]
+],
 
-  "NARASI_TAHU_MAX": [
-        ["Alisa", "Alisa", "left", "Tanpa sadar, stok tahu di dapur sudah bertambah banyak."],
-        ["Rechard","Rechard","left","Selamat! Kamu berhasil mengumpulkan banyak tahu. Protein rakyat kini aman di bawah pengawasanmu."],
-        ["Reno","Reno","left","Sekarang kamu bisa makan tahu tanpa harus menghitung potongan terakhir."],
-        ["Siti","Siti","left","Kini kamu memiliki cukup tahu untuk berbagai jenis hidangan makanan."]
+"NARASI_SAYUR_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Kesehatan juga termasuk aset yang berharga. Mengeluarkan uang untuk makanan bergizi bukanlah pemborosan."]
+],
 
+"NARASI_SAYUR_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau stok sayurnya sebanyak ini, kayaknya tukang sayur sudah hafal sama kamu.."]
+],
 
-  ],
+"NARASI_SAYUR_MAX_P3": [
+    ["Siti", "Siti", "left", "Melihat dapur yang penuh dengan bahan makanan segar membuat suasana rumah terasa lebih hangat."]
+],
+"NARASI_TAHU_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Akhirnya ada tahu! Murah, bergizi, dan bisa diolah menjadi banyak hidangan. Pilihan yang sederhana tapi cerdas."]
+],
+
+"NARASI_TAHU_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Tidak semua pilihan yang baik harus mahal. Mengatur pengeluaran dengan memilih bahan makanan yang bernilai tinggi adalah kebiasaan yang bijak."]
+],
+
+"NARASI_TAHU_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang kalau lapar tinggal goreng tahu. Tinggal jangan lupa minyaknya juga."]
+],
+
+"NARASI_TAHU_MIN_P3": [
+    ["Siti", "Siti", "left", "Bahan makanan sederhana seperti tahu sering kali menjadi penyelamat saat ingin makan enak tanpa menguras pengeluaran."]
+],
+
+"NARASI_TAHU_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Persediaan tahumu sudah cukup banyak. Sekarang kamu punya lebih banyak pilihan untuk menyiapkan makanan."]
+],
+
+"NARASI_TAHU_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Mengelola persediaan dengan baik membantu mengurangi pemborosan sekaligus menjaga pengeluaran tetap terkendali."]
+],
+
+"NARASI_TAHU_MAX_P2": [
+    ["Reno", "Reno", "left", "Wah, stok tahunya banyak! Mau buka warung gorengan juga kayaknya sudah siap."]
+],
+
+"NARASI_TAHU_MAX_P3": [
+    ["Siti", "Siti", "left", "Memiliki bahan makanan yang cukup membuat kegiatan memasak menjadi lebih tenang dan menyenangkan."]
+],
+
+"NARASI_TELUR_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Yeay! Sekarang ada telur. Bahan makanan sederhana yang bisa diolah menjadi berbagai macam hidangan."]
+],
+
+"NARASI_TELUR_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Telur merupakan pilihan yang praktis sekaligus bergizi. Pengeluaran kecil seperti ini sering kali memberikan manfaat yang besar."]
+],
+
+"NARASI_TELUR_MIN_P2": [
+    ["Reno", "Reno", "left", "Mantap! Sekarang kalau bingung mau makan apa, telur dadar selalu jadi penyelamat."]
+],
+
+"NARASI_TELUR_MIN_P3": [
+    ["Siti", "Siti", "left", "Persediaan telur membuat menu makananmu menjadi lebih bervariasi. Tubuh pun mendapatkan asupan protein yang lebih baik."]
+],
+
+"NARASI_TELUR_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Stok telurmu sudah cukup banyak. Kelihatannya urusan lauk beberapa hari ke depan sudah aman."]
+],
+
+"NARASI_TELUR_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Persediaan yang cukup adalah hasil dari perencanaan yang baik. Jangan lupa tetap menggunakannya sebelum kualitasnya menurun."]
+],
+
+"NARASI_TELUR_MAX_P2": [
+    ["Reno", "Reno", "left", "Waduh, telurnya banyak banget. Jangan sampai bingung sendiri mau dimasak apa."]
+],
+
+"NARASI_TELUR_MAX_P3": [
+    ["Siti", "Siti", "left", "Melihat kebutuhan pokok yang mulai lengkap membuatku ikut merasa lega. Kamu sudah mengelola rumah tangga dengan baik."]
+],
+
+"NARASI_DAGING_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, akhirnya ada daging! Sesekali menikmati makanan yang lebih istimewa tentu boleh, selama tetap sesuai kemampuan."]
+],
+
+"NARASI_DAGING_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Memenuhi kebutuhan sesekali dengan kualitas yang lebih baik bukan masalah, asalkan tetap direncanakan dan tidak mengganggu kondisi keuangan."]
+],
+
+"NARASI_DAGING_MIN_P2": [
+    ["Reno", "Reno", "left", "Mantap! Hari ini menunya naik kelas nih. Tinggal siapa yang masak."]
+],
+
+"NARASI_DAGING_MIN_P3": [
+    ["Siti", "Siti", "left", "Sesekali menghadirkan bahan yang lebih spesial bisa menjadi bentuk penghargaan atas kerja kerasmu."]
+],
+
+"NARASI_DAGING_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Persediaan dagingmu sudah cukup banyak. Hebat! Kamu berhasil memenuhi kebutuhan dengan perencanaan yang baik."]
+],
+
+"NARASI_DAGING_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki stok lebih memang baik, tetapi jangan lupa mengelolanya agar tetap segar dan tidak terbuang. Pengelolaan yang baik sama pentingnya dengan membeli."]
+],
+
+"NARASI_DAGING_MAX_P2": [
+    ["Reno", "Reno", "left", "Wah, stok dagingnya bikin iri. Kayaknya acara bakaran tinggal nunggu undangan aja."]
+],
+
+"NARASI_DAGING_MAX_P3": [
+    ["Siti", "Siti", "left", "Rak dapur mulai penuh oleh persediaan daging. Aku jadi merasa seperti juragan daging."]
+],
+
+"NARASI_SEPATU_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, akhirnya punya sepatu baru! Selain membuatmu lebih nyaman beraktivitas, sepatu yang tepat juga bisa menemani perjalananmu meraih banyak pengalaman."]
+],
+
+"NARASI_SEPATU_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Membeli sepatu yang berkualitas bukan sekadar soal penampilan. Barang yang awet sering kali lebih hemat dibanding harus berkali-kali membeli yang murah."]
+],
+
+"NARASI_SEPATU_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang kakimu nggak perlu iri lagi lihat sepatu orang lain."]
+],
+
+"NARASI_SEPATU_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga sepatu ini membawamu ke banyak tempat baik dan selalu menemanimu pulang dengan selamat."]
+],
+
+"NARASI_SEPATU_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Sepertinya koleksi sepatumu mulai bertambah. Setiap pasang pasti punya cerita perjalanannya sendiri."]
+],
+
+"NARASI_SEPATU_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki beberapa pilihan memang membantu. Yang penting semuanya tetap digunakan dan dirawat dengan baik."]
+],
+
+"NARASI_SEPATU_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau begini tiap hari bisa ganti sepatu sesuai suasana hati."]
+],
+
+"NARASI_SEPATU_MAX_P3": [
+    ["Siti", "Siti", "left", "Melihat barang-barangmu terawat membuatku ikut senang. Semoga semuanya bisa digunakan dalam waktu yang lama."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, sekarang bekalmu punya tempat sendiri! Hal kecil seperti ini bisa membuat kebiasaan makan jadi lebih teratur."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Membawa bekal dari rumah mungkin terlihat sederhana, tetapi kebiasaan ini dapat membantu menghemat pengeluaran dalam jangka panjang."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P2": [
+    ["Reno", "Reno", "left", "Sip! Tinggal isi makanan favoritmu. Jangan sampai semangat bawa tempat makan, tapi isinya cuma angin."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MIN_P3": [
+    ["Siti", "Siti", "left", "Bekal dari rumah selalu punya rasa yang berbeda. Selain lebih hemat, kamu juga bisa lebih menjaga kesehatan."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Wah, koleksi tempat makanmu mulai bertambah. Sekarang tinggal pilih yang paling cocok untuk bekal hari ini."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki beberapa perlengkapan memang memudahkan aktivitas, selama semuanya benar-benar dimanfaatkan dengan baik."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P2": [
+    ["Reno", "Reno", "left", "Banyak juga tempat makannya. Sampai bingung nanti mau pakai yang warna apa."]
+],
+
+"NARASI_TEPAK_MAKAN_SIANG_MAX_P3": [
+    ["Siti", "Siti", "left", "Perlengkapan yang lengkap akan lebih bermanfaat jika digunakan untuk membangun kebiasaan baik setiap hari."]
+],
+
+"NARASI_BUKU_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Hmm... buku baru ya? Semoga halaman pertamanya menjadi awal dari pengetahuan yang bermanfaat."]
+],
+
+"NARASI_BUKU_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Tidak semua investasi langsung terlihat hasilnya. Membaca adalah salah satu yang manfaatnya akan kamu rasakan sedikit demi sedikit."]
+],
+
+"NARASI_BUKU_MIN_P2": [
+    ["Reno", "Reno", "left", "Awas ya, buku baru jangan cuma dibuka waktu masih bau tinta."]
+],
+
+"NARASI_BUKU_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga buku ini bisa menemanimu belajar dan memberikan banyak inspirasi."]
+],
+
+"NARASI_BUKU_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Rak bukumu mulai ramai. Senang rasanya melihat semangat belajarmu terus bertambah."]
+],
+
+"NARASI_BUKU_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Banyaknya buku bukan ukuran seseorang berilmu. Yang terpenting adalah apa yang berhasil dipahami dan diterapkan."]
+],
+
+"NARASI_BUKU_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau terus begini, orang-orang bakal ngira rumahmu itu perpustakaan."]
+],
+
+"NARASI_BUKU_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap buku yang sudah kamu miliki meninggalkan pelajaran yang berharga."]
+],
+
+"NARASI_BAJU_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Lihat deh, sekarang lemarimu mulai terisi. Semoga baju baru ini membuatmu semakin percaya diri menjalani aktivitas."]
+],
+
+"NARASI_BAJU_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Membeli pakaian memang kebutuhan, tetapi memilih yang berkualitas dan sesuai keperluan adalah keputusan yang lebih bijaksana."]
+],
+
+"NARASI_BAJU_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang nggak bisa bilang 'nggak punya baju' lagi ya."]
+],
+
+"NARASI_BAJU_MIN_P3": [
+    ["Siti", "Siti", "left", "Pakaian yang nyaman tidak harus mahal. Yang terpenting adalah bisa digunakan dengan baik dan dirawat agar tetap awet."]
+],
+
+"NARASI_BAJU_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Wah, pilihan bajumu sekarang makin beragam. Tinggal dipilih sesuai kegiatan hari ini."]
+],
+
+"NARASI_BAJU_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki banyak pakaian bukan masalah, asalkan semuanya benar-benar digunakan dan tidak hanya memenuhi lemari."]
+],
+
+"NARASI_BAJU_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau bajunya sebanyak ini, alasan telat karena bingung pilih baju jadi makin masuk akal."]
+],
+
+"NARASI_BAJU_MAX_P3": [
+    ["Siti", "Siti", "left", "Melihat pakaian tersusun rapi membuat suasana rumah terasa lebih nyaman. Semoga semuanya tetap terawat dengan baik."]
+],
+
+"NARASI_JAM_TANGAN_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Jam tangan baru, ya? Semoga setiap detiknya dipenuhi pengalaman yang menyenangkan dan bermanfaat."]
+],
+
+"NARASI_JAM_TANGAN_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Menghargai waktu adalah salah satu kebiasaan yang akan membantumu mengelola banyak hal, termasuk keuangan."]
+],
+
+"NARASI_JAM_TANGAN_MIN_P2": [
+    ["Reno", "Reno", "left", "Sekarang nggak bisa pura-pura lupa waktu lagi. Jamnya sudah nempel di tangan, lho."]
+],
+
+"NARASI_JAM_TANGAN_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga jam ini selalu mengingatkanmu bahwa setiap waktu adalah kesempatan untuk melakukan hal yang baik."]
+],
+
+"NARASI_JAM_TANGAN_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Koleksi jam tanganmu mulai bertambah. Masing-masing pasti punya cerita dan momen spesialnya sendiri."]
+],
+
+"NARASI_JAM_TANGAN_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki beberapa pilihan boleh saja, selama semuanya benar-benar digunakan sesuai kebutuhan."]
+],
+
+"NARASI_JAM_TANGAN_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau begini, tiap hari bisa ganti jam sesuai suasana hati."]
+],
+
+"NARASI_JAM_TANGAN_MAX_P3": [
+    ["Siti", "Siti", "left", "Barang yang dirawat dengan baik akan selalu menemanimu lebih lama. Semoga semua koleksimu jam tanganmu tetap awet."]
+],
+
+"NARASI_KOMEDI_PUTAR_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Sesekali meluangkan waktu untuk bersenang-senang memang diperlukan. Senyum juga bagian dari menjaga diri."]
+],
+
+"NARASI_KOMEDI_PUTAR_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Mengatur keuangan bukan berarti menghilangkan hiburan. Sisihkan sebagian untuk menikmati hidup secara bijak."]
+],
+
+"NARASI_KOMEDI_PUTAR_MIN_P2": [
+    ["Reno", "Reno", "left", "Naik komedi putar memang sebentar, tapi senyumnya bisa awet sampai pulang."]
+],
+
+"NARASI_KOMEDI_PUTAR_MIN_P3": [
+    ["Siti", "Siti", "left", "Bekerja keras memang penting, tetapi memberi waktu untuk diri sendiri juga tidak kalah penting."]
+],
+
+"NARASI_KOMEDI_PUTAR_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Sepertinya kamu cukup sering menikmati waktu santai. Semoga semangatmu selalu kembali setelah setiap momen bahagia."]
+],
+
+"NARASI_KOMEDI_PUTAR_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Hiburan yang direncanakan dengan baik dapat menjadi bagian dari gaya hidup yang sehat tanpa mengganggu kondisi keuangan."]
+],
+
+"NARASI_KOMEDI_PUTAR_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau sering naik komedi putar begini, jangan heran kalau petugasnya mulai hafal wajahmu."]
+],
+
+"NARASI_KOMEDI_PUTAR_MAX_P3": [
+    ["Siti", "Siti", "left", "Menikmati hidup itu baik, selama tetap tahu kapan harus bersenang-senang dan kapan harus kembali pada tanggung jawab."]
+],
+
+"NARASI_GAME_PSP_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Asyik! Waktunya menikmati permainan favoritmu. Semoga bisa menjadi pelepas penat setelah beraktivitas."]
+],
+
+"NARASI_GAME_PSP_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Hobi bisa menjadi cara yang baik untuk beristirahat, asalkan tidak membuatmu lupa pada prioritas utama."]
+],
+
+"NARASI_GAME_PSP_MIN_P2": [
+    ["Reno", "Reno", "left", "Sip! Tinggal pilih game favoritmu. Tapi jangan sampai lupa makan gara-gara keasyikan main."]
+],
+
+"NARASI_GAME_PSP_MIN_P3": [
+    ["Siti", "Siti", "left", "Bersantai itu penting. Semoga permainan ini menjadi hiburan yang menyenangkan tanpa mengganggu rutinitasmu."]
+],
+
+"NARASI_GAME_PSP_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Koleksi permainanmu makin lengkap. Semoga setiap permainan membawa pengalaman yang seru."]
+],
+
+"NARASI_GAME_PSP_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki banyak hiburan tidak masalah, selama waktu dan pengeluaran tetap bisa dikendalikan dengan baik."]
+],
+
+"NARASI_GAME_PSP_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau game-nya sudah sebanyak ini, libur seminggu juga rasanya masih kurang."]
+],
+
+"NARASI_GAME_PSP_MAX_P3": [
+    ["Siti", "Siti", "left", "Hobi memang menyenangkan, tetapi jangan lupa memberi ruang untuk belajar, bekerja, dan beristirahat."]
+],
+
+"NARASI_BONEKA_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Lucunya! Boneka baru selalu punya cara sendiri untuk membuat suasana terasa lebih hangat."]
+],
+
+"NARASI_BONEKA_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Tidak semua pembelian harus bernilai materi. Kadang sebuah barang juga memiliki nilai emosional yang berarti."]
+],
+
+"NARASI_BONEKA_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang ada teman baru di rumah. Semoga nggak bikin kasur jadi sempit."]
+],
+
+"NARASI_BONEKA_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga boneka ini menjadi pengingat akan momen-momen indah yang pernah kamu alami."]
+],
+
+"NARASI_BONEKA_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Koleksi bonekamu bertambah lagi. Rasanya ruangan jadi semakin hidup dengan kehadiran mereka."]
+],
+
+"NARASI_BONEKA_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Mengoleksi sesuatu adalah hobi yang menyenangkan. Yang penting tetap dilakukan sesuai kemampuan dan tidak berlebihan."]
+],
+
+"NARASI_BONEKA_MAX_P2": [
+    ["Reno", "Reno", "left", "Bonekanya banyak sekali. Kayaknya satu kamar sudah dijaga pasukan boneka."]
+],
+
+"NARASI_BONEKA_MAX_P3": [
+    ["Siti", "Siti", "left", "Barang yang memiliki kenangan sering kali lebih berharga daripada sekadar nilainya. Semoga setiap koleksimu menyimpan cerita yang baik."]
+],
+
+"NARASI_SEPEDA_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Asyik, sekarang perjalananmu jadi lebih mudah! Siapa tahu dengan sepeda ini kamu bisa menemukan banyak tempat dan pengalaman baru."]
+],
+
+"NARASI_SEPEDA_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Sepeda adalah contoh pengeluaran yang memberikan manfaat jangka panjang. Selain menghemat biaya transportasi, tubuhmu juga ikut bergerak lebih aktif."]
+],
+
+"NARASI_SEPEDA_MIN_P2": [
+    ["Reno", "Reno", "left", "Lumayan nih, sekarang nggak perlu lagi lari-lari ngejar waktu. Asal jangan ngebut sampai lupa lihat jalan."]
+],
+
+"NARASI_SEPEDA_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap kayuhan membawamu ke tujuan yang baik. Jangan lupa tetap mengutamakan keselamatan di mana pun kamu pergi."]
+],
+
+"NARASI_SEPEDA_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Wah, koleksi sepedamu makin beragam. Setiap perjalanan pasti terasa lebih menyenangkan dengan pilihan sepeda yang sesuai."]
+],
+
+"NARASI_SEPEDA_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki lebih dari satu kendaraan boleh saja, selama semuanya memang digunakan dan tidak menjadi beban pengeluaran."]
+],
+
+"NARASI_SEPEDA_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau sepedanya sudah sebanyak ini, tinggal buka komunitas gowes aja."]
+],
+
+"NARASI_SEPEDA_MAX_P3": [
+    ["Siti", "Siti", "left", "Merawat kendaraan secara rutin akan membuatnya lebih awet dan selalu siap menemanimu beraktivitas."]
+],
+
+"NARASI_TEPAK_PENSIL_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Selamat! Kamu telah membeli tempat pensil untuk pertama kalinya. Alat sederhana yang bisa membantumu menjaga alat tulismu tetap rapi dan terorganisir."]
+],
+
+"NARASI_TEPAK_PENSIL_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Kebiasaan menjaga barang tetap teratur akan membantumu lebih disiplin dalam banyak hal, termasuk saat belajar maupun bekerja."]
+],
+
+"NARASI_TEPAK_PENSIL_MIN_P2": [
+    ["Reno", "Reno", "left", "Sip! Pensilnya akhirnya nggak tercecer di dalam tas lagi."]
+],
+
+"NARASI_TEPAK_PENSIL_MIN_P3": [
+    ["Siti", "Siti", "left", "Barang kecil seperti tempat pensil sering kali dianggap sepele, padahal bisa membantu membuat aktivitas belajar menjadi lebih praktis."]
+],
+
+"NARASI_TEPAK_PENSIL_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Pilihan tempat pensilmu mulai bertambah. Sekarang tinggal pilih yang paling cocok menemani aktivitas hari ini."]
+],
+
+"NARASI_TEPAK_PENSIL_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki perlengkapan yang cukup akan lebih bermanfaat jika semuanya digunakan dengan baik, bukan sekadar disimpan."]
+],
+
+"NARASI_TEPAK_PENSIL_MAX_P2": [
+    ["Reno", "Reno", "left", "Banyak juga tempat pensilnya. Pensilmu pasti bingung mau tinggal di yang mana."]
+],
+
+"NARASI_TEPAK_PENSIL_MAX_P3": [
+    ["Siti", "Siti", "left", "Perlengkapan yang tertata rapi sering kali membuat kita lebih semangat untuk belajar."]
+],
+
+"NARASI_TABLET_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, sekarang kamu punya tablet! Banyak hal baru yang bisa dipelajari dan dijelajahi melalui perangkat ini."]
+],
+
+"NARASI_TABLET_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Sekarang kamu sudah memiliki tablet, alat teknologi yang bisa membantumu belajar, bekerja, dan bersantai dengan lebih mudah di tengah kesibukan hidup."]
+],
+
+"NARASI_TABLET_MIN_P2": [
+    ["Reno", "Reno", "left", "Tablet baru nih? Semoga lebih sering dipakai buat belajar daripada rebahan sambil nonton terus."]
+],
+
+"NARASI_TABLET_MIN_P3": [
+    ["Siti", "Siti", "left", "Gunakanlah teknologi dengan bijak. Semoga tablet ini membawa lebih banyak manfaat daripada gangguan."]
+],
+
+"NARASI_TABLET_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Peralatanmu semakin lengkap. Semoga semuanya membantumu berkarya dan terus berkembang."]
+],
+
+"NARASI_TABLET_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Perangkat yang baik akan memberikan nilai lebih jika benar-benar dimanfaatkan secara maksimal, bukan hanya mengikuti tren."]
+],
+
+"NARASI_TABLET_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau tablet sudah sebanyak ini, tiap ruangan bisa punya satu."]
+],
+
+"NARASI_TABLET_MAX_P3": [
+    ["Siti", "Siti", "left", "Rawat perangkat elektronikmu dengan baik agar tetap awet dan bisa digunakan dalam waktu yang lama."]
+],
+
+"NARASI_RANSEL_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Tas baru selalu membawa semangat baru. Semoga semua perlengkapanmu sekarang bisa ikut tertata dengan rapi."]
+],
+
+"NARASI_RANSEL_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Ransel yang nyaman bukan hanya memudahkan membawa barang, tetapi juga membantu menjaga perlengkapan tetap aman saat bepergian."]
+],
+
+"NARASI_RANSEL_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang nggak perlu lagi nyelipin barang di kantong celana semua."]
+],
+
+"NARASI_RANSEL_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga ransel ini menjadi teman setia dalam setiap perjalananmu, baik untuk belajar maupun bekerja."]
+],
+
+"NARASI_RANSEL_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Pilihan ranselmu semakin banyak. Tinggal sesuaikan dengan tujuan perjalanan yang akan kamu lakukan."]
+],
+
+"NARASI_RANSEL_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki beberapa perlengkapan untuk kebutuhan yang berbeda adalah hal yang wajar, selama tetap digunakan secara bijaksana."]
+],
+
+"NARASI_RANSEL_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau ranselnya sebanyak ini, setiap hari bisa tampil beda tanpa kehabisan pilihan."]
+],
+
+"NARASI_RANSEL_MAX_P3": [
+    ["Siti", "Siti", "left", "Ransel yang terawat akan selalu siap menemanimu membawa berbagai harapan dan kebutuhan ke mana pun melangkah."]
+],
+
+"NARASI_TRAVELLING_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Seru sekali! Perjalanan pertama selalu punya cerita yang paling sulit dilupakan. Semoga ini menjadi awal dari banyak petualangan baru."]
+],
+
+"NARASI_TRAVELLING_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Berlibur bukanlah pemborosan jika direncanakan dengan baik. Pengalaman juga merupakan investasi untuk memperkaya cara kita memandang kehidupan."]
+],
+
+"NARASI_TRAVELLING_MIN_P2": [
+    ["Reno", "Reno", "left", "Akhirnya jalan-jalan juga! Jangan lupa oleh-olehnya ya, masa pulang cuma bawa foto."]
+],
+
+"NARASI_TRAVELLING_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga perjalanan ini memberimu banyak kenangan indah dan membuat pikiran kembali segar."]
+],
+
+"NARASI_TRAVELLING_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Sepertinya daftar tempat yang sudah kamu kunjungi makin panjang. Dunia memang selalu punya sesuatu yang menarik untuk dijelajahi."]
+],
+
+"NARASI_TRAVELLING_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Banyak pengalaman memang berharga, tetapi jangan lupa tetap menyesuaikan rencana perjalanan dengan kondisi keuangan."]
+],
+
+"NARASI_TRAVELLING_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau sering travelling begini, kopermu pasti lebih sering jalan daripada istirahat."]
+],
+
+"NARASI_TRAVELLING_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap perjalanan tidak hanya memberimu foto yang indah, tetapi juga pelajaran yang berharga."]
+],
+
+"NARASI_RUMAH_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Selamat ya! Akhirnya kamu punya tempat untuk benar-benar disebut 'pulang'. Rasanya pasti membahagiakan."]
+],
+
+"NARASI_RUMAH_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Rumah bukan sekadar bangunan, melainkan aset jangka panjang yang memberikan rasa aman sekaligus nilai bagi masa depan."]
+],
+
+"NARASI_RUMAH_MIN_P2": [
+    ["Reno", "Reno", "left", "Nah, sekarang kalau ada yang tanya alamat, nggak bingung lagi jawabnya karena sudah punya rumah."]
+],
+
+"NARASI_RUMAH_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga rumah ini selalu dipenuhi kehangatan, kebahagiaan, dan orang-orang yang saling menyayangi."]
+],
+
+"NARASI_RUMAH_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Hebat! Perjalananmu benar-benar berkembang. Setiap rumah adalah bukti dari usaha yang sudah kamu lakukan."]
+],
+
+"NARASI_RUMAH_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki beberapa aset adalah pencapaian yang baik. Yang lebih penting adalah mampu mengelolanya agar tetap memberikan manfaat."]
+],
+
+"NARASI_RUMAH_MAX_P2": [
+    ["Reno", "Reno", "left", "Rumahnya makin banyak. Jangan lupa nanti masih ingat pulang ke yang mana."]
+],
+
+"NARASI_RUMAH_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap rumah menjadi tempat yang membawa ketenangan dan kebahagiaan bagi siapa pun yang tinggal di dalamnya."]
+],
+
+"NARASI_TV_DAN_SOFA_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Ruang tamumu sekarang terasa lebih hidup. Saatnya menikmati waktu santai setelah menjalani hari yang panjang."]
+],
+
+"NARASI_TV_DAN_SOFA_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Kenyamanan di rumah memang penting, tetapi sebaiknya dibangun secara bertahap sesuai kemampuan yang dimiliki."]
+],
+
+"NARASI_TV_DAN_SOFA_MIN_P2": [
+    ["Reno", "Reno", "left", "TV sudah ada, sofa juga sudah ada. Tinggal cari camilan biar acara santainya makin lengkap."]
+],
+
+"NARASI_TV_DAN_SOFA_MIN_P3": [
+    ["Siti", "Siti", "left", "Rumah yang nyaman membuat kita lebih betah berkumpul bersama keluarga dan orang-orang terdekat."]
+],
+
+"NARASI_TV_DAN_SOFA_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Ruang tamumu semakin nyaman. Pasti menyenangkan menghabiskan waktu bersama keluarga di sana."]
+],
+
+"NARASI_TV_DAN_SOFA_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Memiliki perlengkapan yang lengkap tentu baik, selama semuanya benar-benar memberikan manfaat dan tidak hanya menjadi pajangan."]
+],
+
+"NARASI_TV_DAN_SOFA_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau sofanya sebanyak ini, satu kampung juga kebagian tempat duduk."]
+],
+
+"NARASI_TV_DAN_SOFA_MAX_P3": [
+    ["Siti", "Siti", "left", "Kenyamanan di rumah bukan hanya berasal dari barang-barangnya, tetapi juga dari kebersamaan yang tercipta di dalamnya."]
+],
+
+"NARASI_KEBUN_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Seru sekali! Sekarang kamu punya kebun sendiri. Tidak sabar melihatnya tumbuh semakin hijau."]
+],
+
+"NARASI_KEBUN_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Merawat kebun mengajarkan bahwa hasil yang baik membutuhkan waktu, kesabaran, dan perhatian yang konsisten."]
+],
+
+"NARASI_KEBUN_MIN_P2": [
+    ["Reno", "Reno", "left", "Siap-siap deh, nanti tiap pagi ada pekerjaan baru menyiram tanaman."]
+],
+
+"NARASI_KEBUN_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga kebun ini membawa udara yang lebih segar sekaligus hasil yang bermanfaat untukmu."]
+],
+
+"NARASI_KEBUN_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Kebunmu semakin berkembang. Melihat tanaman tumbuh dengan baik memang memberikan rasa puas tersendiri."]
+],
+
+"NARASI_KEBUN_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Aset produktif seperti kebun akan memberikan manfaat jika terus dirawat, bukan hanya dimiliki."]
+],
+
+"NARASI_KEBUN_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau kebunnya seluas ini, jalan-jalan di halaman saja sudah seperti piknik."]
+],
+
+"NARASI_KEBUN_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap tanaman yang tumbuh menjadi pengingat bahwa kesabaran selalu menghasilkan sesuatu yang indah."]
+],
+
+"NARASI_MOBIL_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, akhirnya punya mobil juga! Perjalananmu sekarang pasti akan terasa lebih nyaman."]
+],
+
+"NARASI_MOBIL_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Mobil memang memudahkan mobilitas, tetapi jangan lupa memperhitungkan biaya perawatan, bahan bakar, dan kebutuhan lainnya."]
+],
+
+"NARASI_MOBIL_MIN_P2": [
+    ["Reno", "Reno", "left", "Asyik! Tinggal satu pertanyaan... kapan aku diajak keliling?"]
+],
+
+"NARASI_MOBIL_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga kendaraan ini selalu membawamu ke tempat-tempat yang baik dan mengantarkanmu pulang dengan selamat."]
+],
+
+"NARASI_MOBIL_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Hebat! Garasimu mulai ramai. Semoga setiap kendaraan membantumu menjalani aktivitas dengan lebih mudah."]
+],
+
+"NARASI_MOBIL_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Kendaraan adalah aset yang memerlukan tanggung jawab. Semakin banyak yang dimiliki, semakin penting pula mengelolanya dengan bijak."]
+],
+
+"NARASI_MOBIL_MAX_P2": [
+    ["Reno", "Reno", "left", "Kalau mobilnya sebanyak ini, tiap hari bisa ganti mobil sesuai warna baju."]
+],
+
+"NARASI_MOBIL_MAX_P3": [
+    ["Siti", "Siti", "left", "Merawat kendaraan secara rutin bukan hanya menjaga nilainya, tetapi juga menjaga keselamatan saat digunakan."]
+],
+
+"NARASI_DONASI_JUARA_1_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Yes! Usaha kita membuahkan hasil. Senang rasanya bisa berbagi sekaligus menjadi yang terbaik!"]
+],
+
+"NARASI_DONASI_JUARA_1_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Peringkat pertama bukan sekadar kemenangan. Ini menunjukkan bahwa kepedulian dan pengelolaan keuangan yang baik bisa berjalan berdampingan."]
+],
+
+"NARASI_DONASI_JUARA_1_MIN_P2": [
+    ["Reno", "Reno", "left", "Hahaha! Ternyata kita yang paling dermawan hari ini. Rasanya pengen traktir semua orang... eh, nanti donasinya malah habis."]
+],
+
+"NARASI_DONASI_JUARA_1_MIN_P3": [
+    ["Siti", "Siti", "left", "Aku ikut bahagia melihat pencapaian ini. Semoga semangat berbagi seperti ini tidak berhenti hanya karena sudah menjadi juara."]
+],
+
+"NARASI_DONASI_JUARA_1_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Luar biasa! Kita berhasil mempertahankan posisi teratas. Ternyata konsisten berbuat baik memang terasa membahagiakan."]
+],
+
+"NARASI_DONASI_JUARA_1_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Mempertahankan prestasi jauh lebih sulit daripada meraihnya. Tetap rendah hati dan teruslah berbagi."]
+],
+
+"NARASI_DONASI_JUARA_1_MAX_P2": [
+    ["Reno", "Reno", "left", "Juara lagi? Waduh... nanti orang-orang ngira kita langganan podium."]
+],
+
+"NARASI_DONASI_JUARA_1_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga pencapaian ini menjadi pengingat bahwa berbagi dengan tulus selalu membawa kebaikan."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Kita berhasil! Semua usaha mengatur uang akhirnya membuahkan hasil. Rasanya menyenangkan bisa mencapai garis akhir lebih dulu."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Selamat. Ini bukan hanya tentang memiliki uang paling banyak, tetapi tentang mengambil keputusan keuangan yang tepat sepanjang perjalanan."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MIN_P2": [
+    ["Reno", "Reno", "left", "Hahaha! Akhirnya bisa santai dulu. Kerja kerasnya lunas, sekarang saatnya menikmati hasil."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MIN_P3": [
+    ["Siti", "Siti", "left", "Aku ikut bangga melihat pencapaianmu. Semoga keberhasilan ini menjadi awal untuk terus menggunakan rezeki dengan bijaksana."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Kesuksesan akan terasa lebih berarti jika tetap disertai rasa syukur dan kerendahan hati."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Luar biasa! Kamu kembali membuktikan bahwa kerja keras dan perencanaan yang baik selalu membawa hasil."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MAX_P2": [
+    ["Reno", "Reno", "left", "Mempertahankan posisi teratas bukan perkara mudah. Jangan berhenti belajar meskipun sudah mencapai tujuan."]
+],
+
+"NARASI_PENSIUN_JUARA_1_MAX_P3": [
+    ["Siti", "Siti", "left", "Juara lagi? Wah, dompetmu pasti sudah capek karena terus penuh."]
+],
+
+"NARASI_PINJAMAN_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Sepertinya keadaan sedang cukup menantang ya. Tidak apa-apa, yang penting pinjaman ini benar-benar digunakan untuk kebutuhan yang penting."]
+],
+
+"NARASI_PINJAMAN_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Meminjam bukanlah kesalahan. Yang perlu diperhatikan adalah memastikan kemampuan untuk mengembalikannya tanpa mengganggu kondisi keuangan."]
+],
+
+"NARASI_PINJAMAN_MIN_P2": [
+    ["Reno", "Reno", "left", "Tenang, banyak orang pernah berada di posisi seperti ini. Yang penting jangan sampai pinjam buat hal yang nggak perlu."]
+],
+
+"NARASI_PINJAMAN_MIN_P3": [
+    ["Siti", "Siti", "left", "Semoga pinjaman ini menjadi jalan keluar dari kesulitanmu, bukan justru menjadi beban yang semakin berat."]
+],
+
+"NARASI_PINJAMAN_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Pinjamanmu mulai bertambah. Yuk, pelan-pelan kita susun rencana supaya semuanya bisa segera diselesaikan."]
+],
+
+"NARASI_PINJAMAN_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Semakin besar utang, semakin besar pula tanggung jawab yang harus dipenuhi. Jangan biarkan cicilan menghabiskan seluruh penghasilanmu."]
+],
+
+"NARASI_PINJAMAN_MAX_P2": [
+    ["Reno", "Reno", "left", "Dompetmu kayaknya lagi kerja lembur nih. Semangat ya, sedikit demi sedikit pasti lunas."]
+],
+
+"NARASI_PINJAMAN_MAX_P3": [
+    ["Siti", "Siti", "left", "Setiap masalah pasti ada jalan keluarnya. Tetap tenang, atur keuangan dengan baik, dan selesaikan semuanya secara bertahap."]
+],
+
+"NARASI_EMAS_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Wah, akhirnya mulai berinvestasi juga! Langkah kecil hari ini bisa menjadi bekal yang besar untuk masa depan."]
+],
+
+"NARASI_EMAS_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Emas sering dipilih sebagai aset karena nilainya cenderung bertahan dalam jangka panjang. Investasi yang baik selalu dimulai dari perencanaan."]
+],
+
+"NARASI_EMAS_MIN_P2": [
+    ["Reno", "Reno", "left", "Asyik, akhirnya punya emas! Jangan sering-sering dicek tiap lima menit ya, harganya nggak berubah secepat itu."]
+],
+
+"NARASI_EMAS_MIN_P3": [
+    ["Siti", "Siti", "left", "Menyisihkan sebagian rezeki untuk investasi adalah bentuk perhatian terhadap masa depan. Semoga keputusanmu membawa manfaat."]
+],
+
+"NARASI_EMAS_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Koleksi emasmu semakin bertambah. Rasanya menyenangkan melihat hasil dari kebiasaan menabung dan berinvestasi."]
+],
+
+"NARASI_EMAS_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Diversifikasi aset adalah langkah yang baik, tetapi jangan lupa menjaga keseimbangan dengan kebutuhan dan dana darurat."]
+],
+
+"NARASI_EMAS_MAX_P2": [
+    ["Reno", "Reno", "left", "Wah, emasnya sudah banyak nih. Jangan sampai nanti bingung nyimpennya di mana."]
+],
+
+"NARASI_EMAS_MAX_P3": [
+    ["Siti", "Siti", "left", "Semoga setiap investasi yang kamu miliki menjadi sumber rasa aman dan membantu mewujudkan rencana-rencana di masa depan."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MIN_P0": [
+    ["Alisa", "Alisa", "left", "Hebat! Hidangan pertamamu akhirnya berhasil terjual. Ternyata usaha dan kreativitasmu mulai membuahkan hasil."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MIN_P1": [
+    ["Rechard", "Rechard", "left", "Mengolah bahan mentah menjadi hidangan bernilai jual adalah contoh bagaimana sebuah usaha dapat meningkatkan nilai suatu produk. Itulah salah satu dasar dalam berwirausaha."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MIN_P2": [
+    ["Reno", "Reno", "left", "Mantap! Berarti masakanmu lolos uji rasa pelanggan. Besok-besok jangan lupa simpan resep rahasianya."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MIN_P3": [
+    ["Siti", "Siti", "left", "Melihat hasil masakanmu disukai orang lain pasti terasa membahagiakan. Semoga ini menjadi awal dari usaha yang terus berkembang."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MAX_P0": [
+    ["Alisa", "Alisa", "left", "Wah, hidanganmu semakin sering terjual! Kerja kerasmu di dapur benar-benar mulai membuahkan hasil."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MAX_P1": [
+    ["Rechard", "Rechard", "left", "Keuntungan tidak hanya berasal dari menjual barang, tetapi juga dari kemampuan menciptakan nilai tambah. Terus jaga kualitas agar pelanggan tetap percaya."]
+],
+
+"NARASI_MAKANAN_TERJUAL_MAX_P2": [
+    ["Reno", "Reno", "left", "Laris terus begini, jangan kaget kalau nanti banyak yang nanya, 'Masaknya pakai resep apa sih?'"]
+],
+
+"NARASI_MAKANAN_TERJUAL_MAX_P3": [
+    ["Siti", "Siti", "left", "Usaha yang dijalankan dengan sabar dan penuh perhatian akan perlahan mendapatkan tempat di hati pelanggan. Semoga jualanmu semakin sukses."]
+]
   
-  "NARASI_TELUR_MIN": [
-        ["Alisa", "Alisa", "left", "Telur pertama berhasil kubeli. Entah kenapa rasanya seperti pencapaian kecil."],
-        ["Rechard","Rechard","left","Aku akhirnya membawa pulang telur juga hari ini."],
-        ["Reno","Reno","left","Telur pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi dapur rakyat kecil."],
-        ["Siti","Siti","left","Bahan makanan sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-  ],
-
-      "NARASI_TELUR_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak telur! Persediaan protein murahmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok telurmu mulai banyak. Bahkan kulkas mulai terlihat seperti markas tukang martabak."],
-            ["Reno","Reno","left","Wah, kulkasmu sudah dipenuhi telur! Tinggal tepung sedikit, usaha terang bulan langsung jalan."],
-            ["Siti","Siti","left","Rak dapur mulai penuh oleh persediaan telur. Aku jadi merasa seperti juragan telur."]
-      
-      ],
-
-      "NARASI_DAGING_MIN": [
-            ["Alisa", "Alisa", "left", "Daging pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang daging juga hari ini."],
-            ["Reno","Reno","left","Daging pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi dapur rakyat kecil."],
-            ["Siti","Siti","left","Bahan makanan sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_DAGING_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak daging! Persediaan proteinmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok dagingmu mulai banyak. Bahkan kulkas mulai terlihat seperti markas tukang sate."],
-            ["Reno","Reno","left","Wah, kulkasmu sudah dipenuhi daging! Tinggal bumbu sedikit, usaha sate langsung jalan."],
-            ["Siti","Siti","left","Rak dapur mulai penuh oleh persediaan daging. Aku jadi merasa seperti juragan daging."]
-
-      ],
-
-      "NARASI_JAM_TANGAN_MIN": [
-            ["Alisa", "Alisa", "left", "Jam tangan pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang jam tangan juga hari ini."],
-            ["Reno","Reno","left","Jam tangan pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_JAM_TANGAN_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak jam tangan! Koleksi aksesorismu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok jam tanganmu mulai banyak. Bahkan lemari mulai terlihat seperti toko jam."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi jam tangan! Tinggal baju sedikit, usaha jual beli jam langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi jam tangan. Aku jadi merasa seperti juragan jam."]
-
-      ],
-
-      "NARASI_KOMEDI_PUTAR_MIN": [
-            ["Alisa", "Alisa", "left", "Komedi putar pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang komedi putar juga hari ini."],
-            ["Reno","Reno","left","Komedi putar pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_KOMEDI_PUTAR_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak komedi putar! Koleksi mainanmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok komedi putarmu mulai banyak. Bahkan lemari mulai terlihat seperti toko mainan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi komedi putar! Tinggal baju sedikit, usaha jual beli mainan langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi komedi putar. Aku jadi merasa seperti juragan mainan."]
-
-      ],
-
-      "NARASI_GAME_PSP_MIN": [
-            ["Alisa", "Alisa", "left", "Game PSP pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang game PSP juga hari ini."],
-            ["Reno","Reno","left","Game PSP pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_GAME_PSP_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak game PSP! Koleksi gamemu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok game PSP-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko game."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi game PSP! Tinggal baju sedikit, usaha jual beli game langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi game PSP. Aku jadi merasa seperti juragan game."]
-
-      ],
-
-      "NARASI_BONEKA_MIN": [
-            ["Alisa", "Alisa", "left", "Boneka pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang boneka juga hari ini."],
-            ["Reno","Reno","left","Boneka pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_BONEKA_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak boneka! Koleksi mainanmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok bonekamu mulai banyak. Bahkan lemari mulai terlihat seperti toko mainan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi boneka! Tinggal baju sedikit, usaha jual beli mainan langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi boneka. Aku jadi merasa seperti juragan mainan."]
-
-      ],
-
-      "NARASI_SEPEDA_MIN": [
-            ["Alisa", "Alisa", "left", "Sepeda pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang sepeda juga hari ini."],
-            ["Reno","Reno","left","Sepeda pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_SEPEDA_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak sepeda! Koleksi kendaraanmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok sepedamu mulai banyak. Bahkan garasi mulai terlihat seperti toko sepeda."],
-            ["Reno","Reno","left","Wah, garasimu sudah dipenuhi sepeda! Tinggal baju sedikit, usaha jual beli sepeda langsung jalan."],
-            ["Siti","Siti","left","Rak garasi mulai penuh oleh koleksi sepeda. Aku jadi merasa seperti juragan sepeda."]
-
-      ],
-
-      "NARASI_TEPAK_PENSIL_MIN": [
-            ["Alisa", "Alisa", "left", "Tepak pensil pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang tepak pensil juga hari ini."],
-            ["Reno","Reno","left","Tepak pensil pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_TEPAK_PENSIL_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak tepak pensil! Koleksi alat tulismu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok tepak pensilmu mulai banyak. Bahkan lemari mulai terlihat seperti toko alat tulis."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi tepak pensil! Tinggal baju sedikit, usaha jual beli alat tulis langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi tepak pensil. Aku jadi merasa seperti juragan alat tulis."]
-
-      ],
-
-      "NARASI_TABLET_MIN": [
-            ["Alisa", "Alisa", "left", "Tablet pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang tablet juga hari ini."],
-            ["Reno","Reno","left","Tablet pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_TABLET_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak tablet! Koleksi gadgetmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok tabletmu mulai banyak. Bahkan lemari mulai terlihat seperti toko gadget."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi tablet! Tinggal baju sedikit, usaha jual beli gadget langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi tablet. Aku jadi merasa seperti juragan gadget."]
-
-      ],
-
-      "NARASI_RANSEL_MIN": [
-            ["Alisa", "Alisa", "left", "Ransel pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang ransel juga hari ini."],
-            ["Reno","Reno","left","Ransel pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_RANSEL_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak ransel! Koleksi tasmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok ranselmu mulai banyak. Bahkan lemari mulai terlihat seperti toko tas."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi ransel! Tinggal baju sedikit, usaha jual beli tas langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi ransel. Aku jadi merasa seperti juragan tas."]
-
-      ],
-
-      "NARASI_TRAVELLING_MIN": [
-            ["Alisa", "Alisa", "left", "Travelling pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang travelling juga hari ini."],
-            ["Reno","Reno","left","Travelling pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_RUMAH_MIN": [
-            ["Alisa", "Alisa", "left", "Rumah pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang rumah juga hari ini."],
-            ["Reno","Reno","left","Rumah pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_TV_DAN_SOFA_MIN": [
-            ["Alisa", "Alisa", "left", "TV dan sofa pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang TV dan sofa juga hari ini."],
-            ["Reno","Reno","left","TV dan sofa pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_KEBUN_MIN": [
-            ["Alisa", "Alisa", "left", "Kebun pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang kebun juga hari ini."],
-            ["Reno","Reno","left","Kebun pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_MOBIL_MIN": [
-            ["Alisa", "Alisa", "left", "Mobil pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang mobil juga hari ini."],
-            ["Reno","Reno","left","Mobil pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARARI_DONASI_JUARA_1_MIN": [
-            ["Alisa", "Alisa", "left", "Donasi juara 1 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang donasi juara 1 juga hari ini."],
-            ["Reno","Reno","left","Donasi juara 1 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_DONASI_JUARA_1_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak donasi juara 1! Koleksi amalmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok donasi juara 1-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko amal."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi donasi juara 1! Tinggal baju sedikit, usaha jual beli amal langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi donasi juara 1. Aku jadi merasa seperti juragan amal."]
-
-      ],
-
-      "NARASI_DONASI_JUARA_2_MIN": [
-            ["Alisa", "Alisa", "left", "Donasi juara 2 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang donasi juara 2 juga hari ini."],
-            ["Reno","Reno","left","Donasi juara 2 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_DONASI_JUARA_2_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak donasi juara 2! Koleksi amalmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok donasi juara 2-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko amal."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi donasi juara 2! Tinggal baju sedikit, usaha jual beli amal langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi donasi juara 2. Aku jadi merasa seperti juragan amal."]
-
-      ],
-
-      "NARASI_DONASI_JUARA_3_MIN": [
-            ["Alisa", "Alisa", "left", "Donasi juara 3 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang donasi juara 3 juga hari ini."],
-            ["Reno","Reno","left","Donasi juara 3 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_DONASI_JUARA_3_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak donasi juara 3! Koleksi amalmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok donasi juara 3-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko amal."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi donasi juara 3! Tinggal baju sedikit, usaha jual beli amal langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi donasi juara 3. Aku jadi merasa seperti juragan amal."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_1_MIN": [
-            ["Alisa", "Alisa", "left", "Pensiun juara 1 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang pensiun juara 1 juga hari ini."],
-            ["Reno","Reno","left","Pensiun juara 1 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_1_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak pensiun juara 1! Koleksi tabungan pensiunmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok pensiun juara 1-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko tabungan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi pensiun juara 1! Tinggal baju sedikit, usaha jual beli tabungan pensiun langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi pensiun juara 1. Aku jadi merasa seperti juragan tabungan pensiun."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_2_MIN": [
-            ["Alisa", "Alisa", "left", "Pensiun juara 2 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang pensiun juara 2 juga hari ini."],
-            ["Reno","Reno","left","Pensiun juara 2 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_2_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak pensiun juara 2! Koleksi tabungan pensiunmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok pensiun juara 2-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko tabungan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi pensiun juara 2! Tinggal baju sedikit, usaha jual beli tabungan pensiun langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi pensiun juara 2. Aku jadi merasa seperti juragan tabungan pensiun."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_3_MIN": [
-            ["Alisa", "Alisa", "left", "Pensiun juara 3 pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang pensiun juara 3 juga hari ini."],
-            ["Reno","Reno","left","Pensiun juara 3 pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_PENSIUN_JUARA_3_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak pensiun juara 3! Koleksi tabungan pensiunmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok pensiun juara 3-mu mulai banyak. Bahkan lemari mulai terlihat seperti toko tabungan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi pensiun juara 3! Tinggal baju sedikit, usaha jual beli tabungan pensiun langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi pensiun juara 3. Aku jadi merasa seperti juragan tabungan pensiun."]
-
-      ],
-
-      "NARASI_PINJAMAN_MIN": [
-            ["Alisa", "Alisa", "left", "Pinjaman pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang pinjaman juga hari ini."],
-            ["Reno","Reno","left","Pinjaman pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_PINJAMAN_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak pinjaman! Koleksi utangmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok pinjamanmu mulai banyak. Bahkan lemari mulai terlihat seperti toko utang."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi pinjaman! Tinggal baju sedikit, usaha jual beli utang langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi pinjaman. Aku jadi merasa seperti juragan utang."]
-
-      ],
-
-      "NARASI_EMAS_MIN": [
-            ["Alisa", "Alisa", "left", "Emas pertama berhasil kubeli. Rasanya seperti pencapaian besar."],
-            ["Rechard","Rechard","left","Aku akhirnya membawa pulang emas juga hari ini."],
-            ["Reno","Reno","left","Emas pertama berhasil dibeli. Sebuah pencapaian besar bagi ekonomi pribadiku."],
-            ["Siti","Siti","left","Benda sederhana seperti ini ternyata cukup membuat hati tenang."]
-
-      ],
-
-      "NARASI_EMAS_MAX": [
-            ["Alisa", "Alisa", "left", "Wow, kamu sudah memiliki banyak emas! Koleksi tabunganmu sudah cukup untuk beberapa waktu ke depan."],
-            ["Rechard","Rechard","left","Stok emasmu mulai banyak. Bahkan lemari mulai terlihat seperti toko perhiasan."],
-            ["Reno","Reno","left","Wah, lemari koleksimu sudah dipenuhi emas! Tinggal baju sedikit, usaha jual beli perhiasan langsung jalan."],
-            ["Siti","Siti","left","Rak lemari mulai penuh oleh koleksi emas. Aku jadi merasa seperti juragan perhiasan."]
-
-      ]
-
-
 }
