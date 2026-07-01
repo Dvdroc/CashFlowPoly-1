@@ -421,23 +421,21 @@ for (var i = 0; i < array_length(trigger_names); i++)
     // =========================
     // PLAY STORY
     // =========================
-
-    if (valid)
-    {
-        if (variable_struct_exists(global.story, story_id))
-        {
-            dialogue = global.story[$ story_id];
-
-            dialog_index = 0;
-
-            global.tampilan_sebelumnya = global.tampilan;
-            global.tampilan = 5;
-
-            variable_struct_remove(global.story, story_id);
-
-            break;
-        }
-    }
+	if (valid && global.misi_T !=-1)
+	{
+		if (variable_struct_exists(global.story, story_id))
+		{
+			dialogue = global.story[$ story_id];
+			
+			dialog_index = 0;
+			global.tampilan_sebelumnya = global.tampilan;
+			
+			global.tampilan = 5;
+			variable_struct_remove(global.story, story_id);
+			
+			break;
+		}
+	}
 }
 
 dialog_index = 0;

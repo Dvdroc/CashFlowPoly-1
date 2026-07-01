@@ -7,6 +7,7 @@ draw_rectangle(0, 0, room_width, room_height, false);
 draw_set_alpha(1);
 
 // Panel
+draw_set_alpha(0.5);
 draw_set_color(c_white);
 draw_rectangle(
     0,
@@ -15,6 +16,7 @@ draw_rectangle(
     room_height / 2 + 120,
     false
 );
+draw_set_alpha(1);
 
 // Nama pemain
 draw_set_font(fnt_turn);
