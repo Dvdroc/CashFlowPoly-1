@@ -1,5 +1,9 @@
 pemain_list = global.player
-aktivitas_list = ["Jual Makanan","Beli Bahan","Kerja Lepas","Beli Kebutuhan","Tujuan Finansial","Pinjaman", "Asuransi"];
+if(global.mode == "mahir"){
+	aktivitas_list = ["Jual Makanan","Beli Bahan","Kerja Lepas","Beli Kebutuhan","Tujuan Finansial","Pinjaman", "Asuransi"];
+}else if(global.mode == "pemula"){
+	aktivitas_list = ["Jual Makanan","Beli Bahan","Kerja Lepas","Beli Kebutuhan","Tujuan Finansial"];
+}
 
 menu_list = [];
 

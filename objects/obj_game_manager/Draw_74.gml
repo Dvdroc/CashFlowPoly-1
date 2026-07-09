@@ -39,7 +39,7 @@ if(tampilkan_misi){
 	}
 }
 var box_w = 220;
-var box_h = 70;
+var box_h = 95; // diperbesar
 
 var xx = 20;
 var yy = 20;
@@ -54,14 +54,14 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 draw_roundrect(xx, yy, xx + box_w, yy + box_h, true);
 
-// JANGAN pakai draw_set_font(fnt_turn);
-
+// Text
 draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 draw_set_color(c_white);
 
-draw_text(xx + box_w/2, yy + 22, "HARI KE-" + string(global.tanggal));
-draw_text(xx + box_w/2, yy + 50, string_upper(global.day));
+draw_text(xx + box_w/2, yy + 20, "HARI KE-" + string(global.tanggal));
+draw_text(xx + box_w/2, yy + 45, string_upper(global.day));
+draw_text(xx + box_w/2, yy + 70, "UANG : " + string(global.Uang));
 
 // Reset
 draw_set_halign(fa_left);
