@@ -21,6 +21,9 @@
     "buku_max": 0,
     "baju_min": 0,
     "baju_max": 0,
+    // kerja
+    "kerja_min": 0,
+    "kerja_max": 0,
     // premier
     "jam_tangan_min": 0,
     "jam_tangan_max": 0,
@@ -66,15 +69,28 @@
     "pensiun_juara_3_max": 0,
     // mode mahir
     "pinjaman_min": 1,
-    "pinjaman_max": 1,
-    "emas_min": 10,
+    "pinjaman_max": 10,
+    "emas_min": 1,
     "emas_max": 10,
     // makanan yang terjual
     "makanan_terjual_min": 0,
     "makanan_terjual_max": 0,
     //pemain
-    "player": 1
+    "player": 1,
+    "hari": 1
   },
+  "B": {
+    "uang_min": 20,
+    "uang_max": 20,
+    "player": 0
+  },
+  "C": {
+    "uang_min": 200
+  },
+  "NARASI_NASI_MIN_P0": {
+  "player": 0,
+  "nasi_min": 1
+},
 
 "NARASI_NASI_MIN_P1": {
   "player": 1,
@@ -149,6 +165,7 @@
   "player": 3,
   "sayur_min": 4
 },
+
 "NARASI_TAHU_MIN_P0": {
   "player": 0,
   "tahu_min": 1
@@ -971,22 +988,102 @@
 
 "NARASI_DONASI_JUARA_1_MAX_P0": {
   "player": 0,
-  "donasi_juara_1_min": 4
+  "donasi_juara_1_min": 3
 },
 
 "NARASI_DONASI_JUARA_1_MAX_P1": {
   "player": 1,
-  "donasi_juara_1_min": 4
+  "donasi_juara_1_min": 3
 },
 
 "NARASI_DONASI_JUARA_1_MAX_P2": {
   "player": 2,
-  "donasi_juara_1_min": 4
+  "donasi_juara_1_min": 3
 },
 
 "NARASI_DONASI_JUARA_1_MAX_P3": {
   "player": 3,
-  "donasi_juara_1_min": 4
+  "donasi_juara_1_min": 3
+},
+
+"NARASI_DONASI_JUARA_2_MIN_P0": {
+  "player": 0,
+  "donasi_juara_2_min": 1
+},
+
+"NARASI_DONASI_JUARA_2_MIN_P1": {
+  "player": 1,
+  "donasi_juara_2_min": 1
+},
+
+"NARASI_DONASI_JUARA_2_MIN_P2": {
+  "player": 2,
+  "donasi_juara_2_min": 1
+},
+
+"NARASI_DONASI_JUARA_2_MIN_P3": {
+  "player": 3,
+  "donasi_juara_2_min": 1
+},
+
+"NARASI_DONASI_JUARA_2_MAX_P0": {
+  "player": 0,
+  "donasi_juara_2_min": 3
+},
+
+"NARASI_DONASI_JUARA_2_MAX_P1": {
+  "player": 1,
+  "donasi_juara_2_min": 3
+},
+
+"NARASI_DONASI_JUARA_2_MAX_P2": {
+  "player": 2,
+  "donasi_juara_2_min": 3
+},
+
+"NARASI_DONASI_JUARA_2_MAX_P3": {
+  "player": 3,
+  "donasi_juara_2_min": 3
+},
+
+"NARASI_DONASI_JUARA_3_MIN_P0": {
+  "player": 0,
+  "donasi_juara_3_min": 1
+},
+
+"NARASI_DONASI_JUARA_3_MIN_P1": {
+  "player": 1,
+  "donasi_juara_3_min": 1
+},
+
+"NARASI_DONASI_JUARA_3_MIN_P2": {
+  "player": 2,
+  "donasi_juara_3_min": 1
+},
+
+"NARASI_DONASI_JUARA_3_MIN_P3": {
+  "player": 3,
+  "donasi_juara_3_min": 1
+},
+
+"NARASI_DONASI_JUARA_3_MAX_P0": {
+  "player": 0,
+  "donasi_juara_3_min": 3
+},
+
+"NARASI_DONASI_JUARA_3_MAX_P1": {
+  "player": 1,
+  "donasi_juara_3_min": 3
+},
+
+"NARASI_DONASI_JUARA_3_MAX_P2": {
+  "player": 2,
+  "donasi_juara_3_min": 3
+},
+
+"NARASI_DONASI_JUARA_3_MAX_P3": {
+  "player": 3,
+  "donasi_juara_3_min": 3
 },
 
 "NARASI_PENSIUN_JUARA_1_MIN_P0": {
@@ -1011,22 +1108,102 @@
 
 "NARASI_PENSIUN_JUARA_1_MAX_P0": {
   "player": 0,
-  "pensiun_juara_1_min": 4
+  "pensiun_juara_1_min": 3
 },
 
 "NARASI_PENSIUN_JUARA_1_MAX_P1": {
   "player": 1,
-  "pensiun_juara_1_min": 4
+  "pensiun_juara_1_min": 3
 },
 
 "NARASI_PENSIUN_JUARA_1_MAX_P2": {
   "player": 2,
-  "pensiun_juara_1_min": 4
+  "pensiun_juara_1_min": 3
 },
 
 "NARASI_PENSIUN_JUARA_1_MAX_P3": {
   "player": 3,
-  "pensiun_juara_1_min": 4
+  "pensiun_juara_1_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_2_MIN_P0": {
+  "player": 0,
+  "pensiun_juara_2_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_2_MIN_P1": {
+  "player": 1,
+  "pensiun_juara_2_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_2_MIN_P2": {
+  "player": 2,
+  "pensiun_juara_2_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_2_MIN_P3": {
+  "player": 3,
+  "pensiun_juara_2_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_2_MAX_P0": {
+  "player": 0,
+  "pensiun_juara_2_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_2_MAX_P1": {
+  "player": 1,
+  "pensiun_juara_2_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_2_MAX_P2": {
+  "player": 2,
+  "pensiun_juara_2_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_2_MAX_P3": {
+  "player": 3,
+  "pensiun_juara_2_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_3_MIN_P0": {
+  "player": 0,
+  "pensiun_juara_3_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_3_MIN_P1": {
+  "player": 1,
+  "pensiun_juara_3_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_3_MIN_P2": {
+  "player": 2,
+  "pensiun_juara_3_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_3_MIN_P3": {
+  "player": 3,
+  "pensiun_juara_3_min": 1
+},
+
+"NARASI_PENSIUN_JUARA_3_MAX_P0": {
+  "player": 0,
+  "pensiun_juara_3_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_3_MAX_P1": {
+  "player": 1,
+  "pensiun_juara_3_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_3_MAX_P2": {
+  "player": 2,
+  "pensiun_juara_3_min": 3
+},
+
+"NARASI_PENSIUN_JUARA_3_MAX_P3": {
+  "player": 3,
+  "pensiun_juara_3_min": 3
 },
 
 "NARASI_PINJAMAN_MIN_P0": {
@@ -1148,7 +1325,6 @@
   "player": 3,
   "makanan_terjual_min": 4
 }
-
 }
 
 

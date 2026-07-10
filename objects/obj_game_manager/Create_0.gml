@@ -50,6 +50,9 @@ if (!variable_global_exists("recipes")) {
 		ds_map_add(rec, "Tv dan sofa", 0);
 		ds_map_add(rec, "Kebun", 0);
 		ds_map_add(rec, "Mobil", 0);
+		
+		//kerja lepas
+		ds_map_add(rec, "Kerja lepas", 0);
 
 		// donasi
 		ds_map_add(rec, "donasi juara 1", 0);
@@ -414,6 +417,9 @@ if (!variable_global_exists("record")){
 	ds_map_add(global.record, "pensiun juara 2", 0);
 	ds_map_add(global.record, "pensiun juara 3", 0);
 	
+	//kerja
+	ds_map_add(global.record, "Kerja lepas", 0);
+	
 	//kartu resiko
 	ds_map_add(global.record, "kartu hijau", 0);
 	ds_map_add(global.record, "kartu kuning", 0);
@@ -443,24 +449,30 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
         exit;
 	if(global.day == "senin"){
 		global.day = "selasa";
+		global.tanggal += 1;
 	}else if(global.day == "selasa"){
 		global.day = "rabu";
+		global.tanggal += 1;
 	}else if(global.day == "rabu"){
 		global.day = "kamis";
+		global.tanggal += 1;
 	}else if(global.day == "kamis"){
 		global.day = "jumat";
+		global.tanggal += 1;
 		global.tampilan = 3;
 	}else if(global.day == "jumat"){
 		global.tampilan = 2;
 		if(global.mode == "pemula"){
 			global.day = "senin";
+			global.tanggal += 3;
 		}else {
 			global.day = "sabtu";
+			global.tanggal += 1;
 		}
 	}else if(global.mode != "pemula" && global.day == "sabtu"){
 		global.day = "senin";
+		global.tanggal += 2;
 	}
-	global.tanggal += 1;
 	global.activity_points = 2;
 	instance_create_depth(
 	    room_width / 2,

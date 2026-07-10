@@ -126,6 +126,7 @@ if(go == true ){
 
 	    if(aktivitas_selected2 == 2 && menu_selected2 >= 0){
 	        global.Uang += 1;
+			global.record[? "Kerja lepas"] += 1
 	    }
 
 	    if (aktivitas_selected2 == 3 && menu_selected2 >= 0){

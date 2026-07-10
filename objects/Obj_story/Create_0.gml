@@ -91,7 +91,6 @@ for (var i = 0; i < array_length(trigger_names); i++)
 		
 	}
 
-
 	if (variable_struct_exists(trig, "sepatu_max"))
 	{
 	    valid = valid && (global.record[? "Sepatu"] <= trig.sepatu_max);
@@ -127,6 +126,20 @@ for (var i = 0; i < array_length(trigger_names); i++)
 	    valid = valid && (global.record[? "Baju"] <= trig.baju_max);
 	}
 	
+	
+	// =========================
+	// KERJA LEPAS
+	// =========================
+	
+	if (variable_struct_exists(trig, "kerja_min"))
+    {
+        valid = valid && (global.inventory[? "Kerja lepas"] >= trig.kerja_min);
+    }
+
+    if (variable_struct_exists(trig, "kerja_max"))
+    {
+        valid = valid && (global.inventory[? "Kerja lepas"] <= trig.kerja_max);
+    }
 	
 	// =========================
 	// PREMIER
@@ -415,6 +428,11 @@ for (var i = 0; i < array_length(trigger_names); i++)
     if (variable_struct_exists(trig, "player"))
     {
         valid = valid && (global.current_player == trig.player);
+    }
+	
+	if (variable_struct_exists(trig, "hari"))
+    {
+        valid = valid && (global.tanggal == trig.hari);
     }
 
 

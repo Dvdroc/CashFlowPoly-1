@@ -1,4 +1,24 @@
 {
+  "A": [
+    ["Alisa", "Alisa", "left", "Halo kamu siapa?"],
+    ["Rechard", "Rechard", "right", "Aku penjaga desa ini."],
+    ["Alisa", "Alisa", "left", "Oh begitu ya."],
+    ["Rechard", "Rechard", "right", "Iya."]
+  ],
+
+  "B": [
+    ["Reno", "Reno", "left", "Aku lapar."],
+    ["Siti", "Siti", "right", "Ya makan sana."],
+    ["Alisa", "Alisa", "left", "Oh begitu ya."],
+    ["Rechard", "Rechard", "right", "Iya."]
+  ],
+
+  "C": [
+    ["Alisa", "Alisa", "left", "Ini desa aneh..."],
+    ["Alisa", "Alisa", "left", "Oh begitu ya."],
+    ["Rechard", "Rechard", "right", "Iya."]
+  ],
+
 "NARASI_NASI_MIN_P0": [
     ["Alisa", "Alisa", "left", "Yeay! Akhirnya kita punya persediaan nasi. Memang terlihat sederhana, tapi memenuhi kebutuhan pokok adalah langkah pertama untuk hidup mandiri."]
 ],
@@ -861,5 +881,5 @@
 "NARASI_MAKANAN_TERJUAL_MAX_P3": [
     ["Siti", "Siti", "left", "Usaha yang dijalankan dengan sabar dan penuh perhatian akan perlahan mendapatkan tempat di hati pelanggan. Semoga jualanmu semakin sukses."]
 ]
-  
+
 }
