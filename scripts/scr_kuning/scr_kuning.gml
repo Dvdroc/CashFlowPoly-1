@@ -3,6 +3,7 @@ function scr_kuning(kartu){
 	var name = card.name
 	
 	if(name == "Investasi emas"){
+		global.player_sebelumnya = global.current_player;
 		global.tampilan = 2
 		scr_save_player()
 		global.current_player = 0;
@@ -20,7 +21,12 @@ function scr_kuning(kartu){
 	}
 	if(name != "Investasi emas"){
 		global.tampilan = 0
-		scr_next_player();
+		if(global.activity_points <= 0){
+			if (global.current_player < 3) global.activity_points = 2;
+			scr_next_player();
+		}else{
+			scr_save_player();
+		}
 	}
 	room_restart();
 }

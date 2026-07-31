@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"hitung_kebahagiaan",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"hitung_kebahagiaan",
+  "parent":{
+    "name":"CashFlowpoly",
+    "path":"folders/Scripts/CashFlowpoly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

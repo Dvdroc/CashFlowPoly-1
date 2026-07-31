@@ -81,7 +81,8 @@ if(go == true ){
 	    }
 
 	    if(pilih_aktivitas == 2 && menu_selected >= 0){
-	        global.Uang += 1;
+	        global.Uang += 5;
+			global.record[? "Kerja lepas"] += 1
 	    }
 
 	    if (pilih_aktivitas == 3 && menu_selected >= 0){
@@ -107,53 +108,14 @@ if(go == true ){
 		        scr_beli_asuransi(menu_selected)
 		    }
 		}
-
-	    // ===== SLOT BAWAH =====
-	    if (aktivitas_selected2 == 0 && menu_selected2 >= 0){
-	        if (_scr_jual_makanan(menu_selected2)){
-	            global.Uang += global.recipes[menu_selected2].harga;
-				if(global.mode == "mahir"){
-					global.tampilan = 1;
-				}
-	        }
-	    }
-
-	    if (aktivitas_selected2 == 1 && menu_selected2 >= 0){
-	        if (_scr_beli_bahan(menu_selected2)){
-	            global.Uang -= global.bahan_baku[menu_selected2].harga;
-	        }
-	    }
-
-	    if(aktivitas_selected2 == 2 && menu_selected2 >= 0){
-	        global.Uang += 1;
-			global.record[? "Kerja lepas"] += 1
-	    }
-
-	    if (aktivitas_selected2 == 3 && menu_selected2 >= 0){
-	        if (_scr_beli_kebutuhan(menu_selected2)){
-	            global.Uang -= global.kebutuhan[menu_selected2].harga;
-	        }
-	    }
-
-	    if (aktivitas_selected2 == 4 && menu_selected2 >= 0){
-	        if (_scr_finansial(menu_selected2)){
-	            global.tabungan -= global.Finansial[menu_selected2].harga;
-	        }
-	    }
-		if(global.mode == "mahir"){
-		    if (aktivitas_selected2 == 5 && menu_selected2 >= 0){
-		        if (_scr_pinjaman(menu_selected2)){
-		            global.Uang += global.pinjamanan[menu_selected2].harga;
-		        }
-		    }
-			if (aktivitas_selected2== 6 && menu_selected2 >= 0){
-		        scr_beli_asuransi(menu_selected2)
-		    }
-		}
-		global.activity_points = 0;
-		if(((aktivitas_selected2 == 0 && menu_selected2 >= 0) || (pilih_aktivitas == 0 && menu_selected >= 0)) && global.mode == "mahir"){
+		global.activity_points -= 1;
+		if(((pilih_aktivitas == 0 && menu_selected >= 0)) && global.mode == "mahir"){
 			scr_save_player();
-		}else scr_next_player()
+		}else if(global.activity_points <= 0){
+			if (global.current_player < 3) global.activity_points = 2
+			scr_next_player()
+		}
+		show_debug_message(string(global.activity_points))
 		room_restart();
 	
 	
@@ -214,7 +176,7 @@ if(go == true ){
 	    // dropdown menu
 	
 		if point_in_rectangle(mx,my,_portrait_x,_portrait_y,1360,700){
-			if((menu_selected != -1 && menu_selected2 != -1) || aktivitas_selected2 == 4 || pilih_aktivitas == 4) go = true;
+			if(menu_selected != -1 || pilih_aktivitas == 4) go = true;
 		
 		}
 	
@@ -312,82 +274,6 @@ if(go == true ){
 		    }
 		}
 	}
-	if dropdown_open == 3
-	{
-	    for (var i = 0; i < visible_items2; i++)
-	    {
-	        var index = i + menu_scroll2;
-	        if index >= array_length(aktivitas_list) break;
-
-	        y = yslot_2heinght + i * 30;
-
-	        if mouse_check_button_pressed(mb_left)
-	        {
-	            if point_in_rectangle(mx,my,400,y,yslot_2,y+30)
-	            {
-	                aktivitas_selected2 = index;
-	                last_input = dropdown_open;
-	                dropdown_open = -1;
-	            }
-	        }
-	    }
-	}
-
-	if dropdown_open == 4{
-	    for (var i = 0; i < visible_items2; i++){
-		    var index = i + menu_scroll2;
-		    if index >= array_length(menu_list2) break;
-		
-			if (aktivitas_selected2 == 4){
-				if global.tabungan < menu_list2[index].harga
-		        {
-		            continue;
-		        }
-			}else if(aktivitas_selected2 == 0){
-				var resep = global.recipes[index];
-				var required = resep.required;
-
-				var cukup = true;
-
-				for (var j = 0; j < array_length(required); j++)
-				{
-				    var r = required[j];
-				    var nama = r.bahan;
-				    var butuh = r.jumlah;
-
-				    if (!ds_map_exists(global.inventory, nama) || global.inventory[? nama] < butuh)
-				    {
-				        cukup = false;
-				        break;
-				    }
-				}
-
-				if (!cukup)
-				{
-				    continue;
-				}
-			}else if (aktivitas_selected2 != 2 && aktivitas_selected2 != 5){
-				if ( aktivitas_selected2 == 6 &&  (global.Uang < menu_list2[index].harga || global.asuransi[0].kondisi)){
-		            continue;
-		        }else if (global.Uang < menu_list2[index].harga)
-		        {
-		            continue;
-		        }
-			}
-
-		    y = yslot_2heinght + i * 30;
-		
-		    if mouse_check_button_pressed(mb_left)
-		    {
-		        if point_in_rectangle(mx,my,600,y,750,y+30)
-		        {
-		            menu_selected2 = index;
-					last_input = dropdown_open;
-		            dropdown_open = -1;
-		        }
-		    }
-		}
-	}
 	var wheel = mouse_wheel_up() - mouse_wheel_down();
 
 	if dropdown_open == 2 || dropdown_open == 1{
@@ -403,22 +289,6 @@ if(go == true ){
 		        menu_scroll,
 		        0,
 		        max(0, array_length(menu_list) - visible_items)
-		    );
-		}
-	}
-	if dropdown_open == 4 || dropdown_open == 3{
-	    menu_scroll2 -= wheel;
-	    if(dropdown_open == 3){
-			menu_scroll2 = clamp(
-		        menu_scroll2,
-		        0,
-		        max(0, array_length(aktivitas_list) - visible_items2)
-		    );
-		}else{
-		    menu_scroll2 = clamp(
-		        menu_scroll2,
-		        0,
-		        max(0, array_length(menu_list2) - visible_items2)
 		    );
 		}
 	}
@@ -480,73 +350,6 @@ if(go == true ){
 				    var new_val = real(input_text + key);
 
 				    if new_val <= max_value
-				    {
-				        input_text += key;
-						input_delay = input_delay_max;
-				    }
-				}
-			}
-		}
-	}
-	if(input_tabungan && !disable2 && last_input == 3 ){
-		if mouse_check_button_pressed(mb_left){
-		    /// klik textbox
-		    if point_in_rectangle(mx,my,input_x1,input_y1,input_x2,input_y2)
-		    {
-		        input_active = true;
-		    }
-		    else
-		    {
-		        input_active = false;
-		    }
-
-		    /// tombol OK
-		    if point_in_rectangle(mx,my,ok_x1,ok_y1,ok_x2,ok_y2)
-		    {
-				if input_text != ""{
-			        var jumlah = real(input_text);
-
-			        if jumlah > max_value
-			        {
-			            jumlah = max_value;
-			        }
-		
-			        show_debug_message("Input: " + string(jumlah));
-					global.tabungan += real(jumlah);
-					global.Uang -= real(jumlah);
-
-			        input_text = "";
-			        input_active = false;
-					input_tabungan = false;
-					disable2 = true;
-				}
-		    }
-
-		    /// tombol cancel
-		    if point_in_rectangle(mx,my,cancel_x1,cancel_y1,cancel_x2,cancel_y2)
-		    {
-		        input_text = "";
-		        input_active = false;
-		    }
-		}
-		if input_active{
-			if (input_delay <= 0){
-			    var key = keyboard_lastchar;
-
-				if keyboard_check_pressed(vk_backspace)
-				{
-				    if string_length(input_text) > 0
-				    {
-				        input_text = string_delete(input_text, string_length(input_text), 1);
-						input_delay = input_delay_max;
-				    }
-				}
-
-				if key >= "0" && key <= "9"
-				{
-				    var new_val = real(input_text + key);
-
-				    if new_val <= max_value	
 				    {
 				        input_text += key;
 						input_delay = input_delay_max;

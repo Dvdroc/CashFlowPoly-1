@@ -430,9 +430,14 @@ for (var i = 0; i < array_length(trigger_names); i++)
         valid = valid && (global.current_player == trig.player);
     }
 	
-	if (variable_struct_exists(trig, "hari"))
+	if (variable_struct_exists(trig, "hari_min"))
     {
-        valid = valid && (global.tanggal == trig.hari);
+        valid = valid && (global.tanggal >= trig.hari);
+    }
+	
+	if (variable_struct_exists(trig, "hari_max"))
+    {
+        valid = valid && (global.tanggal <= trig.hari);
     }
 
 

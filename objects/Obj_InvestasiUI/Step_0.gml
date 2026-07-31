@@ -5,7 +5,18 @@ if(visible){
 	if mouse_check_button_pressed(mb_left)
 	{
 	    // tombol +
-	    if point_in_rectangle(mx,my,ui_x+210,ui_y+70,ui_x+250,ui_y+110)
+	    if point_in_rectangle(mx,my,ui_x + 190, ui_y + 140, ui_x + 220, ui_y + 170)
+	    {
+	        quantity += 1;
+	    }
+
+	    // tombol -
+	    if point_in_rectangle(mx,my,ui_x + 150, ui_y + 140, ui_x + 180, ui_y + 170)
+	    {
+	        if(quantity > 0) quantity -= 1;
+	    }
+		
+		 if point_in_rectangle(mx,my,ui_x+210,ui_y+70,ui_x+250,ui_y+110)
 	    {
 	        if(global.harga_emas < max_harga)
 	        global.harga_emas += 1;
@@ -19,33 +30,53 @@ if(visible){
 	    }
 
 	    // BELI
-	    if point_in_rectangle(mx,my,ui_x+40,ui_y+150,ui_x+160,ui_y+200)
+	    if point_in_rectangle(mx,my,ui_x + 40, ui_y + 180, ui_x + 160, ui_y + 230)
 	    {
 	        if(global.Uang >= global.harga_emas)
 	        {
-	            global.Uang -= global.harga_emas;
-	            global.inventory[? "Emas"] += 1;
-				scr_next_player()
-				if(global.current_player == 3){
+	            global.Uang -= (global.harga_emas * quantity);
+	            global.inventory[? "Emas"] += quantity;
+				if(global.current_player == array_length(global.player) - 1){
+					scr_save_player()
+					if(global.day != "sabtu"){
+						if(global.activity_points <= 0){
+							global.activity_points = 2;
+							scr_next_player()
+						}else{
+							global.current_player = global.player_sebelumnya;
+							global.tampilan = 0;
+						}
+					}
+					global.current_player = global.player_sebelumnya;
 					global.tampilan = 0;
 					global.activity_points = 0
-				}
+				}else scr_next_player()
 				room_restart()
 	        }
 	    }
 
 	    // JUAL
-	    if point_in_rectangle(mx,my,ui_x+200,ui_y+150,ui_x+320,ui_y+200)
+	    if point_in_rectangle(mx,my,ui_x + 200, ui_y + 180, ui_x + 320, ui_y + 230)
 	    {
 	        if(global.inventory[? "Emas"] > 0)
 	        {
-	            global.inventory[? "Emas"] -= 1;
-	            global.Uang += global.harga_emas;
-				scr_next_player()
-				if(global.current_player == 3){
+	            global.inventory[? "Emas"] -= quantity;
+	            global.Uang += (global.harga_emas * quantity);
+				if(global.current_player == array_length(global.player) - 1){
+					scr_save_player()
+					if(global.day != "sabtu"){
+						if(global.activity_points <= 0){
+							global.activity_points = 2;
+							scr_next_player()
+						}else{
+							global.current_player = global.player_sebelumnya;
+							global.tampilan = 0;
+						}
+					}
+					global.current_player = global.player_sebelumnya;
 					global.tampilan = 0;
 					global.activity_points = 0
-				}
+				}else scr_next_player()
 				room_restart()
 	        }
 	    }

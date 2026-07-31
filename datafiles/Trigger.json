@@ -77,7 +77,8 @@
     "makanan_terjual_max": 0,
     //pemain
     "player": 1,
-    "hari": 1
+    "hari_min": 1,
+    "hari_max": 1
   },
   "B": {
     "uang_min": 20,

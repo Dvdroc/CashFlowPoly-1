@@ -5,8 +5,8 @@ function tujuan_finansial(){
 	if(global.mode == "pemula"){
 		aktif = true
 	}else if(global.mode == "mahir"){
-		if (ds_map_exists(global.record, "Pinjaman")){
-		    if (global.record[? "Pinjaman"] == 0)
+		if (ds_map_exists(global.inventory, "Pinjaman")){
+		    if (global.inventory[? "Pinjaman"] == 0)
 		    {
 		        aktif = true;
 		    }
@@ -23,6 +23,6 @@ function tujuan_finansial(){
 	            }
 	        }
 	    }
-		return total
 	}
+	return total
 }

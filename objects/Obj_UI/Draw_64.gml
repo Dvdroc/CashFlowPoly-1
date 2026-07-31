@@ -75,33 +75,6 @@ if(!(aktivitas_selected == 4 && aktivitas_selected2 == 4)){
 
 
 // ===============================
-// BARIS BAWAH
-// ===============================
-
-// aktivitas
-draw_set_color(c_dkgray);
-draw_rectangle(400,yslot_2,550,yslot_2heinght,false);
-
-draw_set_color(c_white);
-draw_text(410,yslot_2 + 10,aktivitas_list[aktivitas_selected2]);
-
-
-// menu
-draw_set_color(c_dkgray);
-draw_rectangle(600,yslot_2,750,yslot_2heinght,false);
-
-draw_set_color(c_white);
-
-if(menu_selected2 == -1){
-	draw_text(610,yslot_2 + 10,"Pilih");
-}
-else{
-	draw_text(610,yslot_2 + 10,menu_list2[menu_selected2].name);
-}
-
-
-
-// ===============================
 // DROPDOWN PEMAIN
 // ===============================
 
@@ -202,92 +175,6 @@ if dropdown_open == 2
 	    draw_text(610,y+5, menu_list[index].name);
 	}
 }
-
-
-
-// ===============================
-// DROPDOWN AKTIVITAS BAWAH
-// ===============================
-
-if dropdown_open == 3
-{
-	for (var i = 0; i < visible_items2; i++){
-		var index = i + menu_scroll2;
-		if index >= array_length(aktivitas_list) break;
-
-		y = yslot_2heinght + i * 30;
-
-		draw_set_color(c_dkgray);
-		draw_rectangle(400,y,550,y+30,false);
-
-		draw_set_color(c_white);
-		draw_text(410,y+5, aktivitas_list[index]);
-	}
-}
-
-
-
-// ===============================
-// DROPDOWN MENU BAWAH
-// ===============================
-
-if dropdown_open == 4
-{
-	for (var i = 0; i < visible_items2; i++){
-	    var index = i + menu_scroll2;
-	    if index >= array_length(menu_list2) break;
-
-	    y = yslot_2heinght + i * 30;
-
-	    var text_color = c_white;
-
-	    if (aktivitas_selected2 == 4)
-	    {
-	        if (global.tabungan < menu_list2[index].harga)
-	        {
-	            text_color = c_gray;
-	        }
-	    }
-	    else if (aktivitas_selected2 == 0)
-	    {
-	        var resep = global.recipes[index];
-	        var required = resep.required;
-
-	        var cukup = true;
-
-	        for (var j = 0; j < array_length(required); j++)
-	        {
-	            var r = required[j];
-	            var nama = r.bahan;
-	            var butuh = r.jumlah;
-
-	            if (!ds_map_exists(global.inventory, nama) || global.inventory[? nama] < butuh)
-	            {
-	                cukup = false;
-	                break;
-	            }
-	        }
-
-	        if (!cukup)
-	        {
-	            text_color = c_gray;
-	        }
-	    }else if (aktivitas_selected2 != 2 && aktivitas_selected2 != 5){
-			if ( aktivitas_selected2 == 6 &&  (global.Uang < menu_list2[index].harga || global.asuransi[0].kondisi)){
-	            text_color = c_gray;
-	        }else if (global.Uang < menu_list2[index].harga){
-	            text_color = c_gray;
-	        }
-		}
-
-	    draw_set_color(c_dkgray);
-	    draw_rectangle(600,y,750,y+30,false);
-
-	    draw_set_color(text_color);
-	    draw_text(610,y+5, menu_list2[index].name);
-	}
-}
-
 
 // ===============================
 // INPUT TABUNGAN

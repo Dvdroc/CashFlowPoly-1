@@ -92,6 +92,7 @@ if (!variable_global_exists("recipes")) {
     // Struktur: name, required (array bahan), count (jumlah yang dihasilkan)
     global.recipes = array_create(0);
 	global.tampilan_sebelumnya = 0
+	global.player_sebelumnya = 0
 	//2 bahan
 	array_push(global.recipes,{
 		name: "Nasi goreng",
@@ -473,7 +474,7 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 		global.day = "senin";
 		global.tanggal += 2;
 	}
-	global.activity_points = 2;
+	global.activity_points = 2
 	instance_create_depth(
 	    room_width / 2,
 	    room_height / 2,

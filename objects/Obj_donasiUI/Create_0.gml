@@ -2,7 +2,7 @@ ui_x = 200;
 ui_y = 150;
 
 pemain_list = global.player;
-
+donasi_selesai = array_create(array_length(pemain_list), false);
 juara = [-1,-1,-1,-1];
 var panel_w = 200;
 var spacing = 20;

@@ -48,7 +48,12 @@ if(visible){
 						}
 						if(kartu.warna != "kuning"){
 							global.tampilan = 0;
-							scr_next_player()
+							if(global.activity_points <= 0){
+								if (global.current_player < 3) global.activity_points = 2;
+								scr_next_player();
+							}else{
+								scr_save_player();
+							}
 							room_restart()
 						}
 						show_debug_message("Kartu dipilih: " + kartu.name);

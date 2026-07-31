@@ -1,10 +1,9 @@
 var panel_w = 200;
-var panel_h = 260;
+var panel_h = 310;
 var spacing = 20;
 
 var mx = device_mouse_x_to_gui(0);
 var my = device_mouse_y_to_gui(0);
-
 
 
 for(var p=0; p<array_length(pemain_list); p++){
@@ -19,37 +18,53 @@ for(var p=0; p<array_length(pemain_list); p++){
 	
 	
     // tombol juara
-    for(var j=1;j<=3;j++)
-    {
-        var bx1 = px + 20;
-        var by1 = ui_y + 80 + (j * 40);
-        var bx2 = bx1 + 160;
-        var by2 = by1 + 35;
+	for (var j = 1; j <= 4; j++)
+	{
+	    var bx1 = px + 20;
+	    var by1 = ui_y + 80 + (j * 40);
+	    var bx2 = bx1 + 160;
+	    var by2 = by1 + 35;
 
-        var hover = point_in_rectangle(mx,my,bx1,by1,bx2,by2);
+	    var hover = point_in_rectangle(mx, my, bx1, by1, bx2, by2);
 
-        if(juara[p] == j)
-            draw_set_color(make_color_rgb(0,200,0));
-        else if(hover)
-            draw_set_color(make_color_rgb(0,255,150));
-        else
-            draw_set_color(make_color_rgb(0,140,0));
+	    if (juara[p] == j)
+	        draw_set_color(make_color_rgb(0,200,0));
+	    else if (hover)
+	        draw_set_color(make_color_rgb(0,255,150));
+	    else
+	        draw_set_color(make_color_rgb(0,140,0));
 
-        draw_rectangle(bx1,by1,bx2,by2,false);
+	    draw_rectangle(bx1, by1, bx2, by2, false);
 
-        draw_set_color(c_white);
-        draw_text((bx1+bx2)/2,by1+8,"JUARA "+string(j));
-		
-    }
+	    draw_set_color(c_white);
+
+	    if (j == 4)
+	        draw_text((bx1+bx2)/2, by1+8, "TIDAK JUARA");
+	    else
+	        draw_text((bx1+bx2)/2, by1+8, "JUARA " + string(j));
+	}
 
     // hasil
     draw_set_halign(fa_center);
 
-    if(juara[p] != -1)
-    {
-        draw_text(px+panel_w/2,ui_y+230,
-        pemain_list[p]+" : Juara "+string(juara[p]));
-    }
+    if (juara[p] != -1)
+	{
+	    var hasil;
+
+	    switch (juara[p])
+	    {
+	        case 1: hasil = "Juara 1"; break;
+	        case 2: hasil = "Juara 2"; break;
+	        case 3: hasil = "Juara 3"; break;
+	        case 4: hasil = "Tidak Juara"; break;
+	    }
+
+	    draw_text(
+	        px + panel_w / 2,
+	        ui_y + 280,
+	        pemain_list[p] + " : " + hasil
+	    );
+	}
 }
 if (input_active)
 {

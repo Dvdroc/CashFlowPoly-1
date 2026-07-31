@@ -38,33 +38,36 @@ if(tampilkan_misi){
 	    }
 	}
 }
-var box_w = 220;
-var box_h = 95; // diperbesar
+if(global.tanggal <=25){
+	var box_w = 220;
+	var box_h = 120; // diperbesar
 
-var xx = 20;
-var yy = 20;
+	var xx = 20;
+	var yy = 20;
 
-// Background
-draw_set_alpha(0.8);
-draw_set_color(c_black);
-draw_roundrect(xx, yy, xx + box_w, yy + box_h, false);
+	// Background
+	draw_set_alpha(0.8);
+	draw_set_color(c_black);
+	draw_roundrect(xx, yy, xx + box_w, yy + box_h, false);
 
-// Border
-draw_set_alpha(1);
-draw_set_color(c_white);
-draw_roundrect(xx, yy, xx + box_w, yy + box_h, true);
+	// Border
+	draw_set_alpha(1);
+	draw_set_color(c_white);
+	draw_roundrect(xx, yy, xx + box_w, yy + box_h, true);
 
-// Text
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-draw_set_color(c_white);
+	// Text
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_middle);
+	draw_set_color(c_white);
 
-draw_text(xx + box_w/2, yy + 20, "HARI KE-" + string(global.tanggal));
-draw_text(xx + box_w/2, yy + 45, string_upper(global.day));
-draw_text(xx + box_w/2, yy + 70, "UANG : " + string(global.Uang));
+	draw_text(xx + box_w / 2, yy + 20, "HARI KE-" + string(global.tanggal));
+	draw_text(xx + box_w / 2, yy + 45, string_upper(global.day));
+	draw_text(xx + box_w / 2, yy + 70, "UANG : " + string(global.Uang));
+	draw_text(xx + box_w / 2, yy + 95, "KEBAHAGIAAN : " + string(hitung_kebahagiaan()));
 
-// Reset
-draw_set_halign(fa_left);
-draw_set_valign(fa_top);
-draw_set_alpha(1);
-draw_set_color(c_white);
+	// Reset
+	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
+	draw_set_alpha(1);
+	draw_set_color(c_white);
+}
