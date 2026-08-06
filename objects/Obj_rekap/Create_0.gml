@@ -11,5 +11,5 @@ kategori_skor = [
 ];
 skor = array_create(array_length(kategori_skor));
 pemain_list = global.player;
-nama = global.player;
+nama = ["Alisa", "Rechard", "Reno", "Siti"]
 

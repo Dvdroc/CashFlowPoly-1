@@ -114,7 +114,7 @@ if(go == true ){
 		}else if(global.activity_points <= 0){
 			if (global.current_player < 3) global.activity_points = 2
 			scr_next_player()
-		}
+		}else scr_save_player()
 		show_debug_message(string(global.activity_points))
 		room_restart();
 	

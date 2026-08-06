@@ -45,11 +45,14 @@ if(visible){
 						}else{
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
+							scr_load_player()
 						}
+					}else{
+						global.tampilan = 0;
+						global.activity_points = 0
+						global.current_player = 0
+						scr_load_player()
 					}
-					global.current_player = global.player_sebelumnya;
-					global.tampilan = 0;
-					global.activity_points = 0
 				}else scr_next_player()
 				room_restart()
 	        }
@@ -71,11 +74,14 @@ if(visible){
 						}else{
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
+							scr_load_player()
 						}
+					}else{
+						global.tampilan = 0;
+						global.activity_points = 0
+						global.current_player = 0
+						scr_load_player()
 					}
-					global.current_player = global.player_sebelumnya;
-					global.tampilan = 0;
-					global.activity_points = 0
 				}else scr_next_player()
 				room_restart()
 	        }

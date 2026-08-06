@@ -1,10 +1,21 @@
-function scr_pensiun(juara, pemain_list){
-   var jumlah_pemain = array_length(pemain_list);
+function scr_pensiun(juara, pemain_list)
+{
+    var jumlah_pemain = array_length(pemain_list);
 
-    for (var i = 0; i < jumlah_pemain; i++){
+    for (var i = 0; i < jumlah_pemain; i++)
+    {
         if (juara[i] > 0)
         {
             var index = juara[i] - 1;
+
+            if (index < 0 || index >= array_length(global.dana_pensiun))
+            {
+                show_debug_message(
+                    "Index error di juara[" + string(i) + "] = " + string(juara[i])
+                );
+                continue;
+            }
+
             var nama_donasi = global.dana_pensiun[index].name;
 
             var record = global.player_data[i].record;
@@ -15,7 +26,7 @@ function scr_pensiun(juara, pemain_list){
             }
         }
     }
-	global.rekap = true;
-    // update player aktif supaya global.record ikut berubah
+
+    global.rekap = true;
     scr_load_player();
 }
