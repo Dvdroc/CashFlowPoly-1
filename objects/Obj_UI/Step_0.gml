@@ -81,7 +81,7 @@ if(go == true ){
 	    }
 
 	    if(pilih_aktivitas == 2 && menu_selected >= 0){
-	        global.Uang += 5;
+	        global.Uang += 1;
 			global.record[? "Kerja lepas"] += 1
 	    }
 
