@@ -79,6 +79,8 @@ if (keyboard_check_pressed(ord("Q"))){
 
 if (tampilkan_misi)
 {
+	if(global.uiblocking) exit;
+	if(global.misi_T != -1) tampilkan_misi = false
 	var mx = device_mouse_x_to_gui(0);
 	var my = device_mouse_y_to_gui(0);
 

@@ -1,7 +1,7 @@
 function scr_next_player(){
 	// simpan player sekarang
 	scr_save_player();
-
+	save_game_to_slot(0);
 	global.current_player++;
 
 		if (global.current_player > 3)

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"save_game_to_slot",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"save_game_to_slot",
+  "parent":{
+    "name":"CashFlowpoly",
+    "path":"folders/Scripts/CashFlowpoly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

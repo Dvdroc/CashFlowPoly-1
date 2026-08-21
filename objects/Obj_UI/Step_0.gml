@@ -1,4 +1,5 @@
 if(visible){
+	if(global.uiblocking) exit;
 	var pilih_aktivitas = aktivitas_selected;
 	if (pilih_aktivitas == 0){
 	    menu_list = global.recipes;

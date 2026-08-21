@@ -18,6 +18,7 @@
     {"name":"inst_4CFE6B54","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5B39B208","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_2309E2CF","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_17FA6FF8","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -35,6 +36,7 @@
         {"$GMRInstance":"v2","%Name":"inst_5E9E41ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5E9E41ED","objectId":{"name":"Obj_rekap","path":"objects/Obj_rekap/Obj_rekap.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1248.0,"y":256.0,},
         {"$GMRInstance":"v2","%Name":"inst_4CFE6B54","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4CFE6B54","objectId":{"name":"Obj_story","path":"objects/Obj_story/Obj_story.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":672.0,"y":416.0,},
         {"$GMRInstance":"v2","%Name":"inst_2309E2CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2309E2CF","objectId":{"name":"obj_turn_transition","path":"objects/obj_turn_transition/obj_turn_transition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":416.0,},
+        {"$GMRInstance":"v2","%Name":"inst_17FA6FF8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_17FA6FF8","objectId":{"name":"obj_save_load_menu","path":"objects/obj_save_load_menu/obj_save_load_menu.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":512.0,},
       ],"layers":[],"name":"GUI","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
   ],
   "name":"Room2",

@@ -1,4 +1,5 @@
 if (visible){
+	if(global.uiblocking) exit;
 	pemain_list = global.player;
 	var jumlah_player = array_length(pemain_list);
 	var jumlah_kategori = array_length(kategori_skor);

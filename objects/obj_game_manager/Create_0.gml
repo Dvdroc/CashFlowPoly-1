@@ -272,6 +272,7 @@ if (!variable_global_exists("day")) {
 	global.activity_points = 2;
 	global.hargapoko = false
 	global.testing = false;
+	global.uiblocking = false;
 	global.pekan = 0
 	global.rekap = false;
 }
