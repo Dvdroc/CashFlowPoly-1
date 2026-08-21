@@ -42,6 +42,8 @@ if(visible){
 					if(global.day != "sabtu"){
 						if(global.activity_points <= 0){
 							global.activity_points = 2;
+							global.current_player = global.player_sebelumnya;
+							global.tampilan = 0;
 							scr_next_player()
 						}else{
 							global.current_player = global.player_sebelumnya;
@@ -71,6 +73,8 @@ if(visible){
 					if(global.day != "sabtu"){
 						if(global.activity_points <= 0){
 							global.activity_points = 2;
+							global.current_player = global.player_sebelumnya;
+							global.tampilan = 0;
 							scr_next_player()
 						}else{
 							global.current_player = global.player_sebelumnya;
