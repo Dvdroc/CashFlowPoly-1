@@ -2,7 +2,7 @@
   "$GMProject":"v1",
   "%Name":"CashFlowPoly 1",
   "AudioGroups":[
-    {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -39,7 +39,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.13.1.193",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"CashFlowPoly 1",
   "resources":[
@@ -89,6 +89,7 @@
     {"id":{"name":"scr_pensiun","path":"scripts/scr_pensiun/scr_pensiun.yy",},},
     {"id":{"name":"scr_pink","path":"scripts/scr_pink/scr_pink.yy",},},
     {"id":{"name":"scr_save_player","path":"scripts/scr_save_player/scr_save_player.yy",},},
+    {"id":{"name":"scr_send_api","path":"scripts/scr_send_api/scr_send_api.yy",},},
     {"id":{"name":"set_kebutuhan","path":"scripts/set_kebutuhan/set_kebutuhan.yy",},},
     {"id":{"name":"tujuan_finansial","path":"scripts/tujuan_finansial/tujuan_finansial.yy",},},
     {"id":{"name":"KleptoLindaCavernsA_Loopable","path":"sounds/KleptoLindaCavernsA_Loopable/KleptoLindaCavernsA_Loopable.yy",},},

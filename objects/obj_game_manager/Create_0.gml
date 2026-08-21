@@ -465,10 +465,12 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 	}else if(global.day == "jumat"){
 		if(global.mode == "pemula"){
 			global.day = "senin";
+			global.tampilan = 0;
 			global.tanggal += 3;
 			global.tampilan = 0;
 		}else {
 			global.day = "sabtu";
+			global.tampilan = 2;
 			global.tanggal += 1;
 			global.tampilan = 2;
 		}
