@@ -54,12 +54,12 @@ if(visible){
 						}
 					}else{
 						global.tampilan = 0;
-						global.activity_points = 0
-						global.current_player = 0
-						scr_load_player()
+						global.activity_points = 0;
+						global.current_player = 0;
+						scr_load_player();
 					}
-				}else scr_next_player()
-				room_restart()
+				}else scr_next_player();
+				room_restart();
 	        }
 	    }
 

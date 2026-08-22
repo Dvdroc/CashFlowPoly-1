@@ -432,12 +432,12 @@ for (var i = 0; i < array_length(trigger_names); i++)
 	
 	if (variable_struct_exists(trig, "hari_min"))
     {
-        valid = valid && (global.tanggal >= trig.hari);
+        valid = valid && (global.tanggal >= trig.hari_min);
     }
 	
 	if (variable_struct_exists(trig, "hari_max"))
     {
-        valid = valid && (global.tanggal <= trig.hari);
+        valid = valid && (global.tanggal <= trig.hari_max);
     }
 
 
