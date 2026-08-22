@@ -41,14 +41,16 @@ if(visible){
 					scr_save_player()
 					if(global.day != "sabtu"){
 						if(global.activity_points <= 0){
-							global.activity_points = 2;
+							if(global.player_sebelumnya != array_length(global.player) - 1){
+						        global.activity_points = 2;
+						    }
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
-							scr_next_player()
+							scr_next_player();
 						}else{
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
-							scr_load_player()
+							scr_load_player();
 						}
 					}else{
 						global.tampilan = 0;
@@ -72,20 +74,22 @@ if(visible){
 					scr_save_player()
 					if(global.day != "sabtu"){
 						if(global.activity_points <= 0){
-							global.activity_points = 2;
+							if(global.player_sebelumnya != array_length(global.player) - 1){
+						        global.activity_points = 2;
+						    }
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
-							scr_next_player()
+							scr_next_player();
 						}else{
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
-							scr_load_player()
+							scr_load_player();
 						}
 					}else{
 						global.tampilan = 0;
 						global.activity_points = 0
 						global.current_player = 0
-						scr_load_player()
+						scr_load_player();
 					}
 				}else scr_next_player()
 				room_restart()
