@@ -1,6 +1,6 @@
 function scr_send_api() {
     // 1. Alamat Backend
-    var _url = "http://localhost:8000/games";
+    var _url = "http://cashflowpoly.cloud:8000/games";
     
     // 2. Siapkan Header
     var _headers = ds_map_create();
