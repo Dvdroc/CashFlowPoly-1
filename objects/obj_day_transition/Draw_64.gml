@@ -1,4 +1,4 @@
-if(global.tanggal <= 25){
+if(global.tanggal <= 25 || global.endgame = true){
 	// Background hitam transparan
 	draw_set_alpha(alpha * 0.6);
 	draw_set_color(c_black);

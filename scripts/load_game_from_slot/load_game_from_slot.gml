@@ -4,6 +4,36 @@ function load_game_from_slot(_slot) {
         show_message_popup("Slot kosong!");
         return;
     }
+	var _log_path = program_directory + "match_log.json";
+
+	if (file_exists(_log_path))
+	{
+	    var _file = file_text_open_read(_log_path);
+	    var _json = "";
+
+	    // Baca SEMUA baris JSON
+	    while (!file_text_eof(_file))
+	    {
+	        _json += file_text_read_string(_file);
+	        file_text_readln(_file);
+	    }
+
+	    file_text_close(_file);
+
+	    if (string_length(string_trim(_json)) > 0)
+	    {
+	        global.match_logs = json_parse(_json);
+	    }
+	    else
+	    {
+	        global.match_logs = [];
+	    }
+	}
+	else
+	{
+	    global.match_logs = [];
+	}
+
 
     // --- Kembalikan data global ---
     global.day             = _data.day;
@@ -12,7 +42,6 @@ function load_game_from_slot(_slot) {
     global.tampilan        = _data.tampilan;
     global.current_player  = _data.current_player;
 	global.mode			   = _data.mode;
-	
 	// --- Terapkan progress story ---
 	if (variable_struct_exists(_data, "story_remaining")) {
 	    var _remaining = _data.story_remaining;
@@ -36,7 +65,7 @@ function load_game_from_slot(_slot) {
 	    }
 	}
 	
-    var nama = ["Alisa", "Rechard", "Reno", "Siti"];
+    var nama = global.player;
 
     for (var p = 0; p < array_length(_data.players); p++) {
         var entry     = _data.players[p];
@@ -46,7 +75,8 @@ function load_game_from_slot(_slot) {
         target.uang     = snapshot.uang;
         target.tabungan = snapshot.tabungan;
         target.misi_T   = snapshot.misi_T;
-
+		
+		global.player[p] = entry.nama;
         // Rebuild inventory (struct -> ds_map)
         ds_map_clear(target.inventory);
         var inv_keys = variable_struct_get_names(snapshot.inventory);

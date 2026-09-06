@@ -80,7 +80,9 @@ if (global.testing)
 	var start_x = 150;
 	var start_y = 50;
 	var jarak_x = 300; // jarak antar player ke samping
-
+	draw_set_color(c_dkgray);
+	draw_rectangle(0,0, room_width, room_height,false)
+	draw_set_color(c_white)
 	for (var i = 0; i < array_length(global.player_data); i++)
 	{
 	    var data = global.player_data[i];
@@ -90,7 +92,8 @@ if (global.testing)
 
 	    // === HEADER PLAYER ===
 	    var status = (i == global.current_player) ? " (AKTIF)" : "";
-	    draw_text(x, y, "=== PLAYER " + string(i) + status + " ===");
+		var nama_tampil = (i < array_length(global.player)) ? global.player[i] : ("Player " + string(i+1));
+		draw_text(x, y, "=== " + string_upper(nama_tampil) + status + " ===");
 
 	    // === INFO UTAMA ===
 	    draw_text(x, y + 20, "Uang: " + string(data.uang));
@@ -141,7 +144,7 @@ if (global.testing)
 
 	        for (var a = 0; a < array_length(data.asuransi); a++)
 	        {
-	            draw_text(x, y + offset_asuransi + 20 + a * 15, string(data.asuransi[a].name));
+	            draw_text(x, y + offset_asuransi + 20 + a * 15, string(data.asuransi[a].kondisi));
 	        }
 	    }
 	}

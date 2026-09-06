@@ -28,7 +28,7 @@ panel_h   = 380;
 panel_x   = (display_get_gui_width()  - panel_w) / 2;
 panel_y   = (display_get_gui_height() - panel_h) / 2;
 
-tab_w = panel_w / 2;
+tab_w = panel_w / 3;
 tab_h = 48;
 
 slot_h    = 72;
@@ -81,6 +81,8 @@ function get_slot_info(_slot) {
         return undefined;
     }
 }
+
+
 
 function save_game_to_slot(_slot) {
     var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";

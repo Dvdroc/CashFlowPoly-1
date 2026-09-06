@@ -22,7 +22,7 @@ if (visible)
 
                 if (point_in_rectangle(mx, my, bx1, by1, bx2, by2))
                 {
-                    if (global.tanggal <= 25)
+                    if (global.tanggal <= 25 && global.endgame = false)
                     {
                         // Sudah selesai input donasi -> tidak boleh diubah lagi
                         if (donasi[p] != -1)
@@ -130,7 +130,7 @@ if (visible)
     //=========================================
     // MODE PENSIUN
     //=========================================
-    if (global.tanggal > 25)
+    if (global.tanggal > 25 || global.endgame = true)
     {
         var j1 = false;
         var j2 = false;

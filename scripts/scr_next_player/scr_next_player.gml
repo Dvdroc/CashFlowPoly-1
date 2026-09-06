@@ -10,7 +10,6 @@ function scr_next_player(){
 		}
 
 	// load player berikutnya
-	save_game_to_slot(0);
 	scr_load_player();
 
 }

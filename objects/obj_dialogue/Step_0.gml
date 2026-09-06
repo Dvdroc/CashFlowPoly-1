@@ -1,4 +1,4 @@
-if(global.tanggal > 25) exit;
+if(global.tanggal > 25 || global.endgame = true) exit;
 
 // =======================================================
 // B. LOGIKA UMUM (Navigasi dan Penutupan)

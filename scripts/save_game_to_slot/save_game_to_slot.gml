@@ -1,7 +1,7 @@
 function save_game_to_slot(_slot) {
     var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";
 
-    var nama = ["Alisa", "Rechard", "Reno", "Siti"];
+    var nama = global.player;
     var all_players = [];
 
     for (var p = 0; p < array_length(nama); p++) {

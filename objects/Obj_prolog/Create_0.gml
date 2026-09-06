@@ -4,6 +4,6 @@ dialog_lines = [
 
 asset = ["Alisa", "Rechard", "Reno", "Siti"]
 index_sprite = asset_get_index(asset[global.current_player]);
-nama = ["Alisa", "Rechard", "Reno", "Siti"]
+nama = global.player
 index_name = nama[global.current_player]
 dialog_index = 0;

@@ -74,7 +74,7 @@ function scr_save_player(){
 		    "misi_T": data.misi_T
 		};
 	
-		var nama = ["Alisa", "Rechard", "Reno", "Siti"]
+		var nama = global.player
 		var index_name = nama[p]
 		var turn_data = {
 		    "turn": global.day,

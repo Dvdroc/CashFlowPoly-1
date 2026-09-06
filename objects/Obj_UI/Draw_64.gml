@@ -245,7 +245,8 @@ if (global.testing)
 
 	    // === HEADER PLAYER ===
 	    var status = (i == global.current_player) ? " (AKTIF)" : "";
-	    draw_text(x, y, "=== PLAYER " + string(i) + status + " ===");
+		var nama_tampil = (i < array_length(global.player)) ? global.player[i] : ("Player " + string(i+1));
+		draw_text(x, y, "=== " + string_upper(nama_tampil) + status + " ===");
 
 	    // === INFO UTAMA ===
 	    draw_text(x, y + 20, "Uang: " + string(data.uang));

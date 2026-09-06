@@ -52,7 +52,7 @@ if (global.tampilan == 5) {
 	Obj_rekap.visible = false;
 	Obj_story.visible = true;
 }
-if(global.tanggal > 25){
+if(global.tanggal > 25 || global.endgame = true){
 	if(global.rekap == false){
 		global.tampilan = 3
 	}else global.tampilan = 4;

@@ -3,8 +3,6 @@
 if (!variable_global_exists("recipes")) {
 	
 	/// PLAYER SYSTEM
-
-	global.player = ["Pemain 1","Pemain 2","Pemain 3","Pemain 4"];
 	global.current_player = 0;
 	global.match_logs = array_create(0);
 	var pcount = array_length(global.player);
@@ -258,8 +256,10 @@ tampilkan_misi = true
 if (!variable_global_exists("Uang")) {
 	global.Uang = 20;
 	global.tabungan = 0;
+	global.harga_emas = 5;
 	global.tampilan = 5;
 	global.misi_T = -1;
+	global.endgame = false;
 }
 
 if (!variable_global_exists("kebahagiaan")) {
@@ -447,8 +447,9 @@ my_font = font_add("Arial", 15, false, false, 0, 0);
 
 // cek jika poin sudah 0
 if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan != 1) {
-	if (global.tampilan == 2 && global.day != "sabtu")
-        exit;
+	if (global.tampilan == 2 && global.day != "sabtu") exit;
+	global.activity_points = 2
+	save_game_to_slot(0);
 	if(global.day == "senin"){
 		global.day = "selasa";
 		global.tanggal += 1;
@@ -478,7 +479,6 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 		global.day = "senin";
 		global.tanggal += 2;
 	}
-	global.activity_points = 2
 	instance_create_depth(
 	    room_width / 2,
 	    room_height / 2,
@@ -491,14 +491,14 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 		}
 	}
 }
+if (array_length(global.match_logs) > 0){
+	var json = json_stringify(global.match_logs, true);
 
-var json = json_stringify(global.match_logs, true);
+	var file = file_text_open_write(
+	   program_directory + "match_log.json"
+	);
 
-var file = file_text_open_write(
-   program_directory + "match_log.json"
-);
-
-file_text_write_string(file, json);
-file_text_close(file);
-
+	file_text_write_string(file, json);
+	file_text_close(file);
+}
 

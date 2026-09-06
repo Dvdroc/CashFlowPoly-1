@@ -1,7 +1,7 @@
 
 asset = ["Alisa", "Rechard", "Reno", "Siti"]
 next_sprite = asset_get_index(asset[global.current_player]);
-nama = ["Alisa", "Rechard", "Reno", "Siti"]
+nama = global.player
 next_name = nama[global.current_player]
 dialog_index = 0;
 

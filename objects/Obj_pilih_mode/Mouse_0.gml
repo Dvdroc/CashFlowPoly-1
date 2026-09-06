@@ -1,3 +1,4 @@
+if (!global.nama_selesai) exit;
 if (!instance_exists(obj_mugshot)){
 	if (image_index == 0)
 		global.mode = "pemula";

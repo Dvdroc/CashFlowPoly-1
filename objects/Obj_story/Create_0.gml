@@ -2,7 +2,7 @@ dialogue = noone
 instance_create_layer(0, 0, "GUI", Obj_story_database);
 	asset = ["Alisa", "Rechard", "Reno", "Siti"]
 	index_sprite = asset_get_index(asset[global.current_player]);
-	nama = ["Alisa", "Rechard", "Reno", "Siti"]
+	nama = global.player
 	index_name = nama[global.current_player]
 	
 	
