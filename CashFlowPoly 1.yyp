@@ -34,6 +34,7 @@
   ],
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Quest.json","CopyToMask":-1,"filePath":"datafiles","name":"Quest.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Story.json","CopyToMask":-1,"filePath":"datafiles","name":"Story.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Trigger.json","CopyToMask":-1,"filePath":"datafiles","name":"Trigger.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
