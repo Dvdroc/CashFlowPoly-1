@@ -39,6 +39,7 @@ if(tampilkan_misi){
 	}
 }
 if(global.tanggal <=25){
+	
 	var box_w = 220;
 	var box_h = 120; // diperbesar
 
@@ -64,7 +65,27 @@ if(global.tanggal <=25){
 	draw_text(xx + box_w / 2, yy + 45, string_upper(global.day));
 	draw_text(xx + box_w / 2, yy + 70, "UANG : " + string(global.Uang));
 	draw_text(xx + box_w / 2, yy + 95, "KEBAHAGIAAN : " + string(hitung_kebahagiaan()));
+	if(!tampilkan_misi){
+		if (misi_info != noone){
+			// Background
+			draw_set_alpha(0.8);
+			draw_set_color(c_black);
+			draw_roundrect(panel_x, panel_y, panel_x + panel_w, panel_y + panel_h, false);
 
+			// Border
+			draw_set_alpha(1);
+			draw_set_color(c_white);
+			draw_roundrect(panel_x, panel_y, panel_x + panel_w, panel_y + panel_h, true);
+		
+
+			draw_set_color(c_white);
+			draw_set_halign(fa_left);
+			draw_set_valign(fa_top);
+
+			draw_text(panel_x + 12, panel_y + 8, "Misi " + global.player[global.current_player] + ":" + " (" + string(misi_info.index_ke) + "/" + string(misi_info.total) + ")");
+			draw_text(panel_x + 12, panel_y + 28, misi_info.nama);
+		}
+	}
 	// Reset
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_top);

@@ -1,6 +1,18 @@
 {
-  "0": ["NARASI_NASI_MIN_P0", "NARASI_NASI_MAX_P0", "NARASI_SAYUR_MIN_P0", "NARASI_SAYUR_MAX_P0"],
-  "1": ["NARASI_NASI_MIN_P1", "NARASI_NASI_MAX_P1", "NARASI_SAYUR_MIN_P1", "NARASI_SAYUR_MAX_P1"],
-  "2": ["NARASI_NASI_MIN_P2", "NARASI_NASI_MAX_P2", "NARASI_SAYUR_MIN_P2", "NARASI_SAYUR_MAX_P2"],
-  "3": ["NARASI_NASI_MIN_P3", "NARASI_NASI_MAX_P3", "NARASI_SAYUR_MIN_P3", "NARASI_SAYUR_MAX_P3"]
+  "0": [
+    {"id": "NARASI_NASI_MIN_P0", "nama": "Kumpulkan 1 Nasi"},
+    {"id": "NARASI_NASI_MAX_P0", "nama": "Kumpulkan 4 Nasi"},
+    {"id": "NARASI_SAYUR_MIN_P0", "nama": "Kumpulkan 1 Sayur"},
+    {"id": "NARASI_SAYUR_MAX_P0", "nama": "Kumpulkan 4 Sayur"}
+  ],
+  "1": [
+    {"id": "NARASI_NASI_MIN_P1", "nama": "Kumpulkan 1 Nasi"},
+    {"id": "NARASI_NASI_MAX_P1", "nama": "Kumpulkan 4 Nasi"}
+  ],
+  "2": [
+    {"id": "NARASI_NASI_MIN_P2", "nama": "Kumpulkan 1 Nasi"}
+  ],
+  "3": [
+    {"id": "NARASI_NASI_MIN_P3", "nama": "Kumpulkan 1 Nasi"}
+  ]
 }

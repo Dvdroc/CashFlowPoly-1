@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_get_misi_aktif",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_get_misi_aktif",
+  "parent":{
+    "name":"CashFlowpoly",
+    "path":"folders/Scripts/CashFlowpoly.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

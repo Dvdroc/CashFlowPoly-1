@@ -501,4 +501,8 @@ if (array_length(global.match_logs) > 0){
 	file_text_write_string(file, json);
 	file_text_close(file);
 }
-
+misi_info = noone;
+panel_x = display_get_gui_width() - 380;
+panel_y = 16;
+panel_w = 320;
+panel_h = 60;

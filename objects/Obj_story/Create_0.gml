@@ -54,7 +54,8 @@ if (variable_struct_exists(global.quest_chain, player_key))
 
     for (var qi = 0; qi < array_length(chain); qi++)
     {
-        var story_id = chain[qi];
+        var quest_entry = chain[qi];
+		var story_id    = quest_entry.id;
 
         // =========================
         // STEP 1: STORY JSON ADA ATAU TIDAK

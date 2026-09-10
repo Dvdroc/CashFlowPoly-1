@@ -83,6 +83,7 @@
     {"id":{"name":"save_game_to_slot","path":"scripts/save_game_to_slot/save_game_to_slot.yy",},},
     {"id":{"name":"scr_beli_asuransi","path":"scripts/scr_beli_asuransi/scr_beli_asuransi.yy",},},
     {"id":{"name":"scr_donasi","path":"scripts/scr_donasi/scr_donasi.yy",},},
+    {"id":{"name":"scr_get_misi_aktif","path":"scripts/scr_get_misi_aktif/scr_get_misi_aktif.yy",},},
     {"id":{"name":"scr_hijau","path":"scripts/scr_hijau/scr_hijau.yy",},},
     {"id":{"name":"scr_jual_aneka_kebutuhan","path":"scripts/scr_jual_aneka_kebutuhan/scr_jual_aneka_kebutuhan.yy",},},
     {"id":{"name":"scr_kuning","path":"scripts/scr_kuning/scr_kuning.yy",},},
