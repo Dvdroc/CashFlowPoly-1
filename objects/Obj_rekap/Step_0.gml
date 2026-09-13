@@ -179,7 +179,8 @@ if (visible){
 	    "mode": global.mode,
 	    "players": players
 	};
-
+	
+	global.final_summary_payload = export_data;
 
 	// =====================
 	// WRITE
