@@ -37,11 +37,13 @@ function load_game_from_slot(_slot) {
 
     // --- Kembalikan data global ---
     global.day             = _data.day;
-    global.tanggal          = _data.tanggal;
+    global.tanggal         = _data.tanggal;
     global.activity_points = _data.activity_points;
     global.tampilan        = _data.tampilan;
     global.current_player  = _data.current_player;
 	global.mode			   = _data.mode;
+	global.rekap		   = _data.rekap;
+	global.endgame         = _data.endgame;
 	// --- Terapkan progress story ---
 	if (variable_struct_exists(_data, "story_remaining")) {
 	    var _remaining = _data.story_remaining;

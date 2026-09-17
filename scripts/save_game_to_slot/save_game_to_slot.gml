@@ -65,6 +65,8 @@ function save_game_to_slot(_slot) {
         "current_player"  : global.current_player,
 		"mode"			  : global.mode,
 		"story_remaining" : variable_struct_get_names(global.story),
+		"rekap"			  : global.rekap,
+		"endgame"		  : global.endgame,
         "players"         : all_players
     };
 

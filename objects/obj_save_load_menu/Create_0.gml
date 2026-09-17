@@ -83,54 +83,6 @@ function get_slot_info(_slot) {
 }
 
 
-
-function save_game_to_slot(_slot) {
-    var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";
-
-    // ---------------- DATA YANG DISIMPAN ----------------
-    var _data = {
-        slot_name   : "Slot " + string(_slot),
-        save_date   : date_datetime_string(date_current_datetime()),
-        room_name   : room_get_name(room),
-		story_remaining  : variable_struct_get_names(global.story),
-        player_x    : (instance_exists(obj_player)) ? obj_player.x : 0,
-        player_y    : (instance_exists(obj_player)) ? obj_player.y : 0,
-        player_hp   : (instance_exists(obj_player)) ? obj_player.hp : 0,
-        play_time   : (variable_global_exists("play_time")) ? global.play_time : 0
-    };
-    // ------------------------------------------------------
-
-    var _json = json_stringify(_data);
-    var _file = file_text_open_write(_path);
-    file_text_write_string(_file, _json);
-    file_text_close(_file);
-
-    show_message_popup("Game disimpan di " + _data.slot_name);
-}
-
-function load_game_from_slot(_slot) {
-    var _data = get_slot_info(_slot);
-    if (is_undefined(_data)) {
-        show_message_popup("Slot kosong!");
-        return;
-    }
-
-    // ---------------- TERAPKAN DATA ----------------
-    if (room_exists(asset_get_index(_data.room_name))) {
-        room_goto(asset_get_index(_data.room_name));
-    }
-    if (variable_global_exists("play_time")) {
-        global.play_time = _data.play_time;
-    }
-    global.pending_load_x  = _data.player_x;
-    global.pending_load_y  = _data.player_y;
-    global.pending_load_hp = _data.player_hp;
-    // ------------------------------------------------
-
-    show_message_popup("Game dimuat!");
-    panel_open = false; // tutup panel, tapi object-nya tetap hidup
-}
-
 function delete_save_slot(_slot) {
     var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";
     if (file_exists(_path)) {
