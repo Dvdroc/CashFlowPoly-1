@@ -44,6 +44,7 @@ function load_game_from_slot(_slot) {
 	global.mode			   = _data.mode;
 	global.rekap		   = _data.rekap;
 	global.endgame         = _data.endgame;
+	global.nama_kelompok   = _data.nama_kelompok;
 	// --- Terapkan progress story ---
 	if (variable_struct_exists(_data, "story_remaining")) {
 	    var _remaining = _data.story_remaining;

@@ -67,6 +67,7 @@ function save_game_to_slot(_slot) {
 		"story_remaining" : variable_struct_get_names(global.story),
 		"rekap"			  : global.rekap,
 		"endgame"		  : global.endgame,
+		"nama_kelompok"   : global.nama_kelompok,
         "players"         : all_players
     };
 

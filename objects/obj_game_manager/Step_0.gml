@@ -53,7 +53,7 @@ if (global.tampilan == 5) {
 	Obj_story.visible = true;
 }
 misi_info = scr_get_misi_aktif(global.current_player);
-if(global.tanggal > 25 || global.endgame = true){
+if(global.tanggal > 25 || global.endgame == true){
 	if(global.rekap == false){
 		global.tampilan = 3
 	}else global.tampilan = 4;
