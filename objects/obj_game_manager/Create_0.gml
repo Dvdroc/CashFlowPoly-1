@@ -91,6 +91,7 @@ if (!variable_global_exists("recipes")) {
     global.recipes = array_create(0);
 	global.tampilan_sebelumnya = 0
 	global.player_sebelumnya = 0
+	global.background_sebelumnya = -1
 	//2 bahan
 	array_push(global.recipes,{
 		name: "Nasi goreng",
@@ -275,6 +276,7 @@ if (!variable_global_exists("day")) {
 	global.uiblocking = false;
 	global.pekan = 0
 	global.rekap = false;
+	global.spr_background = Pasar;
 }
 
 
@@ -453,27 +455,33 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 	if(global.day == "senin"){
 		global.day = "selasa";
 		global.tanggal += 1;
+		global.spr_background = Pasar
 	}else if(global.day == "selasa"){
 		global.day = "rabu";
 		global.tanggal += 1;
+		global.spr_background = Pasar
 	}else if(global.day == "rabu"){
 		global.day = "kamis";
 		global.tanggal += 1;
+		global.spr_background = Pasar
 	}else if(global.day == "kamis"){
 		global.day = "jumat";
 		global.tanggal += 1;
 		global.tampilan = 3;
+		global.spr_background = Donasi
 	}else if(global.day == "jumat"){
 		if(global.mode == "pemula"){
 			global.day = "senin";
 			global.tampilan = 0;
 			global.tanggal += 3;
 			global.tampilan = 0;
+			global.spr_background = Donasi
 		}else {
 			global.day = "sabtu";
 			global.tampilan = 2;
 			global.tanggal += 1;
 			global.tampilan = 2;
+			global.spr_background = Donasi
 		}
 	}else if(global.mode != "pemula" && global.day == "sabtu"){
 		global.day = "senin";
@@ -490,16 +498,6 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 			global.resiko_aktif[i].sisa_hari -= 1;
 		}
 	}
-}
-if (array_length(global.match_logs) > 0){
-	var json = json_stringify(global.match_logs, true);
-
-	var file = file_text_open_write(
-	   program_directory + "match_log.json"
-	);
-
-	file_text_write_string(file, json);
-	file_text_close(file);
 }
 misi_info = noone;
 panel_x = display_get_gui_width() - 380;

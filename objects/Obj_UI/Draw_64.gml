@@ -1,6 +1,11 @@
 var _xscale = box_width / sprite_get_width(spr_dialogue_box);
 var _yscale = box_height / sprite_get_height(spr_dialogue_box);
-    
+var _box_w = 220;
+var _box_gap = 60;    
+var _box_x1  = 200;                         
+var _box_x2  = _box_x1 + _box_w + _box_gap;
+var _box_x3  = _box_x2 + _box_w + _box_gap; 
+
 // ===============================
 // BACKGROUND
 // ===============================
@@ -24,9 +29,9 @@ else
 
 if (portrait_sprite != noone && sprite_exists(portrait_sprite)) {
 
-	var _padding = 20; 
-	var _portrait_x = box_width - _padding - 200; 
-	var _portrait_y = box_y + 30 + _padding; 
+	var _padding = -20; 
+	var _portrait_x = box_width - _padding - 130; 
+	var _portrait_y = box_y - 10 + _padding; 
 
 	draw_sprite_ext(portrait_sprite, 0, _portrait_x, _portrait_y, 0.4, 0.4, 0, c_white, 1);
 
@@ -38,11 +43,11 @@ if (portrait_sprite != noone && sprite_exists(portrait_sprite)) {
 // PEMAIN
 // ===============================
 
-draw_set_color(c_dkgray);
-draw_rectangle(200,yslot_1,350,yslot_1heinght,false);
+draw_set_color(#5E3023);
+draw_rectangle(_box_x1,yslot_1,_box_x1 + _box_w,yslot_1heinght,false);
 
 draw_set_color(c_white);
-draw_text(210,yslot_1 + 10,pemain_list[global.current_player]);
+draw_text(_box_x1 + 10,yslot_1 + 10,pemain_list[global.current_player]);
 
 
 
@@ -51,25 +56,25 @@ draw_text(210,yslot_1 + 10,pemain_list[global.current_player]);
 // ===============================
 
 // aktivitas
-draw_set_color(c_dkgray);
-draw_rectangle(400,yslot_1,550,yslot_1heinght,false);
+draw_set_color(#5E3023);
+draw_rectangle( _box_x2,yslot_1,_box_x2 + _box_w,yslot_1heinght,false);
 
 draw_set_color(c_white);
-draw_text(410,yslot_1 + 10,aktivitas_list[aktivitas_selected]);
+draw_text(_box_x2 +10,yslot_1 + 10,aktivitas_list[aktivitas_selected]);
 
 
 // menu
 if(!(aktivitas_selected == 4 && aktivitas_selected2 == 4)){
-	draw_set_color(c_dkgray);
-	draw_rectangle(600,yslot_1,750,yslot_1heinght,false);
+	draw_set_color(#5E3023);
+	draw_rectangle( _box_x3,yslot_1, _box_x3 + _box_w,yslot_1heinght,false);
 
 	draw_set_color(c_white);
 
 	if(menu_selected == -1){
-		draw_text(610,yslot_1 + 10,"Pilih");
+		draw_text(_box_x3 + 10,yslot_1 + 10,"Pilih");
 	}
 	else{
-		draw_text(610,yslot_1 + 10,menu_list[menu_selected].name);
+		draw_text(_box_x3 + 10,yslot_1 + 10,menu_list[menu_selected].name);
 	}
 }
 
@@ -84,11 +89,11 @@ if dropdown_open == 0
 	{
 		y = yslot_1heinght + i*30;
 		
-		draw_set_color(c_dkgray);
-		draw_rectangle(200,y,350,y+30,false);
+		draw_set_color(#5E3023);
+		draw_rectangle(_box_x1,y,_box_x1 + _box_w,y+30,false);
 
 		draw_set_color(c_white);
-		draw_text(210,y+5,pemain_list[i]);
+		draw_text(_box_x1,y+5,pemain_list[i]);
 	}
 }
 
@@ -103,13 +108,13 @@ if dropdown_open == 1
 	for (var i = 0; i < visible_items; i++){
 		var index = i + menu_scroll;
 		if index >= array_length(aktivitas_list) break;
-		y = yslot_1heinght + i*30;
+		y = yslot_1 - (i + 1) * 30;
 		
-		draw_set_color(c_dkgray);
-		draw_rectangle(400,y,550,y+30,false);
+		draw_set_color(#5E3023);
+		draw_rectangle(_box_x2,y,_box_x2 + _box_w,y+30,false);
 
 		draw_set_color(c_white);
-		draw_text(410,y+5,aktivitas_list[index]);
+		draw_text(_box_x2 + 10,y+5,aktivitas_list[index]);
 	}
 }
 
@@ -125,7 +130,7 @@ if dropdown_open == 2
 	    var index = i + menu_scroll;
 	    if index >= array_length(menu_list) break;
 
-	    y = yslot_1heinght + i * 30;
+	    y = yslot_1 - (i + 1) * 30;
 
 	    var text_color = c_white;
 
@@ -168,11 +173,11 @@ if dropdown_open == 2
 	        }
 		}
 
-	    draw_set_color(c_dkgray);
-	    draw_rectangle(600,y,750,y+30,false);
+	    draw_set_color(#5E3023);
+	    draw_rectangle(_box_x3,y,_box_x3 + _box_w,y+30,false);
 
 	    draw_set_color(text_color);
-	    draw_text(610,y+5, menu_list[index].name);
+	    draw_text(_box_x3 + 10,y+5, menu_list[index].name);
 	}
 }
 
@@ -182,19 +187,20 @@ if dropdown_open == 2
 
 if(input_tabungan1 && !disable && last_input == 1){
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
+	
 	draw_rectangle(input_x1,input_y1,input_x2,input_y2,false);
 
 	draw_set_color(c_white);
 	draw_text(input_x1+10,input_y1+10,input_text);
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
 	draw_rectangle(ok_x1,ok_y1,ok_x2,ok_y2,false);
 
 	draw_set_color(c_white);
 	draw_text(ok_x1+15,ok_y1+10,"OK");
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
 	draw_rectangle(cancel_x1,cancel_y1,cancel_x2,cancel_y2,false);
 
 	draw_set_color(c_white);
@@ -203,19 +209,19 @@ if(input_tabungan1 && !disable && last_input == 1){
 }
 if(input_tabungan && !disable2 && last_input == 3){
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
 	draw_rectangle(input_x1,input_y1,input_x2,input_y2,false);
 
 	draw_set_color(c_white);
 	draw_text(input_x1+10,input_y1+10,input_text);
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
 	draw_rectangle(ok_x1,ok_y1,ok_x2,ok_y2,false);
 
 	draw_set_color(c_white);
 	draw_text(ok_x1+15,ok_y1+10,"OK");
 
-	draw_set_color(c_dkgray);
+	draw_set_color(#5E3023);
 	draw_rectangle(cancel_x1,cancel_y1,cancel_x2,cancel_y2,false);
 
 	draw_set_color(c_white);

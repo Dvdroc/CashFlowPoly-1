@@ -4,35 +4,11 @@ function load_game_from_slot(_slot) {
         show_message_popup("Slot kosong!");
         return;
     }
-	var _log_path = program_directory + "match_log.json";
-
-	if (file_exists(_log_path))
-	{
-	    var _file = file_text_open_read(_log_path);
-	    var _json = "";
-
-	    // Baca SEMUA baris JSON
-	    while (!file_text_eof(_file))
-	    {
-	        _json += file_text_read_string(_file);
-	        file_text_readln(_file);
-	    }
-
-	    file_text_close(_file);
-
-	    if (string_length(string_trim(_json)) > 0)
-	    {
-	        global.match_logs = json_parse(_json);
-	    }
-	    else
-	    {
-	        global.match_logs = [];
-	    }
-	}
-	else
-	{
-	    global.match_logs = [];
-	}
+	if (variable_struct_exists(_data, "match_logs")) {
+        global.match_logs = _data.match_logs;
+    } else {
+        global.match_logs = []; // fallback buat save file lama yang belum ada match_logs
+    }
 
 
     // --- Kembalikan data global ---

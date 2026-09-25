@@ -82,31 +82,45 @@
 	    }
 	    // 3. Gambar Nama Karakter
 	    if (dialog_name != "") {
-			if(speaker_side == "left"){
-		        draw_set_font(-1); 
-		        draw_set_color(c_yellow);
-		        draw_set_halign(fa_left); 
-		        var _name_x = box_width - 200; 
-		        var _name_y = box_y ;
-				draw_sprite_ext(Name_box, image_index, _name_x + 20, _name_y, -1.5, 1.5, 0, c_white, 1)
-		        draw_text(_name_x, _name_y, dialog_name);
-		        draw_set_halign(fa_left); // Reset perataan
+			if (speaker_side == "left") {
+			    draw_set_font(-1);
+			    draw_set_color(c_yellow);
+
+			    var _name_x = box_width - 300;
+			    var _name_y = box_y - 15;
+
+			    draw_sprite_ext(Name_box2, image_index, _name_x + 20, _name_y, 1.2, 1.2, 0, c_white, 1);
+			    var _box_center_x = _name_x + 20 + (sprite_get_width(Name_box2) * 1.2) / 2;
+			    var _box_center_y = _name_y + (sprite_get_height(Name_box2) * 1.2) / 2;
+
+			    draw_set_halign(fa_middle);
+			    draw_set_valign(fa_middle);
+				
+			    draw_text(_box_center_x, _box_center_y, dialog_name);
+			    draw_set_halign(fa_left);
+			    draw_set_valign(fa_top);
 			}else if(speaker_side == "right"){
 				draw_set_font(-1); 
-		        draw_set_color(c_yellow);
-		        draw_set_halign(fa_left); 
+		        draw_set_color(c_yellow) 
 		        var _name_x = box_x + 200; 
-		        var _name_y = box_y ;
-				draw_sprite_ext(Name_box, image_index, _name_x + 20, _name_y, 1.5, 1.5, 0, c_white, 1)
-		        draw_text(_name_x, _name_y, dialog_name);
+		        var _name_y = box_y -15;
+				draw_sprite_ext(Name_box2, image_index, _name_x + 20, _name_y, 1.2, 1.2, 0, c_white, 1)
+				var _box_center_x = _name_x + 20 + (sprite_get_width(Name_box2) * 1.2) / 2;
+			    var _box_center_y = _name_y + (sprite_get_height(Name_box2) * 1.2) / 2;
+
+			    draw_set_halign(fa_middle);
+			    draw_set_valign(fa_middle);
+				
+			    draw_text(_box_center_x, _box_center_y, dialog_name);
+				draw_set_halign(fa_left);
 		        draw_set_halign(fa_left); // Reset perataan
 			}else{
 				draw_set_font(-1); 
 		        draw_set_color(c_yellow);
 		        draw_set_halign(fa_left); 
-		        var _name_x = box_width - 200; 
-		        var _name_y = box_y ;
-				draw_sprite_ext(Name_box, image_index, _name_x + 20, _name_y, -1.5, 1.5, 0, c_white, 1)
+		        var _name_x = box_width - 300;
+			    var _name_y = box_y - 15;
+				draw_sprite_ext(Name_box2, image_index, _name_x + 20, _name_y, -0.1, 0.1, 0, c_white, 1)
 		        draw_text(_name_x, _name_y, dialog_name);
 		        draw_set_halign(fa_left); // Reset perataan
 			}

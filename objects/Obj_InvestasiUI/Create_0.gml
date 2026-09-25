@@ -1,5 +1,8 @@
-ui_x = 400;
-ui_y = 200;
+uix_potition = display_get_gui_width()/2;
+uiy_potition = display_get_gui_height()/2;
+
+ui_x = uix_potition - (360/2);
+ui_y = uiy_potition - (250/2);
 
 
 quantity = 0;

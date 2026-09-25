@@ -17,7 +17,7 @@ if(visible){
 	        if(quantity > 0) quantity -= 1;
 	    }
 		
-		 if point_in_rectangle(mx,my,ui_x+210,ui_y+70,ui_x+250,ui_y+110)
+		 if point_in_rectangle(mx,my,ui_x+190,ui_y+70,ui_x+220,ui_y+110)
 	    {
 	        if(global.harga_emas < max_harga)
 	        global.harga_emas += 1;

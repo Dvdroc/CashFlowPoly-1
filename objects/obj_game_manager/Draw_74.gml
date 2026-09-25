@@ -1,5 +1,25 @@
 /// @description Insert description here
 // You can write your code in this editor
+var scale_x = room_width / sprite_get_width(global.spr_background);
+var scale_y = room_height / sprite_get_height(global.spr_background);
+
+var scale = max(scale_x, scale_y);
+
+var w = sprite_get_width(global.spr_background) * scale;
+var h = sprite_get_height(global.spr_background) * scale;
+
+draw_sprite_ext(
+    global.spr_background,
+    0,
+    room_width / 2,
+    room_height / 2,
+    scale,
+    scale,
+    0,
+    c_white,
+    1
+);
+
 if(tampilkan_misi){
 	var box_w = 200;
 	var box_h = 45;

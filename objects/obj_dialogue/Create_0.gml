@@ -18,7 +18,7 @@ dialogue_active = false;
 // Posisi kotak dialog (sesuaikan sesuai kebutuhan)
 box_x = 32;
 if(global.tampilan == 0){
-	box_y = display_get_gui_height()/2 - 75;
+	box_y = display_get_gui_height() - 240;
 }else if(global.tampilan != 0){
 	box_y = display_get_gui_height() - 160
 }
@@ -30,7 +30,7 @@ box_height = 150;
 source_npc = noone; // ID objek NPC yang memicu dialog
 dialog_name = ""; // Nama yang akan ditampilkan (default kosong)
 portrait_sprite = noone; // Sprite portret (default noone)
-spr_dialogue_box = textbox2;
+spr_dialogue_box = textbox1;
 
 draw_set_color(c_white);
 is_crafting_input = false; // Default: FALSE (bukan kotak input jumlah)

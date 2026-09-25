@@ -60,8 +60,8 @@ for (var i = 0; i < jumlah_kategori; i++)
 }
 if (global.testing)
 {
-	var start_x = 150;
-	var start_y = 50;
+	start_x = 150;
+	start_y = 50;
 	var jarak_x = 300; // jarak antar player ke samping
 	draw_set_color(c_dkgray);
 	draw_rectangle(0,0, room_width, room_height,false)

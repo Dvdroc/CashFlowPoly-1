@@ -24,7 +24,7 @@ menu_scroll2 = 0;
 
 dropdown_open = -1;
 
-yslot_1 = display_get_gui_height() - 250;
+yslot_1 = display_get_gui_height() - 45;
 yslot_1heinght = yslot_1 + 40;
 
 /// posisi baris kedua
@@ -32,13 +32,13 @@ yslot_2 = yslot_1 + 60;
 yslot_2heinght = yslot_2 + 40;
 
 box_x = 32;
-box_y = display_get_gui_height() - 310;
+box_y = display_get_gui_height() - 60;
 box_width = display_get_gui_width() - 64;
 box_height =300;
 
 portrait_sprite = GO;
 
-spr_dialogue_box = textbox2;
+spr_dialogue_box = textbox1;
 
 visible_items = 5; // jumlah item terlihat
 visible_items2 = 4;

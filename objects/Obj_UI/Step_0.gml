@@ -124,9 +124,15 @@ if(go == true ){
 	}
 	var mx = device_mouse_x_to_gui(0);
 	var my = device_mouse_y_to_gui(0);
-	var _padding = 20;
-	var _portrait_x = box_width - _padding - 200; 
-	var _portrait_y = box_y  + 30+ _padding; 
+	var _padding = -20; 
+	var _portrait_x = box_width - _padding - 130; 
+	var _portrait_y = box_y - 10 + _padding;
+	var _box_w = 220;
+	var _box_gap = 60;    
+	var _box_x1  = 200;                         
+	var _box_x2  = _box_x1 + _box_w + _box_gap;
+	var _box_x3  = _box_x2 + _box_w + _box_gap;
+
 
 	if mouse_check_button_pressed(mb_left)
 	{
@@ -140,7 +146,7 @@ if(go == true ){
 	    //}
 
 	    // dropdown aktivitas
-	    if point_in_rectangle(mx,my,400,yslot_1,550,yslot_1heinght)
+	    if point_in_rectangle(mx,my,_box_x2,yslot_1,_box_x2 + _box_w,yslot_1heinght)
 	    {
 	        dropdown_open = 1;
 			menu_selected = -1;
@@ -149,18 +155,18 @@ if(go == true ){
 	    // dropdown menu
 		if(aktivitas_selected2 == 4 && aktivitas_selected ==4){
 			if(dropdown_open != 2){
-			    if point_in_rectangle(mx,my,600,yslot_2,750,yslot_2heinght)
+			    if point_in_rectangle(mx,my,_box_x3,yslot_2,_box_x3 + _box_w,yslot_2heinght)
 			    {
 			        dropdown_open = 4;
 			    }
 			}
 		}else{
-			if point_in_rectangle(mx,my,600,yslot_1,750,yslot_1heinght)
+			if point_in_rectangle(mx,my,_box_x3,yslot_1,_box_x3 + _box_w,yslot_1heinght)
 		    {
 		        dropdown_open = 2;
 		    }
 			if(dropdown_open != 2){
-			    if point_in_rectangle(mx,my,600,yslot_2,750,yslot_2heinght)
+			    if point_in_rectangle(mx,my,_box_x3,yslot_2,_box_x3 + _box_w,yslot_2heinght)
 			    {
 			        dropdown_open = 4;
 			    }
@@ -176,7 +182,7 @@ if(go == true ){
 
 	    // dropdown menu
 	
-		if point_in_rectangle(mx,my,_portrait_x,_portrait_y,1360,700){
+		if point_in_rectangle(mx,my,_portrait_x,_portrait_y,_portrait_x + sprite_get_width(portrait_sprite) * 0.4,_portrait_y + sprite_get_height(portrait_sprite) * 0.4){
 			if(menu_selected != -1 || pilih_aktivitas == 4) go = true;
 		
 		}
@@ -191,7 +197,7 @@ if(go == true ){
 
 	//        if mouse_check_button_pressed(mb_left)
 	//        {
-	//            if point_in_rectangle(mx,my,200,y,yslot_1,y+30)
+	//            if point_in_rectangle(mx,my,_box_x1,y,yslot_1,y+30)
 	//            {
 	//                pemain_selected = i;
 	//				last_input = dropdown_open;
@@ -207,11 +213,11 @@ if(go == true ){
 	        var index = i + menu_scroll;
 	        if index >= array_length(aktivitas_list) break;
 
-	        y = yslot_1heinght + i * 30;
+	        y = yslot_1 - (i + 1) * 30;
 
 	        if mouse_check_button_pressed(mb_left)
 	        {
-	            if point_in_rectangle(mx,my,400,y,yslot_2,y+30)
+	            if point_in_rectangle(mx,my,_box_x2,y,_box_x2 + _box_w,y+30)
 	            {
 	                aktivitas_selected = index;
 	                last_input = dropdown_open;
@@ -262,11 +268,11 @@ if(go == true ){
 		        }
 			}
 
-		    y = yslot_1heinght + i * 30;
+		    y = yslot_1 - (i + 1) * 30;
 		
 		    if mouse_check_button_pressed(mb_left)
 		    {
-		        if point_in_rectangle(mx,my,600,y,750,y+30)
+		        if point_in_rectangle(mx,my,_box_x3,y,_box_x3 + _box_w,y+30)
 		        {
 		            menu_selected = index;
 					last_input = dropdown_open;

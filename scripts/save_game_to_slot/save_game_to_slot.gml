@@ -68,6 +68,7 @@ function save_game_to_slot(_slot) {
 		"rekap"			  : global.rekap,
 		"endgame"		  : global.endgame,
 		"nama_kelompok"   : global.nama_kelompok,
+		"match_logs"      : global.match_logs,
         "players"         : all_players
     };
 

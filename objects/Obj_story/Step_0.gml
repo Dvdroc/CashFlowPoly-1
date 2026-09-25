@@ -14,6 +14,8 @@
 				}
 				d.speaker_side = current[2];
 				d.dialogue_text = current[3];
+				global.background_sebelumnya = global.spr_background;
+				global.spr_background = current[4];
 				dialog_index++;
 	        }
 	    }
@@ -33,11 +35,13 @@
 				}
 				d.speaker_side = current[2];
 				d.dialogue_text = current[3];
+				global.spr_background = current[4];
 				dialog_index++;
 	        }else if (!d.dialogue_active && dialog_index >= array_length(dialogue)) {
 		            dialog_index = 0;
 		            global.dialog_open = false;
 					global.tampilan = global.tampilan_sebelumnya
+					global.spr_background = global.background_sebelumnya
 					room_restart()
 				}
 		}
