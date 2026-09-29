@@ -2,8 +2,10 @@ var panel_w = 360;
 var panel_h = 250;
 
 // panel background
-draw_set_color(c_black);
+draw_set_color(#8B4513);
 draw_rectangle(ui_x, ui_y, ui_x + panel_w, ui_y + panel_h, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x, ui_y, ui_x + panel_w, ui_y + panel_h, true);
 
 // judul
 draw_set_color(c_white);
@@ -15,15 +17,19 @@ draw_set_halign(fa_left);
 draw_text(ui_x + 40, ui_y + 80, "Harga : " + string(global.harga_emas));
 
 // tombol - harga
-draw_set_color(c_red);
+draw_set_color(#5E3023);
 draw_rectangle(ui_x + 150, ui_y + 70, ui_x + 180, ui_y + 100, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 150, ui_y + 70, ui_x + 180, ui_y + 100, true);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_text(ui_x + 165, ui_y + 76, "-");
 
 // tombol + harga
-draw_set_color(c_green);
+draw_set_color(#895737);
 draw_rectangle(ui_x + 190, ui_y + 70, ui_x + 220, ui_y + 100, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 190, ui_y + 70, ui_x + 220, ui_y + 100, true);
 draw_set_color(c_white);
 draw_text(ui_x + 205, ui_y + 76, "+");
 
@@ -36,29 +42,37 @@ draw_text(ui_x + 40, ui_y + 115, "Emas : " + string(global.inventory[? "Emas"]))
 draw_text(ui_x + 40, ui_y + 150, "Jumlah : " + string(quantity));
 
 // tombol - quantity
-draw_set_color(c_red);
+draw_set_color(#5E3023);
 draw_rectangle(ui_x + 150, ui_y + 140, ui_x + 180, ui_y + 170, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 150, ui_y + 140, ui_x + 180, ui_y + 170, true);
 draw_set_color(c_white);
 draw_set_halign(fa_center);
 draw_text(ui_x + 165, ui_y + 146, "-");
 
 // tombol + quantity
-draw_set_color(c_green);
+draw_set_color(#895737);
 draw_rectangle(ui_x + 190, ui_y + 140, ui_x + 220, ui_y + 170, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 190, ui_y + 140, ui_x + 220, ui_y + 170, true);
 draw_set_color(c_white);
 draw_text(ui_x + 205, ui_y + 146, "+");
 
 draw_set_halign(fa_left);
 
 // tombol BELI
-draw_set_color(c_green);
+draw_set_color(#895737);
 draw_rectangle(ui_x + 40, ui_y + 180, ui_x + 160, ui_y + 230, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 40, ui_y + 180, ui_x + 160, ui_y + 230, true);
 draw_set_color(c_white);
 draw_text(ui_x + 100, ui_y + 195, "BELI");
 
 // tombol JUAL
-draw_set_color(c_red);
+draw_set_color(#5E3023);
 draw_rectangle(ui_x + 200, ui_y + 180, ui_x + 320, ui_y + 230, false);
+draw_set_colour(c_black);
+draw_rectangle(ui_x + 200, ui_y + 180, ui_x + 320, ui_y + 230, true);
 draw_set_color(c_white);
 draw_text(ui_x + 260, ui_y + 195, "JUAL");
 

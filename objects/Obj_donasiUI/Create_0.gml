@@ -15,3 +15,9 @@ donasi = array_create(array_length(pemain_list), -1);
 input_player = -1;
 input_text = "";
 input_active = false;
+x_donasi = display_get_gui_width()/2
+y_donasi = 180;
+
+x_donasi_lebar = 200;
+y_donasi_lebar = 60;
+x_donasi_posisi = x_donasi - (x_donasi_lebar/2);

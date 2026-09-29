@@ -44,9 +44,9 @@ if(tampilkan_misi){
 	    var nama = global.kebutuhan[i+4].name;
 
 	    var yy = y + i * jarak;
-		draw_set_color(c_green);
+		draw_set_color(#895737);
 	    draw_rectangle(x, yy, x + box_w, yy + box_h,false);
-		draw_set_color(c_lime);
+		draw_set_color(#5E3023);
 	    draw_rectangle(x, yy, x + box_w, yy + box_h,true);
 		draw_set_color(c_white);
 	    draw_text(x + 10, yy + 10, nama);

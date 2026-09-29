@@ -9,9 +9,10 @@ var my = device_mouse_y_to_gui(0);
 for(var p=0; p<array_length(pemain_list); p++){
     var px = ui_x + p * (panel_w + spacing);
 
-    draw_set_color(c_black);
+    draw_set_color(#8B4513);
     draw_rectangle(px,ui_y,px+panel_w,ui_y+panel_h,false);
-
+	draw_set_colour(c_black);
+	draw_rectangle(px,ui_y,px+panel_w,ui_y+panel_h,true);
     draw_set_color(c_white);
     draw_set_halign(fa_center);
     draw_text(px + panel_w/2, ui_y + 20, pemain_list[p]);
@@ -28,13 +29,15 @@ for(var p=0; p<array_length(pemain_list); p++){
 	    var hover = point_in_rectangle(mx, my, bx1, by1, bx2, by2);
 
 	    if (juara[p] == j)
-	        draw_set_color(make_color_rgb(0,200,0));
+	        draw_set_color(#895737);
 	    else if (hover)
-	        draw_set_color(make_color_rgb(0,255,150));
+	        draw_set_color(#C08552);
 	    else
-	        draw_set_color(make_color_rgb(0,140,0));
+	        draw_set_color(#5E3023);
 
 	    draw_rectangle(bx1, by1, bx2, by2, false);
+		draw_set_colour(c_black);
+		draw_rectangle(bx1, by1, bx2, by2, true);
 
 	    draw_set_color(c_white);
 
@@ -68,12 +71,14 @@ for(var p=0; p<array_length(pemain_list); p++){
 }
 if (input_active)
 {
-    draw_set_color(c_black);
-    draw_rectangle(400,300,600,350,false);
-
+    draw_set_color(#5E3023);
+    draw_rectangle(x_donasi_posisi,y_donasi, x_donasi_posisi + x_donasi_lebar,y_donasi + y_donasi_lebar,false);
+	draw_set_color(c_black);
+    draw_rectangle(x_donasi_posisi,y_donasi, x_donasi_posisi + x_donasi_lebar,y_donasi + y_donasi_lebar,true);
+	
     draw_set_color(c_white);
-    draw_text(420,310,"Masukkan Donasi:");
-    draw_text(420,330,input_text);
+    draw_text(x_donasi_posisi + x_donasi_lebar / 2,y_donasi + 10,"Masukkan Donasi:");
+    draw_text(x_donasi_posisi + x_donasi_lebar / 2,y_donasi + 20,input_text);
 }
 if (global.testing)
 {
