@@ -181,15 +181,5 @@ if (visible){
 	};
 	
 	global.final_summary_payload = export_data;
-
-	// =====================
-	// WRITE
-	// =====================
-
-	var json = json_stringify(export_data, true);
-
-	var file = file_text_open_write(program_directory + "final_summary.json");
-	file_text_write_string(file, json);
-	file_text_close(file);
 }
 
