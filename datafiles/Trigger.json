@@ -1325,8 +1325,130 @@
 "NARASI_MAKANAN_TERJUAL_MAX_P3": {
   "player": 3,
   "makanan_terjual_min": 4
+},
+
+"NARASI_MINGGU1_P0": {
+  "player": 0,
+  "hari_min": 1
+},
+
+"NARASI_MINGGU2_P0": {
+  "player": 0,
+  "hari_min": 8
+},
+
+"NARASI_MINGGU3_P0": {
+  "player": 0,
+  "hari_min": 15
+},
+
+"NARASI_MINGGU4_P0": {
+  "player": 0,
+  "hari_min": 22
+},
+
+"NARASI_KLIMAKS_P0": {
+  "player": 0,
+  "tv_dan_sofa_min": 1,
+  "hari_min": 24
+},
+
+"NARASI_MINGGU1_P1": {
+  "player": 1,
+  "hari_min": 1
+},
+
+"NARASI_MINGGU2_P1": {
+  "player": 1,
+  "hari_min": 8
+},
+
+"NARASI_MINGGU3_P1": {
+  "player": 1,
+  "hari_min": 15
+},
+
+"NARASI_MINGGU4_P1": {
+  "player": 1,
+  "hari_min": 22
+},
+
+"NARASI_KLIMAKS_P1": {
+  "player": 1,
+  "rumah_min": 1,
+  "hari_min": 24
+},
+
+"NARASI_MINGGU1_P2": {
+  "player": 2,
+  "hari_min": 1
+},
+
+"NARASI_MINGGU2_P2": {
+  "player": 2,
+  "hari_min": 8
+},
+
+"NARASI_MINGGU3_P2": {
+  "player": 2,
+  "hari_min": 15
+},
+
+"NARASI_MINGGU4_P2": {
+  "player": 2,
+  "hari_min": 22
+},
+
+"NARASI_KLIMAKS_P2": {
+  "player": 2,
+  "travelling_min": 1,
+  "hari_min": 24
+},
+
+"NARASI_MINGGU1_P3": {
+  "player": 3,
+  "hari_min": 1
+},
+
+"NARASI_MINGGU2_P3": {
+  "player": 3,
+  "hari_min": 8
+},
+
+"NARASI_MINGGU3_P3": {
+  "player": 3,
+  "hari_min": 15
+},
+
+"NARASI_MINGGU4_P3": {
+  "player": 3,
+  "hari_min": 22
+},
+
+"NARASI_KLIMAKS_P3": {
+  "player": 3,
+  "kebun_min": 1,
+  "hari_min": 24
+},
+
+"NARASI_KERJA_LEPAS_P0": {
+  "player": 0,
+  "hari_min": 9
+},
+
+"NARASI_KERJA_LEPAS_P1": {
+  "player": 1,
+  "hari_min": 9
+},
+
+"NARASI_KERJA_LEPAS_P2": {
+  "player": 2,
+  "hari_min": 9
+},
+
+"NARASI_KERJA_LEPAS_P3": {
+  "player": 3,
+  "hari_min": 9
 }
+
 }
-
-
-

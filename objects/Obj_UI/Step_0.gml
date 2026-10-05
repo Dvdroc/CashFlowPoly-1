@@ -281,7 +281,7 @@ if(go == true ){
 		    }
 		}
 	}
-	var wheel = mouse_wheel_up() - mouse_wheel_down();
+	var wheel = mouse_wheel_down() - mouse_wheel_up();
 
 	if dropdown_open == 2 || dropdown_open == 1{
 	    menu_scroll -= wheel;

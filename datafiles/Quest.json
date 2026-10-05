@@ -1,18 +1,42 @@
 {
   "0": [
-    {"id": "NARASI_NASI_MIN_P0", "nama": "Kumpulkan 1 Nasi"},
-    {"id": "NARASI_NASI_MAX_P0", "nama": "Kumpulkan 4 Nasi"},
-    {"id": "NARASI_SAYUR_MIN_P0", "nama": "Kumpulkan 1 Sayur"},
-    {"id": "NARASI_SAYUR_MAX_P0", "nama": "Kumpulkan 4 Sayur"}
+    {"id": "NARASI_MINGGU1_P0", "nama": "Buka usahamu (hari ke-1)"},
+    {"id": "NARASI_NASI_MIN_P0", "nama": "Beli Bahan: 1 Nasi"},
+    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P0", "nama": "Jual Makanan: 1 hidangan"},
+    {"id": "NARASI_MINGGU2_P0", "nama": "Hadapi masalah usahamu (hari ke-8)"},
+    {"id": "NARASI_KERJA_LEPAS_P0", "nama": "Kerja Lepas: 1 kali"},
+    {"id": "NARASI_MINGGU3_P0", "nama": "Temukan solusinya (hari ke-15)"},
+    {"id": "NARASI_TEPAK_MAKAN_SIANG_MIN_P0", "nama": "Beli Kebutuhan: 1 Tepak makan siang"},
+    {"id": "NARASI_MINGGU4_P0", "nama": "Menuju Festival Panen (hari ke-22)"}
   ],
   "1": [
-    {"id": "NARASI_NASI_MIN_P1", "nama": "Kumpulkan 1 Nasi"},
-    {"id": "NARASI_NASI_MAX_P1", "nama": "Kumpulkan 4 Nasi"}
+    {"id": "NARASI_MINGGU1_P1", "nama": "Buka usahamu (hari ke-1)"},
+    {"id": "NARASI_SAYUR_MIN_P1", "nama": "Beli Bahan: 1 Sayur"},
+    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P1", "nama": "Jual Makanan: 1 hidangan"},
+    {"id": "NARASI_MINGGU2_P1", "nama": "Hadapi masalah usahamu (hari ke-8)"},
+    {"id": "NARASI_KERJA_LEPAS_P1", "nama": "Kerja Lepas: 1 kali"},
+    {"id": "NARASI_MINGGU3_P1", "nama": "Temukan solusinya (hari ke-15)"},
+    {"id": "NARASI_BUKU_MIN_P1", "nama": "Beli Kebutuhan: 1 Buku"},
+    {"id": "NARASI_MINGGU4_P1", "nama": "Menuju Festival Panen (hari ke-22)"}
   ],
   "2": [
-    {"id": "NARASI_NASI_MIN_P2", "nama": "Kumpulkan 1 Nasi"}
+    {"id": "NARASI_MINGGU1_P2", "nama": "Buka usahamu (hari ke-1)"},
+    {"id": "NARASI_TAHU_MIN_P2", "nama": "Beli Bahan: 1 Tahu"},
+    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P2", "nama": "Jual Makanan: 1 hidangan"},
+    {"id": "NARASI_MINGGU2_P2", "nama": "Hadapi masalah usahamu (hari ke-8)"},
+    {"id": "NARASI_KERJA_LEPAS_P2", "nama": "Kerja Lepas: 1 kali"},
+    {"id": "NARASI_MINGGU3_P2", "nama": "Temukan solusinya (hari ke-15)"},
+    {"id": "NARASI_SEPATU_MIN_P2", "nama": "Beli Kebutuhan: 1 Sepatu"},
+    {"id": "NARASI_MINGGU4_P2", "nama": "Menuju Festival Panen (hari ke-22)"}
   ],
   "3": [
-    {"id": "NARASI_NASI_MIN_P3", "nama": "Kumpulkan 1 Nasi"}
+    {"id": "NARASI_MINGGU1_P3", "nama": "Buka usahamu (hari ke-1)"},
+    {"id": "NARASI_TELUR_MIN_P3", "nama": "Beli Bahan: 1 Telur"},
+    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P3", "nama": "Jual Makanan: 1 hidangan"},
+    {"id": "NARASI_MINGGU2_P3", "nama": "Hadapi masalah usahamu (hari ke-8)"},
+    {"id": "NARASI_KERJA_LEPAS_P3", "nama": "Kerja Lepas: 1 kali"},
+    {"id": "NARASI_MINGGU3_P3", "nama": "Temukan solusinya (hari ke-15)"},
+    {"id": "NARASI_BAJU_MIN_P3", "nama": "Beli Kebutuhan: 1 Baju"},
+    {"id": "NARASI_MINGGU4_P3", "nama": "Menuju Festival Panen (hari ke-22)"}
   ]
 }

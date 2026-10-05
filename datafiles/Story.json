@@ -2025,5 +2025,593 @@
             "Usaha yang dijalankan dengan sabar dan penuh perhatian akan perlahan mendapatkan tempat di hati pelanggan. Semoga jualanmu semakin sukses.",
             "Cafe"
         ]
+    ],
+    "NARASI_MINGGU1_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Hari pertama warungku buka. Modalku belum seberapa, tapi semangatku penuh. Yang penting, mulai dulu!",
+            "Pasar"
+        ]
+    ],
+    "NARASI_MINGGU2_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sudah seminggu lebih aku jualan, tapi aku sering lupa catat berapa yang sudah kubelanjakan. Kayaknya aku butuh cara yang lebih rapi buat atur jadwal masak dan belanja.",
+            "Pasar"
+        ],
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sambil membenahi catatan, aku mau ambil kerja lepas dulu. Lumayan buat menambal modal warung.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_MINGGU3_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sekarang pencatatanku sudah lebih rapi. Tapi aku mulai mikir, menu mana yang harus aku prioritaskan? Mana yang paling untung buat jangka panjang?",
+            "Pasar"
+        ],
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Satu hal yang pasti, kebutuhanku sendiri juga penting. Aku mau beli tepak makan siang, biar aku nggak cuma mikirin warung.",
+            "Kantin_sekolah"
+        ]
+    ],
+    "NARASI_MINGGU4_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Festival Panen tinggal beberapa hari lagi. Dari warung kecil modal pas-pasan, sekarang aku punya pelanggan tetap. Aku nggak sabar lihat hasil akhirnya.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_KLIMAKS_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Festival Panen sudah di depan mata. Dari warung kecil bermodal pas-pasan, kini aku punya pelanggan tetap.",
+            "Pasar"
+        ],
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Dan sekarang ada TV dan sofa di rumah. Hasil jualan selama ini akhirnya terasa nyata!",
+            "Pasar"
+        ]
+    ],
+    "NARASI_MINGGU1_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Aku baru memulai usahaku hari ini. Aku percaya, kalau direncanakan dengan matang, modal sekecil apa pun bisa tumbuh jadi sesuatu yang besar.",
+            "Ruang_tamu"
+        ]
+    ],
+    "NARASI_MINGGU2_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Aku sadar, tanpa catatan yang jelas, aku sulit tahu kapan waktu terbaik buat membeli aset baru. Sepertinya aku perlu jadwal yang lebih terstruktur.",
+            "Ruang_tamu"
+        ],
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Untuk sementara aku kerja lepas dulu. Kas tunai harus aman sebelum aku memikirkan aset.",
+            "Ruang_tamu"
+        ]
+    ],
+    "NARASI_MINGGU3_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Sekarang aku sudah terbiasa mencatat semuanya. Tantangan berikutnya: aset mana yang harus kuprioritaskan dulu untuk rencana jangka panjangku?",
+            "Ruang_tamu"
+        ],
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Aku akan membeli buku. Prioritas yang baik dimulai dari memenuhi kebutuhan dan menambah pengetahuan.",
+            "Ruang_perpustakaan"
+        ]
+    ],
+    "NARASI_MINGGU4_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Rencana yang kususun sejak minggu pertama mulai terlihat hasilnya. Ternyata kesabaran dan kas yang sehat benar-benar membuahkan sesuatu.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_KLIMAKS_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Festival Panen sudah dekat. Empat minggu ini mengajariku bahwa rencana panjang butuh kas yang cukup dan kesabaran.",
+            "Pasar"
+        ],
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Rumah ini buktinya. Tujuan yang kususun sejak minggu pertama akhirnya tercapai.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_MINGGU1_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Kios jajan dan hiburanku resmi buka! Nggak sabar mau lihat berapa banyak yang bakal nyewa PSP-ku, hehe.",
+            "Taman"
+        ]
+    ],
+    "NARASI_MINGGU2_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Duh, aku baru sadar aku nggak pernah nyatet berapa yang keluar-masuk dari kiosku. Pantas saja uangku suka tiba-tiba habis tanpa aku tahu ke mana perginya.",
+            "Taman"
+        ],
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Oke, aku kerja lepas dulu deh. Lumayan buat nutup bolongnya kas kios.",
+            "Taman"
+        ]
+    ],
+    "NARASI_MINGGU3_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Sekarang aku udah mulai rutin nyatet. Tapi masalah baru: aku harus milih, mana yang lebih penting, nambah stok jajanan apa nambah sewa mainan?",
+            "Taman"
+        ],
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Aku mau beli sepatu, tapi kali ini karena memang perlu, bukan karena pengin. Itu bedanya Reno yang sekarang!",
+            "Mini_market"
+        ]
+    ],
+    "NARASI_MINGGU4_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Nggak nyangka aku bisa sampai sejauh ini. Dari yang dulu boros parah, sekarang aku udah lebih paham cara atur uang kios sendiri.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_KLIMAKS_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Festival Panen sebentar lagi! Dulu aku boros dan kelabakan, sekarang aku paham atur uang.",
+            "Pasar"
+        ],
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Liburan ini kubayar dari tabungan sendiri. Siapa pun juaranya, aku sudah menang lawan diriku sendiri.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_MINGGU1_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku mulai usahaku pelan-pelan hari ini, menanam bibit kebun dan menyiapkan sedikit kerajinan. Semoga semuanya tumbuh baik, sama seperti rencanaku.",
+            "Taman"
+        ]
+    ],
+    "NARASI_MINGGU2_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku sering lupa mencatat kapan waktu terbaik menyiram atau memanen. Kelihatannya aku perlu jadwal yang lebih rapi biar kebunku nggak telat dirawat.",
+            "Taman"
+        ],
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku mau kerja lepas sebentar untuk menambah kas. Kebun tetap kurawat, tapi dompet juga perlu diisi.",
+            "Taman"
+        ]
+    ],
+    "NARASI_MINGGU3_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Sekarang jadwal rawatanku sudah lebih teratur. Tapi aku mulai bertanya-tanya, sebaiknya aku fokus ke kerajinan dulu, atau memperluas kebun untuk jangka panjang?",
+            "Taman"
+        ],
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku mau beli baju untuk diriku sendiri. Menabung tetap jalan, tapi kebutuhanku tidak kulupakan lagi.",
+            "Mini_market"
+        ]
+    ],
+    "NARASI_MINGGU4_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Kebunku akhirnya mulai berbuah hasil yang nyata. Semua kesabaran dan jadwal rapi yang kususun ternyata sepadan.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_KLIMAKS_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Festival Panen hampir tiba. Aku tahu, yang menang bukan yang uangnya paling banyak, tapi yang paling seimbang.",
+            "Pasar"
+        ],
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Kebun ini kubeli dari tabungan yang kukumpulkan pelan-pelan. Sabar ternyata benar-benar berbuah.",
+            "Pasar"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MIN_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Peringkat dua donasi, lumayan juga! Semoga makin banyak yang bisa aku bantu ke depannya.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MIN_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Bukan peringkat pertama, tapi tetap berarti. Berbagi memang tidak harus jadi yang terdepan untuk bernilai.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MIN_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Peringkat dua? Lumayan lah buat pemula kayak aku, hehe. Next time aku kejar juara satu!",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MIN_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku senang bisa berbagi sedikit dari hasil kebunku. Peringkat berapa pun, niatnya tetap sama.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MAX_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sudah beberapa kali aku di peringkat dua. Rasanya konsistensi berbagi ini mulai jadi kebiasaan baik buatku.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MAX_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Konsistensi menempati peringkat dua menunjukkan bahwa kepedulian ini bukan kebetulan, tapi sudah jadi bagian dari caraku mengatur uang.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MAX_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Wah, ternyata aku sering banget di peringkat dua! Nggak nyangka aku bisa se-dermawan ini.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_2_MAX_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Berulang kali di peringkat dua membuatku sadar, berbagi sedikit demi sedikit itu ternyata bisa jadi kebiasaan yang menetap.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MIN_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Peringkat tiga donasi hari ini. Nggak apa-apa, yang penting aku tetap ikut berbagi.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MIN_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Peringkat tiga bukan akhir dari segalanya. Yang penting, aku tetap konsisten menyisihkan sebagian untuk sesama.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MIN_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Peringkat tiga, oke lumayan! Minggu depan aku coba naikin lagi ah.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MIN_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Meski cuma peringkat tiga, aku tetap bersyukur bisa ikut berbagi sedikit hari ini.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MAX_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sering banget aku di peringkat tiga. Sepertinya ini memang levelku sekarang — dan itu tidak masalah.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MAX_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Berulang kali di peringkat tiga mengajarkanku bahwa berbagi itu soal konsistensi, bukan soal siapa yang paling besar nominalnya.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MAX_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Ternyata aku lumayan sering nyumbang juga ya, walau nggak pernah juara satu. Yang penting niatnya sampai!",
+            "Donasi"
+        ]
+    ],
+    "NARASI_DONASI_JUARA_3_MAX_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Peringkat tiga yang berulang ini mengingatkanku, langkah kecil yang konsisten tetap punya arti.",
+            "Donasi"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MIN_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Dana pensiunku masuk peringkat dua. Setidaknya aku sudah mulai memikirkan masa depan dari sekarang.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MIN_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Peringkat dua untuk dana pensiun. Ini bukti kecil bahwa rencana jangka panjangku mulai berjalan sesuai arah.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MIN_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Eh, ternyata aku juga mikirin masa depan lewat pensiun ini. Peringkat dua, lumayan banget!",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MIN_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Aku senang dana pensiunku sudah mulai terkumpul, walau baru peringkat dua. Pelan-pelan pasti sampai.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MAX_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sudah beberapa kali aku di peringkat dua dana pensiun. Kelihatannya kebiasaan menabungku mulai konsisten.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MAX_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Konsistensi di peringkat dua ini membuktikan, rencana masa depan yang matang memang butuh waktu untuk terlihat hasilnya.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MAX_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Nggak nyangka aku bisa serajin ini nabung buat pensiun. Guess I'm growing up, hehe.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_2_MAX_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Berulang kali di peringkat dua dana pensiun membuatku yakin, kesabaran menabung ini akan berbuah nanti.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MIN_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Peringkat tiga dana pensiun. Nggak masalah, yang penting aku sudah mulai menyiapkan masa depan.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MIN_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Peringkat tiga tetaplah langkah maju. Yang penting aku sudah mulai, bukan menunda-nunda.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MIN_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Peringkat tiga buat pensiun? Lumayan lah, seenggaknya aku udah mikirin nanti pas tua.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MIN_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Meski baru peringkat tiga, aku bersyukur sudah mulai menabung untuk masa depanku.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MAX_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Sering di peringkat tiga dana pensiun, tapi aku tetap bangga sudah konsisten menyisihkan sedikit demi sedikit.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MAX_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Berulang kali di peringkat tiga mengajarkanku, yang terpenting adalah tetap menabung secara rutin, bukan seberapa besar jumlahnya.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MAX_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Ternyata aku lumayan rajin juga nabung buat pensiun. Reno versi dewasa, ceilah!",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_PENSIUN_JUARA_3_MAX_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Peringkat tiga yang berulang ini menunjukkan, menabung sedikit demi sedikit tetap membawa hasil pada akhirnya.",
+            "Pensiunan"
+        ]
+    ],
+    "NARASI_KERJA_LEPAS_P0": [
+        [
+            "Alisa",
+            "Alisa",
+            "left",
+            "Kerja lepas memang hasilnya kecil, tapi bisa jadi penyelamat saat modal warung lagi seret.",
+            "Jalan_perkotaan"
+        ]
+    ],
+    "NARASI_KERJA_LEPAS_P1": [
+        [
+            "Rechard",
+            "Rechard",
+            "left",
+            "Kerja lepas tidak membuat kaya, tapi menjaga kas tunai tetap ada. Itu yang membuatku tenang menjalankan rencana.",
+            "Jalan_perkotaan"
+        ]
+    ],
+    "NARASI_KERJA_LEPAS_P2": [
+        [
+            "Reno",
+            "Reno",
+            "left",
+            "Kerja lepas itu kayak ban serep. Nggak keren, tapi pas dompet bocor, dia yang nolong, hehe.",
+            "Jalan_perkotaan"
+        ]
+    ],
+    "NARASI_KERJA_LEPAS_P3": [
+        [
+            "Siti",
+            "Siti",
+            "left",
+            "Tambahan kecil dari kerja lepas bisa kusisihkan untuk tabungan. Pelan-pelan, tapi pasti.",
+            "Jalan_perkotaan"
+        ]
     ]
 }
