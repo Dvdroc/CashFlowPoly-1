@@ -500,6 +500,7 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 		}
 	}
 }
+
 misi_info = noone;
 panel_x = display_get_gui_width() - 380;
 panel_y = 16;

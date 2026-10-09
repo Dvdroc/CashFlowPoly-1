@@ -1,30 +1,22 @@
 {
   "0": [
-    {"id": "NARASI_MINGGU1_P0", "nama": "Buka usahamu (hari ke-1)"},
-    {"id": "NARASI_NASI_MIN_P0", "nama": "Beli Bahan: 1 Nasi"},
-    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P0", "nama": "Jual Makanan: 1 hidangan"},
-    {"id": "NARASI_MINGGU2_P0", "nama": "Hadapi masalah usahamu (hari ke-8)"},
-    {"id": "NARASI_MINGGU3_P0", "nama": "Temukan solusinya (hari ke-15)"}
-  ],
-  "1": [
-    {"id": "NARASI_MINGGU1_P1", "nama": "Buka usahamu (hari ke-1)"},
-    {"id": "NARASI_SAYUR_MIN_P1", "nama": "Beli Bahan: 1 Sayur"},
-    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P1", "nama": "Jual Makanan: 1 hidangan"},
-    {"id": "NARASI_MINGGU2_P1", "nama": "Hadapi masalah usahamu (hari ke-8)"},
-    {"id": "NARASI_MINGGU3_P1", "nama": "Temukan solusinya (hari ke-15)"}
-  ],
-  "2": [
-    {"id": "NARASI_MINGGU1_P2", "nama": "Buka usahamu (hari ke-1)"},
-    {"id": "NARASI_TAHU_MIN_P2", "nama": "Beli Bahan: 1 Tahu"},
-    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P2", "nama": "Jual Makanan: 1 hidangan"},
-    {"id": "NARASI_MINGGU2_P2", "nama": "Hadapi masalah usahamu (hari ke-8)"},
-    {"id": "NARASI_MINGGU3_P2", "nama": "Temukan solusinya (hari ke-15)"}
-  ],
-  "3": [
-    {"id": "NARASI_MINGGU1_P3", "nama": "Buka usahamu (hari ke-1)"},
-    {"id": "NARASI_TELUR_MIN_P3", "nama": "Beli Bahan: 1 Telur"},
-    {"id": "NARASI_MAKANAN_TERJUAL_MIN_P3", "nama": "Jual Makanan: 1 hidangan"},
-    {"id": "NARASI_MINGGU2_P3", "nama": "Hadapi masalah usahamu (hari ke-8)"},
-    {"id": "NARASI_MINGGU3_P3", "nama": "Temukan solusinya (hari ke-15)"}
+{"id": "perkenalan_A", "nama": "Intro"},
+    {"id": "hari_01_A", "nama": "Aktivitas Individu"},
+    {"id": "hari_02_A", "nama": "Penjadwalan"},
+    {"id": "hari_03_A", "nama": "Strategi"},
+    {"id": "hari_04_A", "nama": "Adaptasi"},
+    {"id": "hari_08_A", "nama": "Penjadwalan, Penyempurnaan"},
+    {"id": "hari_09_A", "nama": "Integrasi Penjadwalan Dulu dan Sekarang"},
+    {"id": "hari_10_A", "nama": "Penyesuaian Strategi"},
+    {"id": "hari_11_A", "nama": "Penyesuaian Adaptasi"},
+    {"id": "hari_15_A", "nama": "Strategi, Penyempurnaan"},
+    {"id": "hari_16_A", "nama": "Integrasi Strategi Dulu dan Sekarang"},
+    {"id": "hari_17_A", "nama": "Penyesuaian Penjadwalan"},
+    {"id": "hari_18_A", "nama": "Penyesuaian Adaptasi"},
+    {"id": "hari_22_A", "nama": "Adaptasi, Penyempurnaan"},
+    {"id": "hari_23_A", "nama": "Integrasi Adaptasi Dulu dan Sekarang"},
+    {"id": "hari_24_A", "nama": "Penyesuaian Penjadwalan"},
+    {"id": "hari_25_A", "nama": "Penyesuaian Strategi"}
   ]
+ 
 }
