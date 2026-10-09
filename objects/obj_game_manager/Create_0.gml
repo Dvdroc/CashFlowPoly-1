@@ -475,17 +475,18 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 			global.tampilan = 0;
 			global.tanggal += 3;
 			global.tampilan = 0;
-			global.spr_background = Donasi
+			global.spr_background = Pasar
 		}else {
 			global.day = "sabtu";
 			global.tampilan = 2;
 			global.tanggal += 1;
 			global.tampilan = 2;
-			global.spr_background = Donasi
+			global.spr_background = Investasi
 		}
 	}else if(global.mode != "pemula" && global.day == "sabtu"){
 		global.day = "senin";
 		global.tanggal += 2;
+		global.spr_background = Pasar
 	}
 	instance_create_depth(
 	    room_width / 2,

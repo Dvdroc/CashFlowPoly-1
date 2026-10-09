@@ -2047,7 +2047,7 @@
             "Alisa",
             "Alisa",
             "left",
-            "Sambil membenahi catatan, aku mau ambil kerja lepas dulu. Lumayan buat menambal modal warung.",
+            "Modal warungku makin tipis. Kalau terus begini tanpa catatan, aku bisa rugi tanpa sadar.",
             "Pasar"
         ]
     ],
@@ -2063,32 +2063,7 @@
             "Alisa",
             "Alisa",
             "left",
-            "Satu hal yang pasti, kebutuhanku sendiri juga penting. Aku mau beli tepak makan siang, biar aku nggak cuma mikirin warung.",
-            "Kantin_sekolah"
-        ]
-    ],
-    "NARASI_MINGGU4_P0": [
-        [
-            "Alisa",
-            "Alisa",
-            "left",
-            "Festival Panen tinggal beberapa hari lagi. Dari warung kecil modal pas-pasan, sekarang aku punya pelanggan tetap. Aku nggak sabar lihat hasil akhirnya.",
-            "Pasar"
-        ]
-    ],
-    "NARASI_KLIMAKS_P0": [
-        [
-            "Alisa",
-            "Alisa",
-            "left",
-            "Festival Panen sudah di depan mata. Dari warung kecil bermodal pas-pasan, kini aku punya pelanggan tetap.",
-            "Pasar"
-        ],
-        [
-            "Alisa",
-            "Alisa",
-            "left",
-            "Dan sekarang ada TV dan sofa di rumah. Hasil jualan selama ini akhirnya terasa nyata!",
+            "Aku putuskan fokus ke menu yang paling laku dan selalu mencatat belanjaanku. Warungku sekarang jauh lebih sehat!",
             "Pasar"
         ]
     ],
@@ -2113,7 +2088,7 @@
             "Rechard",
             "Rechard",
             "left",
-            "Untuk sementara aku kerja lepas dulu. Kas tunai harus aman sebelum aku memikirkan aset.",
+            "Rencanaku besar, tapi kas tunaiku tinggal sedikit. Ternyata rencana tanpa catatan yang rapi bisa jadi bumerang.",
             "Ruang_tamu"
         ]
     ],
@@ -2129,33 +2104,8 @@
             "Rechard",
             "Rechard",
             "left",
-            "Aku akan membeli buku. Prioritas yang baik dimulai dari memenuhi kebutuhan dan menambah pengetahuan.",
-            "Ruang_perpustakaan"
-        ]
-    ],
-    "NARASI_MINGGU4_P1": [
-        [
-            "Rechard",
-            "Rechard",
-            "left",
-            "Rencana yang kususun sejak minggu pertama mulai terlihat hasilnya. Ternyata kesabaran dan kas yang sehat benar-benar membuahkan sesuatu.",
-            "Pasar"
-        ]
-    ],
-    "NARASI_KLIMAKS_P1": [
-        [
-            "Rechard",
-            "Rechard",
-            "left",
-            "Festival Panen sudah dekat. Empat minggu ini mengajariku bahwa rencana panjang butuh kas yang cukup dan kesabaran.",
-            "Pasar"
-        ],
-        [
-            "Rechard",
-            "Rechard",
-            "left",
-            "Rumah ini buktinya. Tujuan yang kususun sejak minggu pertama akhirnya tercapai.",
-            "Pasar"
+            "Aku putuskan untuk menjaga kas tetap aman dulu, baru memikirkan aset. Pelan tapi pasti, rencanaku kembali berjalan.",
+            "Ruang_tamu"
         ]
     ],
     "NARASI_MINGGU1_P2": [
@@ -2179,7 +2129,7 @@
             "Reno",
             "Reno",
             "left",
-            "Oke, aku kerja lepas dulu deh. Lumayan buat nutup bolongnya kas kios.",
+            "Kalau begini terus, kiosku bisa bangkrut. Aku harus berubah, mulai sekarang!",
             "Taman"
         ]
     ],
@@ -2195,33 +2145,8 @@
             "Reno",
             "Reno",
             "left",
-            "Aku mau beli sepatu, tapi kali ini karena memang perlu, bukan karena pengin. Itu bedanya Reno yang sekarang!",
-            "Mini_market"
-        ]
-    ],
-    "NARASI_MINGGU4_P2": [
-        [
-            "Reno",
-            "Reno",
-            "left",
-            "Nggak nyangka aku bisa sampai sejauh ini. Dari yang dulu boros parah, sekarang aku udah lebih paham cara atur uang kios sendiri.",
-            "Pasar"
-        ]
-    ],
-    "NARASI_KLIMAKS_P2": [
-        [
-            "Reno",
-            "Reno",
-            "left",
-            "Festival Panen sebentar lagi! Dulu aku boros dan kelabakan, sekarang aku paham atur uang.",
-            "Pasar"
-        ],
-        [
-            "Reno",
-            "Reno",
-            "left",
-            "Liburan ini kubayar dari tabungan sendiri. Siapa pun juaranya, aku sudah menang lawan diriku sendiri.",
-            "Pasar"
+            "Aku putuskan, stok jajanan dulu yang utama, hiburan belakangan. Dengan catatan yang rapi, kiosku akhirnya untung!",
+            "Taman"
         ]
     ],
     "NARASI_MINGGU1_P3": [
@@ -2245,7 +2170,7 @@
             "Siti",
             "Siti",
             "left",
-            "Aku mau kerja lepas sebentar untuk menambah kas. Kebun tetap kurawat, tapi dompet juga perlu diisi.",
+            "Kalau terus begini, kebunku bisa gagal panen. Aku nggak boleh membiarkannya.",
             "Taman"
         ]
     ],
@@ -2261,33 +2186,8 @@
             "Siti",
             "Siti",
             "left",
-            "Aku mau beli baju untuk diriku sendiri. Menabung tetap jalan, tapi kebutuhanku tidak kulupakan lagi.",
-            "Mini_market"
-        ]
-    ],
-    "NARASI_MINGGU4_P3": [
-        [
-            "Siti",
-            "Siti",
-            "left",
-            "Kebunku akhirnya mulai berbuah hasil yang nyata. Semua kesabaran dan jadwal rapi yang kususun ternyata sepadan.",
-            "Pasar"
-        ]
-    ],
-    "NARASI_KLIMAKS_P3": [
-        [
-            "Siti",
-            "Siti",
-            "left",
-            "Festival Panen hampir tiba. Aku tahu, yang menang bukan yang uangnya paling banyak, tapi yang paling seimbang.",
-            "Pasar"
-        ],
-        [
-            "Siti",
-            "Siti",
-            "left",
-            "Kebun ini kubeli dari tabungan yang kukumpulkan pelan-pelan. Sabar ternyata benar-benar berbuah.",
-            "Pasar"
+            "Aku putuskan merawat kebun sesuai jadwal dan menjual kerajinan secukupnya. Usahaku akhirnya tumbuh seimbang.",
+            "Taman"
         ]
     ],
     "NARASI_DONASI_JUARA_2_MIN_P0": [
@@ -2576,42 +2476,6 @@
             "left",
             "Peringkat tiga yang berulang ini menunjukkan, menabung sedikit demi sedikit tetap membawa hasil pada akhirnya.",
             "Pensiunan"
-        ]
-    ],
-    "NARASI_KERJA_LEPAS_P0": [
-        [
-            "Alisa",
-            "Alisa",
-            "left",
-            "Kerja lepas memang hasilnya kecil, tapi bisa jadi penyelamat saat modal warung lagi seret.",
-            "Jalan_perkotaan"
-        ]
-    ],
-    "NARASI_KERJA_LEPAS_P1": [
-        [
-            "Rechard",
-            "Rechard",
-            "left",
-            "Kerja lepas tidak membuat kaya, tapi menjaga kas tunai tetap ada. Itu yang membuatku tenang menjalankan rencana.",
-            "Jalan_perkotaan"
-        ]
-    ],
-    "NARASI_KERJA_LEPAS_P2": [
-        [
-            "Reno",
-            "Reno",
-            "left",
-            "Kerja lepas itu kayak ban serep. Nggak keren, tapi pas dompet bocor, dia yang nolong, hehe.",
-            "Jalan_perkotaan"
-        ]
-    ],
-    "NARASI_KERJA_LEPAS_P3": [
-        [
-            "Siti",
-            "Siti",
-            "left",
-            "Tambahan kecil dari kerja lepas bisa kusisihkan untuk tabungan. Pelan-pelan, tapi pasti.",
-            "Jalan_perkotaan"
         ]
     ]
 }

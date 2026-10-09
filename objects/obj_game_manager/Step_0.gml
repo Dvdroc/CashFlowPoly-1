@@ -55,7 +55,7 @@ if (global.tampilan == 5) {
 misi_info = scr_get_misi_aktif(global.current_player);
 if(global.tanggal > 25 || global.endgame == true){
 	if(global.rekap == false){
-		global.tampilan = 3
+		global.tampilan = 3;
 	}else global.tampilan = 4;
 }
 for (var i = 0; i < array_length(global.bahan_baku); i++){
