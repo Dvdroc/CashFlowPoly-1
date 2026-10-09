@@ -253,6 +253,11 @@ if (!variable_global_exists("recipes")) {
 }
 
 tampilkan_misi = true
+misi_info = noone;
+panel_x = display_get_gui_width() - 380;
+panel_y = 16;
+panel_w = 320;
+panel_h = 60;
 
 if (!variable_global_exists("Uang")) {
 	global.Uang = 20;
@@ -451,7 +456,6 @@ my_font = font_add("Arial", 15, false, false, 0, 0);
 if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan != 1) {
 	if (global.tampilan == 2 && global.day != "sabtu") exit;
 	global.activity_points = 2
-	save_game_to_slot(0);
 	if(global.day == "senin"){
 		global.day = "selasa";
 		global.tanggal += 1;
@@ -499,10 +503,5 @@ if (global.activity_points <= 0 && global.current_player == 0 && global.tampilan
 			global.resiko_aktif[i].sisa_hari -= 1;
 		}
 	}
+	save_game_to_slot(0);
 }
-
-misi_info = noone;
-panel_x = display_get_gui_width() - 380;
-panel_y = 16;
-panel_w = 320;
-panel_h = 60;
