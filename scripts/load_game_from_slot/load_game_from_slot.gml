@@ -77,6 +77,25 @@ function load_game_from_slot(_slot) {
         target.asuransi     = snapshot.asuransi;
     }
 
+	// --- Risiko pink aktif ---
+	if (variable_struct_exists(_data, "resiko_aktif")) {
+	    global.resiko_aktif = _data.resiko_aktif;
+	} else {
+	    global.resiko_aktif = [];
+	}
+
+	// --- Harga emas ---
+	if (variable_struct_exists(_data, "harga_emas")) {
+	    global.harga_emas = _data.harga_emas;
+	}   // save lama: biarkan nilai sekarang
+
+	// --- Pemain sebelum investasi ---
+	if (variable_struct_exists(_data, "player_sebelumnya")) {
+	    global.player_sebelumnya = _data.player_sebelumnya;
+	} else if (!variable_global_exists("player_sebelumnya")) {
+	    global.player_sebelumnya = 0;
+	}
+
     if (room_exists(asset_get_index(_data.room_name))) {
         room_goto(asset_get_index(_data.room_name));
     }

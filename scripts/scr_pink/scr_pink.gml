@@ -1,5 +1,4 @@
 function scr_pink(kartu){
-	
 	var r = global.Resiko[kartu];
 	var ketemu = false;
 
@@ -7,7 +6,7 @@ function scr_pink(kartu){
 	{
 	    if (global.resiko_aktif[i].biaya == r.biaya)
 	    {
-	        global.resiko_aktif[i].sisa_hari += 7;
+	        global.resiko_aktif[i].sisa_hari = 7;   // reset: mulai hitung 7 hari lagi
 	        ketemu = true;
 	        break;
 	    }
@@ -15,11 +14,9 @@ function scr_pink(kartu){
 
 	if (!ketemu)
 	{
-	    array_push(global.resiko_aktif,{
+	    array_push(global.resiko_aktif, {
 	        biaya : r.biaya,
 	        sisa_hari : 7
 	    });
 	}
-	
-	
 }

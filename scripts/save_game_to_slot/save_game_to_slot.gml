@@ -1,6 +1,8 @@
 function save_game_to_slot(_slot) {
-    var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";
-
+	var _dir = working_directory + "save/";
+	if (!directory_exists(_dir)) directory_create(_dir);
+	var _path = _dir + "slot" + string(_slot) + ".sav";
+	
     var nama = global.player;
     var all_players = [];
 
@@ -55,21 +57,24 @@ function save_game_to_slot(_slot) {
 
     // --- Data global (bukan per-pemain) ---
     var save_struct = {
-        "slot_name"       : "Slot " + string(_slot),
-        "save_date"       : date_datetime_string(date_current_datetime()),
-        "room_name"       : room_get_name(room),
-        "day"             : global.day,
-        "tanggal"         : global.tanggal,
-        "activity_points" : global.activity_points,
-        "tampilan"        : global.tampilan,
-        "current_player"  : global.current_player,
-		"mode"			  : global.mode,
-		"story_remaining" : variable_struct_get_names(global.story),
-		"rekap"			  : global.rekap,
-		"endgame"		  : global.endgame,
-		"nama_kelompok"   : global.nama_kelompok,
-		"match_logs"      : global.match_logs,
-        "players"         : all_players
+        "slot_name"			: "Slot " + string(_slot),
+        "save_date"			: date_datetime_string(date_current_datetime()),
+        "room_name"			: room_get_name(room),
+        "day"				: global.day,
+        "tanggal"			: global.tanggal,
+        "activity_points"	: global.activity_points,
+        "tampilan"			: global.tampilan,
+        "current_player"	: global.current_player,
+		"mode"				: global.mode,
+		"story_remaining"	: variable_struct_get_names(global.story),
+		"rekap"				: global.rekap,
+		"endgame"			: global.endgame,
+		"nama_kelompok"		: global.nama_kelompok,
+		"match_logs"		: global.match_logs,
+		"resiko_aktif"      : global.resiko_aktif,
+		"harga_emas"        : variable_global_exists("harga_emas") ? global.harga_emas : 5,
+		"player_sebelumnya" : variable_global_exists("player_sebelumnya") ? global.player_sebelumnya : 0,
+        "players"			: all_players
     };
 
     var _json = json_stringify(save_struct, true);

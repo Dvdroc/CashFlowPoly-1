@@ -9,6 +9,7 @@ if (!panel_open) {
     if (btn_hover && _mouse_pressed) {
         panel_open = true;
 		global.uiblocking = true;
+		cache_valid = false;
     }
     exit; // gak perlu proses logic panel di bawah
 }
@@ -62,7 +63,7 @@ if (!show_confirm) {
 	                    show_confirm = true;
 	                    confirm_slot = 0;
 	                } else if (save_slot_exists(0)) {
-	                    show_message_popup("Auto-save ini bukan mode " + global.mode_permainan + "!");
+	                    show_message_popup("Auto-save ini bukan mode " + global.mode + "!");
 	                } else {
 	                    show_message_popup("Belum ada auto-save!");
 	                }
@@ -72,6 +73,7 @@ if (!show_confirm) {
 	                    confirm_slot = _i;
 	                } else {
 	                    save_game_to_slot(_i);
+						cache_valid = false;  
 	                }
 	            } else {
 	                if (save_slot_exists(_i) && save_slot_matches_mode(_i)) {
@@ -115,6 +117,7 @@ if (!show_confirm) {
 	    if (point_in_rectangle(mouse_gui_x, mouse_gui_y, _yes_x1, _btn_y1, _yes_x2, _btn_y2)) {
 	        if (menu_mode == "save") {
 	            save_game_to_slot(confirm_slot);
+				cache_valid = false;
 	        } else if (menu_mode == "load") {
 	            load_game_from_slot(confirm_slot);
 	        } else if (menu_mode == "end") {

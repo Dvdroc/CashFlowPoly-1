@@ -165,7 +165,12 @@ if dropdown_open == 2
 	        {
 	            text_color = c_gray;
 	        }
-	    }else if (aktivitas_selected != 2 && aktivitas_selected != 5){
+	    }else if (aktivitas_selected == 5){
+			var _pj = ds_map_exists(global.inventory, "Pinjaman") ? global.inventory[? "Pinjaman"] : 0;
+			if (menu_list[index].name == "Bayar Pinjaman" && (_pj <= 0 || global.Uang < -menu_list[index].harga)){
+				text_color = c_gray;
+			}
+		}else if (aktivitas_selected != 2 && aktivitas_selected != 5){
 			if ( aktivitas_selected == 6 &&  (global.Uang < menu_list[index].harga || global.asuransi[0].kondisi)){
 	            text_color = c_gray;
 	        }else if (global.Uang < menu_list[index].harga){

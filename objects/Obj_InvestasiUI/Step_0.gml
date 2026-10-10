@@ -33,7 +33,7 @@ if(visible){
 	    // BELI
 	    if point_in_rectangle(mx,my,ui_x + 40, ui_y + 180, ui_x + 160, ui_y + 230)
 	    {
-	        if(global.Uang >= global.harga_emas)
+	        if(global.Uang >= global.harga_emas * quantity)
 	        {
 	            global.Uang -= (global.harga_emas * quantity);
 	            global.inventory[? "Emas"] += quantity;
@@ -66,7 +66,7 @@ if(visible){
 	    // JUAL
 	    if point_in_rectangle(mx,my,ui_x + 200, ui_y + 180, ui_x + 320, ui_y + 230)
 	    {
-	        if(global.inventory[? "Emas"] > 0)
+	        if(global.inventory[? "Emas"] > quantity)
 	        {
 	            global.inventory[? "Emas"] -= quantity;
 	            global.Uang += (global.harga_emas * quantity);

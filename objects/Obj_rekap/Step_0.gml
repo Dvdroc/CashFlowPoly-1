@@ -1,5 +1,4 @@
 if (visible){
-	if(global.uiblocking) exit;
 	pemain_list = global.player;
 	var jumlah_player = array_length(pemain_list);
 	var jumlah_kategori = array_length(kategori_skor);
@@ -16,8 +15,8 @@ if (visible){
 	    /// load data player p
 	    var data = global.player_data[p];
 
-	    global.inventory = data.inventory;
-	    global.record = data.record;
+	    ds_map_copy(global.inventory, data.inventory);
+	    ds_map_copy(global.record, data.record);
 	    global.Uang = data.uang;
 	    global.tabungan = data.tabungan;
 

@@ -56,11 +56,11 @@ col_btn_border   = make_color_rgb(90, 90, 115);
 col_dots         = c_white;
 
 function save_slot_matches_mode(_slot) {
-    var _info = get_slot_info(_slot);
-    if (is_undefined(_info)) return false;
-    if (!variable_struct_exists(_info, "mode")) return false; // save lama tanpa data mode
+    var _info = get_slot_info_cached(_slot);
+    if (is_undefined(_info) || is_undefined(_info.mode)) return false;
     return (_info.mode == global.mode);
 }
+
 function save_slot_exists(_slot) {
     var _path = working_directory + "save/" + "slot" + string(_slot) + ".sav";
     return file_exists(_path);
@@ -94,4 +94,28 @@ function delete_save_slot(_slot) {
 function show_message_popup(_text) {
     message_text  = _text;
     message_timer = room_speed * 2;
+}
+
+slot_cache = [];
+cache_valid = false;
+
+function refresh_slot_cache() {
+    for (var _i = 0; _i <= save_slot_count; _i++) {
+        var _full = get_slot_info(_i);
+        if (is_undefined(_full)) {
+            slot_cache[_i] = undefined;
+        } else {
+            slot_cache[_i] = {
+                room_name : variable_struct_exists(_full, "room_name") ? _full.room_name : "-",
+                save_date : variable_struct_exists(_full, "save_date") ? _full.save_date : "-",
+                mode      : variable_struct_exists(_full, "mode")      ? _full.mode      : undefined
+            };
+        }
+    }
+    cache_valid = true;
+}
+
+function get_slot_info_cached(_slot) {
+    if (!cache_valid) refresh_slot_cache();
+    return slot_cache[_slot];
 }

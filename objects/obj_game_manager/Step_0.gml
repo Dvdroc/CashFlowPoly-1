@@ -58,22 +58,18 @@ if(global.tanggal > 25 || global.endgame == true){
 		global.tampilan = 3;
 	}else global.tampilan = 4;
 }
-for (var i = 0; i < array_length(global.bahan_baku); i++){
-    var base = global.bahan_baku[i].harga_dasar;
-	
-	
-	for(var j = 0; j < array_length(global.resiko_aktif); j++){
-		
-	    if(global.resiko_aktif[j].sisa_hari > 0){
-			var efek = global.resiko_aktif[j].biaya
-	        global.bahan_baku[i].harga = base + efek;
-			
-	    }
-	    else{
-	        global.bahan_baku[i].harga = base;
-	    }
-	}
+// total efek semua risiko yang masih aktif
+var total_efek = 0;
+for (var j = 0; j < array_length(global.resiko_aktif); j++){
+    if (global.resiko_aktif[j].sisa_hari > 0){
+        total_efek += global.resiko_aktif[j].biaya;
+    }
 }
+
+for (var i = 0; i < array_length(global.bahan_baku); i++){
+    global.bahan_baku[i].harga = global.bahan_baku[i].harga_dasar + total_efek;
+}
+
 if (keyboard_check_pressed(ord("Q"))){
 	global.testing = !global.testing
 }

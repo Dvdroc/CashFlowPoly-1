@@ -19,9 +19,10 @@ function scr_donasi(juara, pemain_list, donasi)
 
             var record = player.record;
 
-            if (ds_map_exists(record, nama_donasi))
+            if (ds_map_exists(record, nama_donasi)){
                 record[? nama_donasi] += 1
 				record[? "total donasi"] += donasi[i]
+			}
 		 }
     }
     scr_load_player();

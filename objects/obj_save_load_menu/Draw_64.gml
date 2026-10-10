@@ -68,10 +68,15 @@ if (menu_mode != "end") {
         draw_text(_sx1 + 16, _sy1 + 10, (_i == 0) ? "Auto-Save" : ("Slot " + string(_i)));
         draw_set_valign(fa_bottom);
         if (_has_data) {
-            var _info = get_slot_info(_i);
-            draw_set_color(col_text_dim);
-            draw_text(_sx1 + 16, _sy2 - 10, _info.room_name + "  |  " + _info.save_date + "  |  " + _info.mode);
-        } else if (save_slot_exists(_i)) {
+		    var _info = get_slot_info_cached(_i);
+		    draw_set_color(col_text_dim);
+		    if (is_undefined(_info)) {
+		        draw_text(_sx1 + 16, _sy2 - 10, "Data rusak");
+		    } else {
+		        var _m = is_undefined(_info.mode) ? "-" : _info.mode;
+		        draw_text(_sx1 + 16, _sy2 - 10, _info.room_name + "  |  " + _info.save_date + "  |  " + _m);
+		    }
+		} else if (save_slot_exists(_i)) {
             draw_set_color(make_color_rgb(120, 80, 80));
             draw_text(_sx1 + 16, _sy2 - 10, "Mode berbeda");
         } else {
