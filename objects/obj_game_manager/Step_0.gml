@@ -56,7 +56,10 @@ misi_info = scr_get_misi_aktif(global.current_player);
 if(global.tanggal > 25 || global.endgame == true){
 	if(global.rekap == false){
 		global.tampilan = 3;
-	}else global.tampilan = 4;
+		global.spr_background = Pensiun;
+	}else{
+		global.tampilan = 4;
+	}
 }
 // total efek semua risiko yang masih aktif
 var total_efek = 0;

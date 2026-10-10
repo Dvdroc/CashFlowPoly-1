@@ -71,14 +71,35 @@ for(var p=0; p<array_length(pemain_list); p++){
 }
 if (input_active)
 {
+    if (input_active)
+{
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_top);
+
+    // kotak utama
     draw_set_color(#5E3023);
-    draw_rectangle(x_donasi_posisi,y_donasi, x_donasi_posisi + x_donasi_lebar,y_donasi + y_donasi_lebar,false);
-	draw_set_color(c_black);
-    draw_rectangle(x_donasi_posisi,y_donasi, x_donasi_posisi + x_donasi_lebar,y_donasi + y_donasi_lebar,true);
-	
+    draw_rectangle(x_donasi_posisi, y_donasi, x_donasi_posisi + x_donasi_lebar, y_donasi + y_donasi_lebar, false);
+    draw_set_color(c_black);
+    draw_rectangle(x_donasi_posisi, y_donasi, x_donasi_posisi + x_donasi_lebar, y_donasi + y_donasi_lebar, true);
+
+    // label
     draw_set_color(c_white);
-    draw_text(x_donasi_posisi + x_donasi_lebar / 2,y_donasi + 10,"Masukkan Donasi:");
-    draw_text(x_donasi_posisi + x_donasi_lebar / 2,y_donasi + 20,input_text);
+    draw_text(x_donasi_posisi + x_donasi_lebar / 2, y_donasi + 6, "Masukkan Donasi:");
+
+    // kolom input terpisah di bawah label
+    var _fx1 = x_donasi_posisi + 15;
+    var _fy1 = y_donasi + 28;
+    var _fx2 = x_donasi_posisi + x_donasi_lebar - 15;
+    var _fy2 = y_donasi + y_donasi_lebar - 8;
+
+    draw_set_color(#3A1D14);
+    draw_rectangle(_fx1, _fy1, _fx2, _fy2, false);
+    draw_set_color(c_black);
+    draw_rectangle(_fx1, _fy1, _fx2, _fy2, true);
+
+    draw_set_color(c_white);
+    draw_text(x_donasi_posisi + x_donasi_lebar / 2, _fy1 + 4, input_text);
+}
 }
 if (global.testing)
 {

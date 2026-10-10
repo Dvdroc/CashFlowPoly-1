@@ -113,7 +113,7 @@
 				
 			    draw_text(_box_center_x, _box_center_y, dialog_name);
 				draw_set_halign(fa_left);
-		        draw_set_halign(fa_left); // Reset perataan
+				draw_set_valign(fa_top);
 			}else{
 				draw_set_font(-1); 
 		        draw_set_color(c_yellow);
@@ -127,6 +127,8 @@
 	    }
 
 	    // --- 5. Gambar Teks Dialog Asli (HANYA untuk Kotak Input Jumlah/Typewriter) --
+		draw_set_halign(fa_left);
+		draw_set_valign(fa_top);
 		if(global.tampilan == 0){
 	        draw_set_font(-1);
 	        draw_set_color(c_white);
