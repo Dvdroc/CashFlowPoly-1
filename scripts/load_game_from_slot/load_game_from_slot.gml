@@ -23,25 +23,17 @@ function load_game_from_slot(_slot) {
 	global.nama_kelompok   = _data.nama_kelompok;
 	// --- Terapkan progress story ---
 	if (variable_struct_exists(_data, "story_remaining")) {
+	    var _fresh = scr_baca_story();
+	    var _story_baru = {};
 	    var _remaining = _data.story_remaining;
-	    var _all_keys = variable_struct_get_names(global.story); // asumsi global.story sudah di-generate ulang dari JSON sebelum baris ini
 
-	    for (var i = 0; i < array_length(_all_keys); i++) {
-	        var _key = _all_keys[i];
-	        var _still_exists = false;
-
-	        for (var j = 0; j < array_length(_remaining); j++) {
-	            if (_remaining[j] == _key) {
-	                _still_exists = true;
-	                break;
-	            }
-	        }
-
-	        // Kalau key ini TIDAK ada di daftar remaining, berarti sudah pernah dipicu -> hapus
-	        if (!_still_exists) {
-	            variable_struct_remove(global.story, _key);
+	    for (var i = 0; i < array_length(_remaining); i++) {
+	        var _k = _remaining[i];
+	        if (variable_struct_exists(_fresh, _k)) {
+	            _story_baru[$ _k] = _fresh[$ _k];
 	        }
 	    }
+	    global.story = _story_baru;
 	}
 	
     var nama = global.player;
@@ -103,4 +95,32 @@ function load_game_from_slot(_slot) {
 	global.uiblocking = false;
     show_message_popup("Game dimuat!");
     room_restart()
+}
+function scr_baca_story() {
+    var file = file_text_open_read("Story.json");
+    var json_text = "";
+    while (!file_text_eof(file)) {
+        json_text += file_text_readln(file);
+    }
+    file_text_close(file);
+
+    var _story = json_parse(json_text);
+    var keys = variable_struct_get_names(_story);
+
+    for (var i = 0; i < array_length(keys); i++) {
+        var story_id = keys[i];
+        var dialog_array = _story[$ story_id];
+
+        for (var j = 0; j < array_length(dialog_array); j++) {
+            if (dialog_array[j][0] == "Alisa")        dialog_array[j][0] = global.player[0];
+            else if (dialog_array[j][0] == "Rechard") dialog_array[j][0] = global.player[1];
+            else if (dialog_array[j][0] == "Reno")    dialog_array[j][0] = global.player[2];
+            else if (dialog_array[j][0] == "Siti")    dialog_array[j][0] = global.player[3];
+
+            dialog_array[j][1] = asset_get_index(dialog_array[j][1]);
+            dialog_array[j][4] = asset_get_index(dialog_array[j][4]);
+        }
+        _story[$ story_id] = dialog_array;
+    }
+    return _story;
 }

@@ -19,6 +19,7 @@ if (visible){
 	    ds_map_copy(global.record, data.record);
 	    global.Uang = data.uang;
 	    global.tabungan = data.tabungan;
+		global.misi_T   = data.misi_T;  
 
 	    var poin = array_create(jumlah_kategori);
 
@@ -50,6 +51,7 @@ if (visible){
 	        skor[i][p] = poin[i];
 	    }
 	}
+	scr_load_player();
 	//log rekap
 	var logs = global.match_logs;
 

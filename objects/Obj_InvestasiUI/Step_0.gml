@@ -46,6 +46,7 @@ if(visible){
 						    }
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
+							scr_load_player();
 							scr_next_player();
 						}else{
 							global.current_player = global.player_sebelumnya;
@@ -66,7 +67,7 @@ if(visible){
 	    // JUAL
 	    if point_in_rectangle(mx,my,ui_x + 200, ui_y + 180, ui_x + 320, ui_y + 230)
 	    {
-	        if(global.inventory[? "Emas"] > quantity)
+	        if(global.inventory[? "Emas"] >= quantity)
 	        {
 	            global.inventory[? "Emas"] -= quantity;
 	            global.Uang += (global.harga_emas * quantity);
@@ -79,6 +80,7 @@ if(visible){
 						    }
 							global.current_player = global.player_sebelumnya;
 							global.tampilan = 0;
+							scr_load_player();
 							scr_next_player();
 						}else{
 							global.current_player = global.player_sebelumnya;

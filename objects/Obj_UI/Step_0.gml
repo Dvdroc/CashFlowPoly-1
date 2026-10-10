@@ -326,6 +326,7 @@ if(go == true ){
 			        {
 			            jumlah = max_value;
 			        }
+					if jumlah > global.Uang jumlah = global.Uang;
 					
 					show_debug_message("Input: " + string(jumlah));
 					global.tabungan += real(jumlah);

@@ -59,6 +59,7 @@
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
     {"id":{"name":"Obj_InputNama","path":"objects/Obj_InputNama/Obj_InputNama.yy",},},
     {"id":{"name":"Obj_InvestasiUI","path":"objects/Obj_InvestasiUI/Obj_InvestasiUI.yy",},},
+    {"id":{"name":"obj_letterbox","path":"objects/obj_letterbox/obj_letterbox.yy",},},
     {"id":{"name":"obj_mugshot","path":"objects/obj_mugshot/obj_mugshot.yy",},},
     {"id":{"name":"Obj_pilih_mode","path":"objects/Obj_pilih_mode/Obj_pilih_mode.yy",},},
     {"id":{"name":"Obj_prolog","path":"objects/Obj_prolog/Obj_prolog.yy",},},
