@@ -115,6 +115,7 @@ if(visible){
 			emas_hover = 4;
 			if (mouse_check_button_pressed(mb_left)){
 				if(src_jual_emas(player_terpilih,emas_harga_dummy,emas_jumlah_jual)){
+					if (player_terpilih == global.current_player) scr_load_player();
 					show_debug_message("Jual emas ditekan, harga=" + string(emas_harga_dummy) + " jumlah=" + string(emas_jumlah_jual));
 					mode_ui = return_mode_ui; // balik ke mode sebelumnya (0 atau 3)
 				}
@@ -243,6 +244,7 @@ if(visible){
 
 					if (mouse_check_button_pressed(mb_left)){
 						if(scr_jual_aneka_kebutuhan(player_terpilih,nama,item.harga)){
+							if (player_terpilih == global.current_player) scr_load_player();
 							show_debug_message("Jual kebutuhan diklik: " + nama + " (harga " + string(item.harga) + ")");
 						}
 					}
@@ -270,6 +272,7 @@ if(visible){
 			pinjam_hover = 0;
 			if (mouse_check_button_pressed(mb_left)){
 				if(scr_pinjaman_darurat(player_terpilih)){
+					if (player_terpilih == global.current_player) scr_load_player();
 					show_debug_message("Pinjam Syariah dikonfirmasi");
 					mode_ui = return_mode_ui;
 				}
