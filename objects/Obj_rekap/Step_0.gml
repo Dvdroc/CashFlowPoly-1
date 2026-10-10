@@ -25,7 +25,7 @@ if (visible){
 
 	    poin[0] = aneka_kebutuhan();
 	    poin[1] = set_kebutuhan();
-	    poin[2] = cek_misi();
+	    poin[2] = cek_misi() ? 0 : -10;
 	    poin[3] = juara_peduli();
 	    poin[4] = juara_pensiun();
 	    poin[5] = tujuan_finansial();

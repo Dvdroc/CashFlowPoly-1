@@ -21,20 +21,6 @@ function load_game_from_slot(_slot) {
 	global.rekap		   = _data.rekap;
 	global.endgame         = _data.endgame;
 	global.nama_kelompok   = _data.nama_kelompok;
-	// --- Terapkan progress story ---
-	if (variable_struct_exists(_data, "story_remaining")) {
-	    var _fresh = scr_baca_story();
-	    var _story_baru = {};
-	    var _remaining = _data.story_remaining;
-
-	    for (var i = 0; i < array_length(_remaining); i++) {
-	        var _k = _remaining[i];
-	        if (variable_struct_exists(_fresh, _k)) {
-	            _story_baru[$ _k] = _fresh[$ _k];
-	        }
-	    }
-	    global.story = _story_baru;
-	}
 	
     var nama = global.player;
 
@@ -68,6 +54,20 @@ function load_game_from_slot(_slot) {
         target.baked_goods = snapshot.baked_goods;
         target.asuransi     = snapshot.asuransi;
     }
+	// --- Terapkan progress story ---
+	if (variable_struct_exists(_data, "story_remaining")) {
+	    var _fresh = scr_baca_story();
+	    var _story_baru = {};
+	    var _remaining = _data.story_remaining;
+
+	    for (var i = 0; i < array_length(_remaining); i++) {
+	        var _k = _remaining[i];
+	        if (variable_struct_exists(_fresh, _k)) {
+	            _story_baru[$ _k] = _fresh[$ _k];
+	        }
+	    }
+	    global.story = _story_baru;
+	}
 
 	// --- Risiko pink aktif ---
 	if (variable_struct_exists(_data, "resiko_aktif")) {
